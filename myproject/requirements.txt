@@ -1,0 +1,33 @@
+# Core Python Libraries
+pandas==2.2.1
+numpy==1.26.3
+scikit-learn==1.3.2
+xgboost==2.0.3
+pickle5==0.0.12
+django==4.2.9
+logging==0.5.1.2
+
+# Additional Dependencies
+# Note: Versions are suggestions and should be adjusted based on your specific project needs
+django-environ==0.11.2
+requests==2.31.0
+python-dotenv==1.0.0
+
+# Deployment and Production
+gunicorn==21.2.0
+whitenoise==6.6.0
+
+# Database (adjust based on your database choice)
+psycopg2-binary==2.9.9  # For PostgreSQL
+# Or
+mysqlclient==2.2.1  # For MySQL
+
+# Development and Testing
+pytest==7.4.4
+pytest-django==4.7.0
+coverage==7.4.0
+
+# Optional: If using additional data processing or ML libraries
+scipy==1.12.0
+matplotlib==3.8.2
+seaborn==0.13.2
