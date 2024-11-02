@@ -7,15 +7,17 @@ import logging
 import pickle
 from xgboost import XGBRegressor
 import os
+from django.conf import settings
+
 
 logger = logging.getLogger(__name__)
 
 # Load the model
 model = XGBRegressor()
-model.load_model(os.path.join(BASE_DIR, 'app_condo', 'data', 'xgb_model.json'))
+model.load_model(os.path.join(settings.BASE_DIR, 'app_condo', 'data', 'xgb_model.json'))
 
 # Load the label encoders
-le_file_path = os.path.join(BASE_DIR, 'app_condo', 'data', 'label_encoders.pkl')
+le_file_path = os.path.join(settings.BASE_DIR, 'app_condo', 'data', 'label_encoders.pkl')
 
 with open(le_file_path, 'rb') as le_file:
     label_encoders = pickle.load(le_file)
