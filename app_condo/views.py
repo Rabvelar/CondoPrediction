@@ -6,17 +6,19 @@ from app_condo.models import District, Subdistrict, NearestRoad,CondoPricePredic
 import logging
 import pickle
 from xgboost import XGBRegressor
+import os
 
 logger = logging.getLogger(__name__)
 
 # Load the model
 model = XGBRegressor()
-model.load_model(r"C:\Users\N\myproject\app_condo\data\xgb_model.json")
+model.load_model(os.path.join(BASE_DIR, 'app_condo', 'data', 'xgb_model.json'))
 
 # Load the label encoders
-with open(r"C:\Users\N\myproject\app_condo\data\label_encoders.pkl", 'rb') as le_file:
-    label_encoders = pickle.load(le_file)
+le_file_path = os.path.join(BASE_DIR, 'app_condo', 'data', 'label_encoders.pkl')
 
+with open(le_file_path, 'rb') as le_file:
+    label_encoders = pickle.load(le_file)
 def get_facilities():
     return [
         'Swimming Pool', 'Car Park', 'CCTV', 'Fitness',
