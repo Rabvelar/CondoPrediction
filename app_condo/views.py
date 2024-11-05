@@ -8,7 +8,9 @@ import pickle
 from xgboost import XGBRegressor
 import os
 from django.conf import settings
+import json
 
+csv_file_path = 'app_condo/data/condo_data_explore.csv'
 
 logger = logging.getLogger(__name__)
 
@@ -21,10 +23,11 @@ le_file_path = os.path.join(settings.BASE_DIR, 'app_condo', 'data', 'label_encod
 
 with open(le_file_path, 'rb') as le_file:
     label_encoders = pickle.load(le_file)
+
 def get_facilities():
     return [
-        'Swimming Pool', 'Car Park', 'CCTV', 'Fitness',
-        'Library', 'Security', 'Mini Mart', 'Electrical Sub Station'
+        'Swimmingpool', 'CarPark', 'CCTV', 'Fitness',
+        'Library', 'Security', 'MiniMart', 'ElectricalSubStation'
     ]
 
 def prediction_form(request):
@@ -111,7 +114,7 @@ def predict(request):
                 'CCTV': 1 if data.get('cctv') else 0,
                 'Fitness': 1 if data.get('fitness') else 0,
                 'Library': 1 if data.get('library') else 0,
-                'Security': 1 if data.get('security') else 0,
+                'Security': 0 ,
                 'MiniMart': 1 if data.get('mini_mart') else 0,
                 'ElectricalSubStation': 1 if data.get('electrical_sub_station') else 0
             }
@@ -126,8 +129,8 @@ def predict(request):
                 'NearestRoad', 'TrainStation', 'University', 'Airport', 
                 'Departmentstore', 'Hospital', 'Subdistrict', 'District', 
                 'TotalUnits', 'BuildingAge', 'CarPark', 'CCTV', 
-                'Fitness', 'Library', 'Swimmingpool', 'Security', 
-                'MiniMart', 'ElectricalSubStation'
+                'Fitness', 'Library', 'Swimmingpool' ,'Security' 
+                ,'MiniMart', 'ElectricalSubStation'
             ])
 
             # Make prediction
@@ -152,14 +155,14 @@ def predict(request):
                 },
                 'facilities': get_facilities(),
                 'facility_values': {
-                    'Swimming Pool': bool(data.get('swimming_pool')),
-                    'Car Park': bool(data.get('car_park')),
+                    'SwimmingPool': bool(data.get('swimming_pool')),
+                    'CarPark': bool(data.get('car_park')),
                     'CCTV': bool(data.get('cctv')),
                     'Fitness': bool(data.get('fitness')),
                     'Library': bool(data.get('library')),
-                    'Security': bool(data.get('security')),
-                    'Mini Mart': bool(data.get('mini_mart')),
-                    'Electrical Sub Station': bool(data.get('electrical_sub_station'))
+                    #'Security': bool(data.get('security')),
+                    'MiniMart': bool(data.get('mini_mart')),
+                    'ElectricalSubStation': bool(data.get('electrical_sub_station'))
                 },
                 'predicted_psm': f"{predicted_psm:,.2f}",
                 'total_price': f"{total_price:,.2f}",
@@ -188,71 +191,117 @@ def predict(request):
     return prediction_form(request)
 
 def explore_view(request):
-    # Load the dataset from the CSV file
-    csv_file_path = 'app_condo/data/condo_data_final.csv'  # Ensure the path is correct
     df = pd.read_csv(csv_file_path)
-
-    # Get unique districts from the 'District' column
     districts = df['District'].unique().tolist()
-    
-    selected_district = request.GET.get('district', None)
-
-    # Initialize variables for chart data
-    labels = []
-    data = []
-
-    if selected_district:
-        # Filter the DataFrame for the selected district
-        district_data = df[df['District'] == selected_district]
-
-        # Create frequency distribution for PSM
-        frequency_distribution = district_data['PSM'].value_counts().sort_index()
-
-        # Prepare labels and data for the chart
-        labels = frequency_distribution.index.tolist()  # PSM values
-        data = frequency_distribution.values.tolist()   # Frequencies
-
-    return render(request, 'explore.html', {
+    distance_fields = ['TrainStation', 'University', 'Airport', 'Departmentstore', 'Hospital']
+    context = {
         'districts': districts,
-        'selected_district': selected_district,
-        'labels': labels,
-        'data': data,
-    })
+        'distance_fields': distance_fields,
+    }
+    return render(request, 'explore.html', context)
+
+def district_psm(request, district):
+    df = pd.read_csv(csv_file_path)
+    if district:
+        # Filter data by the selected district
+        district_data = df[df['District'] == district]
+        # Group by subdistrict and calculate mean PSM
+        subdistrict_psm = district_data.groupby('Subdistrict')['PSM'].mean().reset_index()
+        labels = subdistrict_psm['Subdistrict'].tolist()  # Subdistrict names for X-axis
+        values = subdistrict_psm['PSM'].tolist()  # Average PSM for Y-axis
+
+        return JsonResponse({'labels': labels, 'values': values})
+    return JsonResponse({'error': 'No district specified'})
+
+def distance_psm(request, distance_field):
+    df = pd.read_csv(csv_file_path)
+    if distance_field:
+        distance_data = df.groupby(distance_field)['PSM'].mean().reset_index()
+        labels = distance_data[distance_field].tolist()
+        values = distance_data['PSM'].tolist()
+        return JsonResponse({'labels': labels, 'values': values})
+    return JsonResponse({'error': 'No distance field specified'})
+
+def facilities(request, district):
+    df = pd.read_csv(csv_file_path)
+    if district:
+        district_data = df[df['District'] == district]
+        facilities = ['CarPark', 'CCTV', 'Fitness', 'Library', 'Swimmingpool', 'MiniMart', 'ElectricalSubStation']
+        facility_counts = district_data[facilities].sum().to_dict()
+        return JsonResponse({'labels': list(facility_counts.keys()), 'values': list(facility_counts.values())})
+    return JsonResponse({'error': 'No district specified'})
 
 def loan_table_view(request):
-    schedule = []
+    predicted_total_price = request.session.get('predicted_total_price', 0)
+
+    # Initialize variables for form data
+    loan_amount = None
+    interest_rate = None
+    years = None
+    schedule = None
 
     if request.method == "POST":
         try:
+            # Retrieve values from the form
             loan_amount = float(request.POST.get("loan_amount", 0))
-            years = int(request.POST.get("years", 1))
+            years = int(request.POST.get("loan_term", 1))
             interest_rate = float(request.POST.get("interest_rate", 0)) / 100
 
             if loan_amount <= 0 or years <= 0 or interest_rate < 0:
-                return render(request, "loan_table.html", {"error": "Please enter valid loan details."})
+                return render(request, "loan_table.html", {
+                    "error": "Please enter valid loan details.",
+                    "predicted_total_price": predicted_total_price,
+                    "loan_amount": loan_amount,
+                    "interest_rate": interest_rate * 100,
+                    "loan_term": years
+                })
 
+            # Monthly calculations
             monthly_rate = interest_rate / 12
             payments = years * 12
             payment_amount = loan_amount * (monthly_rate / (1 - (1 + monthly_rate) ** -payments))
 
+            # Generate repayment schedule
+            schedule = []
+            remaining = loan_amount
+
             for month in range(1, payments + 1):
-                interest_payment = loan_amount * monthly_rate
+                interest_payment = remaining * monthly_rate
                 principal_payment = payment_amount - interest_payment
-                loan_amount -= principal_payment
+                remaining -= principal_payment
+
                 schedule.append({
                     "month": month,
                     "principal_payment": round(principal_payment, 2),
                     "interest_payment": round(interest_payment, 2),
                     "total_payment": round(payment_amount, 2),
-                    "remaining_balance": round(loan_amount, 2)
+                    "remaining_balance": max(0, round(remaining, 2))
                 })
 
-            return render(request, "loan_table.html", {"loan_table": schedule})
+            return render(request, "loan_table.html", {
+                "loan_table": schedule,
+                "predicted_total_price": predicted_total_price,
+                "loan_amount": loan_amount,
+                "interest_rate": interest_rate * 100,
+                "loan_term": years
+            })
 
         except ValueError:
-            return render(request, "loan_table.html", {"error": "Invalid input provided."})
+            return render(request, "loan_table.html", {
+                "error": "Invalid input provided.",
+                "predicted_total_price": predicted_total_price,
+                "loan_amount": loan_amount,
+                "interest_rate": interest_rate * 100 if interest_rate is not None else '',
+                "loan_term": years
+            })
         except Exception as e:
             logger.error(f"Error in loan table view: {str(e)}")
-            return render(request, "loan_table.html", {"error": f"An error occurred: {str(e)}"})
+            return render(request, "loan_table.html", {
+                "error": f"An error occurred: {str(e)}",
+                "predicted_total_price": predicted_total_price,
+                "loan_amount": loan_amount,
+                "interest_rate": interest_rate * 100 if interest_rate is not None else '',
+                "loan_term": years
+            })
 
-    return render(request, "loan_table.html")
+    return render(request, "loan_table.html", {"predicted_total_price": predicted_total_price})

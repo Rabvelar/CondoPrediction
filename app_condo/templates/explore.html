@@ -1,10 +1,17 @@
 {% load static %}
-
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Condo Data Exploration</title>
+    <title>Condo Price Prediction - Explore</title>
+    <!-- Add Chart.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
     <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
         body {
             margin: 0;
             padding: 0;
@@ -25,124 +32,318 @@
             color: white;
             text-decoration: none;
             padding: 5px 20px;
+            transition: background-color 0.3s;
         }
 
         .nav-item.active {
-            background-color: #062d68;
+            background-color: #0d47a1;
             border-radius: 4px;
         }
 
-        /* Make Explore Page blue when active */
         .explore-active {
             background-color: #1a237e;
             border-radius: 0px;
-            padding: 25px 30px; /* Larger padding for the blue box */
+            padding: 25px 30px;
             font-size: 1.1em;
             font-weight: bold;
-            margin: -10px 0; /* Adjust negative margin to remove gap */
+            margin: -10px 0;
             position: relative;
-            top: 0px; /* Adjust top position for more overlap if needed */
+            top: 0px;
         }
 
         .container {
-            display: flex;
-            padding: 12px;
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
+            padding: 40px 20px;
         }
 
-        .content-section {
-            flex: 1;
-            padding-right: 40px;
-        }
-
-        .results-section {
-            margin-top: 20px;
-        }
-
-        .results-section h2 {
-            color: white;
-            font-size: 20px;
-            margin-bottom: 10px;
-        }
-
-        .results-section table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        .results-section th, .results-section td {
-            border: 1px solid #ccc;
-            padding: 8px;
-            text-align: left;
-        }
-
-        .image-section {
-            flex: 1;
+        .chart-row {
             display: flex;
-            justify-content: center;
-            align-items: flex-start;
+            justify-content: space-between;
+            margin-bottom: 40px;
+            gap: 20px;
+            flex-wrap: wrap;
         }
 
-        .image-section img {
-            max-width: 120%;
-            height: auto;
+        .chart-container {
+            flex: 1;
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            color: black;
+            transition: transform 0.3s ease;
+            max-width: 300px;
+            width: 100%;
         }
 
+        .chart-container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .chart-container h3 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            color: #333;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .custom-select {
+            width: 100%;
+            padding: 12px;
+            border-radius: 6px;
+            border: 1px solid #e0e0e0;
+            margin-bottom: 20px;
+            background-color: white;
+            font-size: 14px;
+            color: #333;
+            cursor: pointer;
+            transition: border-color 0.3s;
+        }
+
+        .custom-select:hover {
+            border-color: #0d47a1;
+        }
+
+        .custom-select:focus {
+            outline: none;
+            border-color: #1a237e;
+            box-shadow: 0 0 0 2px rgba(26, 35, 126, 0.1);
+        }
+
+        .chart-wrapper {
+            position: relative;
+            height: 300px;
+            width: 100%;
+        }
+
+                /* Loading animation */
+        .loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: none;
+        }
+
+        .loading.active {
+            display: block;
+        }
+
+        .chart-container { 
+            width: 80%; 
+            margin: auto; 
+            max-height: 800px;
+            max-width: 800px; /* Reduced max width for smaller charts */
+            padding: 15px; 
+        }
+
+
+        .custom-select { margin-bottom: 10px; padding: 8px; }
+        .loading { display: none; text-align: center; }
+
+        /* Responsive Design */
+        @media (max-width: 1200px) {
+            .chart-row {
+                flex-direction: column;
+            }
+            
+            .chart-container {
+                width: 100%;
+            }
+        }
+        .chart-container-3 {
+            flex: 1;
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            color: black;
+            transition: transform 0.3s ease;
+            max-width: 300px;
+            width: 100%;
+        }
+
+        .chart-container-3:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .chart-container-3 h3 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            color: #333;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .chart-container-3 { 
+            width: 100%; 
+            margin: auto; 
+            max-height: 900px;
+            max-width: 800px; /* Reduced max width for smaller charts */
+            padding: 15px; 
+        }
+        #facilitiesChart {
+            width: 800px !important; /* Adjust this value for desired width */
+            height: 800px !important; /* Adjust this value for desired height */
+        }
         footer {
             text-align: center;
-            padding: 20px;
-            color: white;
+            padding: 3px; /* Changed to positive padding */
+            color: rgb(0, 0, 0);
+            background-color: #ffffff;
+            width: 100%;
+            position: fixed; /* Fixes the footer to the viewport */
+            bottom: 0; /* Positions it at the bottom */
+            left: 0; /* Ensures it spans the full width */
         }
+
     </style>
 </head>
 <body>
+    
     <nav class="nav-bar">
         <a href="{% url 'app_condo:predict' %}" class="nav-item">Condominium</a>
         <a href="{% url 'app_condo:predict' %}" class="nav-item">Predict Page</a>
-        <a href="{% url 'app_condo:explore' %}" class="nav-item active explore-active">Explore Page</a>
-        <a href="{% url 'app_condo:loan_table' %}" class="nav-item">Loan Calculation Page</a>
+        <a href="{% url 'app_condo:explore' %}" class="nav-item explore-active">Explore Page</a>
     </nav>
 
-    <div class="container">
-        <div class="content-section">
-            <h1>Condo Data Exploration</h1>
-            <p>Explore the available condominium data below:</p>
-
-            <div class="results-section">
-                <h2>Condominium Data Overview</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>District</th>
-                            <th>Subdistrict</th>
-                            <th>Building Age</th>
-                            <th>Total Units</th>
-                            <th>Facilities</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {% for condo in condos %}
-                        <tr>
-                            <td>{{ condo.district }}</td>
-                            <td>{{ condo.subdistrict }}</td>
-                            <td>{{ condo.building_age }} years</td>
-                            <td>{{ condo.total_units }}</td>
-                            <td>{{ condo.facilities }}</td>
-                        </tr>
-                        {% endfor %}
-                    </tbody>
-                </table>
-            </div>
+    <div class="container chart-row">
+        <div class="chart-container">
+            <h3>PSM Distribution by District</h3>
+            <select id="districtSelect1" class="custom-select" onchange="updateDistrictChart()">
+                {% for district in districts %}
+                    <option value="{{ district }}">{{ district }}</option>
+                {% endfor %}
+            </select>
+            <canvas id="psmDistrictChart"></canvas>
+            <div class="loading" id="loading1">Loading...</div>
         </div>
 
-        <div class="image-section">
-            <img src="{% static 'image/building.png' %}" alt="Condo Illustration">
+        <!-- Graph 2: PSM Distribution by Distance Field -->
+        <div class="chart-container">
+            <h3>PSM Distribution by Distance Field</h3>
+            <select id="distanceSelect" class="custom-select" onchange="updateDistanceChart()">
+                {% for field in distance_fields %}
+                    <option value="{{ field }}">{{ field }}</option>
+                {% endfor %}
+            </select>
+            <canvas id="psmDistanceChart"></canvas>
+            <div class="loading" id="loading2">Loading...</div>
+        </div>
+
+        <!-- Graph 3: Facilities by District -->
+        <div class="chart-container-3">
+            <h3>Facilities by District</h3>
+            <select id="districtSelect2" class="custom-select" onchange="updateFacilitiesChart()">
+                {% for district in districts %}
+                    <option value="{{ district }}">{{ district }}</option>
+                {% endfor %}
+            </select>
+            <canvas id="facilitiesChart" width="200" height="200"></canvas>
+            <div class="loading" id="loading3">Loading...</div>
         </div>
     </div>
 
     <footer>
-        Thesis Project Made with ❤️ © 2024 Condo Price Prediction | Kasetsart University
+        Thesis Project Made with ❤️ © 2024 Condo Price Prediction with XGBoost | Kasetsart University
     </footer>
+
+    <script>
+        // Sort dropdowns on load using JavaScript
+        document.addEventListener('DOMContentLoaded', () => {
+            ['districtSelect1', 'districtSelect2', 'distanceSelect'].forEach(selectId => {
+                const select = document.getElementById(selectId);
+                const options = Array.from(select.options);
+                options.sort((a, b) => a.text.localeCompare(b.text));
+                select.innerHTML = '';
+                options.forEach(option => select.add(option));
+            });
+        });
+
+        // Chart configurations
+        const psmDistrictChart = new Chart(document.getElementById('psmDistrictChart').getContext('2d'), {
+            type: 'bar',
+            data: { labels: [], datasets: [{ label: 'PSM', data: [], backgroundColor: 'rgba(54, 162, 235, 0.8)' }] }
+        });
+
+        const psmDistanceChart = new Chart(document.getElementById('psmDistanceChart').getContext('2d'), {
+            type: 'bar',
+            data: { labels: [], datasets: [{ label: 'PSM', data: [], backgroundColor: 'rgba(255, 99, 132, 0.9)' }] }
+        });
+
+        const facilitiesChart = new Chart(document.getElementById('facilitiesChart').getContext('2d'), {
+            type: 'polarArea',
+            data: {
+                labels: [],  // Your labels here
+                datasets: [{
+                    data: [],  // Your data values here
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.9)',   // Color 1 (red)
+                        'rgba(54, 162, 235, 0.9)',   // Color 2 (blue)
+                        'rgba(255, 206, 86, 0.9)',    // Color 3 (yellow)
+                        'rgba(75, 192, 192, 0.9)',    // Color 4 (cyan)
+                        'rgba(153, 102, 255, 0.9)',   // Color 5 (purple)
+                        'rgba(255, 159, 64, 0.9)',    // Color 6 (orange)
+                        'rgba(0,150,0, 0.5)',     // Color 7 (lighter red)
+                    ]
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+            }
+        });
+
+
+        // Fetch and update functions for each chart
+        async function fetchChartData(url, chart, labelsKey, dataKey, loadingId) {
+            document.getElementById(loadingId).style.display = 'block';
+            try {
+                const response = await fetch(url);
+                const data = await response.json();
+                chart.data.labels = data[labelsKey] || [];
+                chart.data.datasets[0].data = data[dataKey] || [];
+                chart.update();
+            } catch (error) {
+                console.error(`Error loading data for ${url}:`, error);
+            }
+            document.getElementById(loadingId).style.display = 'none';
+        }
+
+        // Graph 1: Update PSM by District
+        function updateDistrictChart() {
+            const district = document.getElementById('districtSelect1').value; // Get selected district
+            console.log('Selected district:', district); // Log the selected district to check
+            fetchChartData(`/explore/district_psm/${district}/`, psmDistrictChart, 'labels', 'values', 'loading1');
+        }
+
+        // Graph 2: Update PSM by Distance Field
+        function updateDistanceChart() {
+            const distanceField = document.getElementById('distanceSelect').value;
+            fetchChartData(`/explore/distance_psm/${distanceField}/`, psmDistanceChart, 'labels', 'values', 'loading2');
+        }
+
+        // Graph 3: Update Facilities by District
+        function updateFacilitiesChart() {
+            const district = document.getElementById('districtSelect2').value;
+            fetchChartData(`/explore/facilities/${district}/`, facilitiesChart, 'labels', 'values', 'loading3');
+        }
+
+        
+
+        // Initialize charts on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            updateDistrictChart();
+            updateDistanceChart();
+            updateFacilitiesChart();
+        });
+    </script>
 </body>
 </html>

@@ -3,6 +3,8 @@ from pathlib import Path
 from decouple import config  # You'll need to install python-decouple
 import django_heroku
 import dj_database_url
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -44,22 +46,19 @@ ROOT_URLCONF = "myproject.urls"
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates'],  # Add project-level templates directory
-        'APP_DIRS': True,
+        'DIRS': [BASE_DIR / 'templates'],  # Ensure this points to your base templates directory if needed
+        'APP_DIRS': True,  # Allow Django to search within app directories
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                #'app_condo.context_processors.load_setting',  # Corrected path
             ],
-            #'libraries':{
-             #   'custom_filters': 'app_condo.templatetags.custom_filters',
-            #}
         },
     },
 ]
+
 
 WSGI_APPLICATION = "myproject.wsgi.application"
 

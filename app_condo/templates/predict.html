@@ -1,13 +1,21 @@
 {% load static %}
+{% load custom_filters %}
+
 
 <!DOCTYPE html>
 <html>
 <head>
     <title>Condo Price Prediction</title>
     <style>
-        body {
+        /* Set the main container to full height */
+        html, body {
+            height: 100%;
             margin: 0;
-            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        body {
             background-color: #1a237e;
             font-family: Arial, sans-serif;
             color: white;
@@ -28,21 +36,19 @@
         }
 
         .nav-item.active {
-            background-color: 
-            #0d47a1;
+            background-color: #0d47a1;
             border-radius: 4px;
         }
 
-        /* Make Predict Page blue when active */
         .predict-active {
             background-color: #1a237e;
             border-radius: 0px;
-            padding: 25px 30px; /* Larger padding for the blue box */
+            padding: 25px 30px;
             font-size: 1.1em;
             font-weight: bold;
-            margin: -10px 0; /* Adjust negative margin to remove gap */
+            margin: -10px 0;
             position: relative;
-            top: 0px; /* Adjust top position for more overlap if needed */
+            top: 0px;
         }
 
         .container {
@@ -50,66 +56,61 @@
             padding: 12px;
             max-width: 1200px;
             margin: 0 auto;
+            flex: 1; /* Flex-grow to take available space */
         }
 
         .form-section {
-            flex: 1;
-            padding-right: 40px;
+            flex: 2;
+            padding-right: 200px;
         }
 
         .form-group {
-            margin-bottom: 5px;
+            margin-bottom: -5px;
         }
 
         .form-group h2 {
             color: white;
-            font-size: 16px;
+            font-size: 18px;
             margin-bottom: 1px;
         }
 
         .custom-select {
-            width: 75%;
-            padding: 8px;
+            width: 50%;
+            padding: 10px;
             border-radius: 4px;
             border: 1px solid #ccc;
             background-color: white;
         }
-
-        /* Specific styling for number inputs */
         .number-input {
-            width: 20%;
-            padding: 8px;
+            width: 100px;
+            padding: 10px;
             border-radius: 4px;
             border: 1px solid #ccc;
             background-color: white;
         }
 
         .distance-section {
-            margin-top: 30px;
+            margin-top: -10px;
         }
-
 
         .distance-item {
             display: grid;
-            grid-template-columns: 150px 1fr 80px;
+            grid-template-columns: 130px 1fr 80px;
             align-items: center;
             gap: 15px;
             margin-bottom: 10px;
         }
 
-        
-        /* Slider bar color styling */
         .distance-item input[type="range"] {
             width: 100%;
-            -webkit-appearance: none;  /* Removes default styling */
+            -webkit-appearance: none;
             background: transparent;
         }
 
-        /* For Chrome/Safari/Opera */
         .distance-item input[type="range"]::-webkit-slider-runnable-track {
             width: 100%;
             height: 4px;
-            background: #ffffff;  /* Change this color to what you want */
+            background: #ffffff;
             border-radius: 2px;
         }
 
@@ -120,42 +121,13 @@
             border-radius: 50%;
             background: #ffffff;
             cursor: pointer;
-            margin-top: -6px;  /* Centers the thumb on the track */
-        }
-
-        /* For Firefox */
-        .distance-item input[type="range"]::-moz-range-track {
-            width: 100%;
-            height: 4px;
-            background: #ffffff;  /* Change this color to what you want */
-            border-radius: 2px;
-        }
-
-        .distance-item input[type="range"]::-moz-range-thumb {
-            height: 16px;
-            width: 16px;
-            border-radius: 50%;
-            background: #ffffff;
-            cursor: pointer;
-            border: none;
+            margin-top: -6px;
         }
 
         .distance-item output {
             min-width: 70px;
             text-align: right;
         }
-
-
-        .distance-item label {
-            white-space: nowrap;
-            flex: 1; /* Takes up space for the label */
-            font-weight: bold;
-        }
-
-        .distance-value {
-            margin-left: 10px;
-        }
-        
 
         .facilities-section {
             margin-top: 30px;
@@ -179,7 +151,7 @@
         }
 
         .results-section input {
-            width: 100%;
+            width: 35%;
             padding: 8px;
             border-radius: 4px;
             border: 1px solid #ccc;
@@ -191,22 +163,25 @@
             display: flex;
             justify-content: center;
             align-items: flex-start;
-        }
-
-        .image-section {
-            margin-top: 160px; /* Adjust this value as needed */
+            margin-top: 160px;
         }
 
         .image-section img {
-            max-width: 120%;
+            max-width: 200%;
             height: auto;
         }
 
         footer {
             text-align: center;
-            padding: 20px;
-            color: white;
+            padding: 5px; /* Changed to positive padding */
+            color: rgb(0, 0, 0);
+            background-color: #ffffff;
+            width: 100%;
+            position: fixed; /* Fixes the footer to the viewport */
+            bottom: 0; /* Positions it at the bottom */
+            left: 0; /* Ensures it spans the full width */
         }
+
     </style>
 </head>
 <body>
@@ -214,19 +189,15 @@
         <a href="{% url 'app_condo:predict' %}" class="nav-item active">Condominium</a>
         <a href="{% url 'app_condo:predict' %}" class="nav-item predict-active">Predict Page</a>
         <a href="{% url 'app_condo:explore' %}" class="nav-item">Explore Page</a>
-        <a href="{% url 'app_condo:loan_table' %}" class="nav-item">Loan Calculation Page</a>
     </nav>
 
     <div class="container">
         <form method="post" class="form-section">
             {% csrf_token %}
-            
-        
 
-            <!-- Original three form groups remain unchanged -->
             <div class="form-group">
                 <h2>District</h2>
-                <label class="label" for="district"></label>
+                <label for="district"></label>
                 <select name="district" id="district" class="custom-select" required>
                     <option value="">Select District</option>
                     {% for district in districts %}
@@ -240,7 +211,7 @@
 
             <div class="form-group">
                 <h2>Subdistrict</h2>
-                <label class="label" for="subdistrict"></label>
+                <label for="subdistrict"></label>
                 <select name="subdistrict" id="subdistrict" class="custom-select" required>
                     <option value="">Select Subdistrict</option>
                     {% if subdistricts %}
@@ -256,7 +227,7 @@
 
             <div class="form-group">
                 <h2>Nearest Road</h2>
-                <label class="label" for="nearest_road"></label>
+                <label for="nearest_road"></label>
                 <select name="nearest_road" id="nearest_road" class="custom-select" required>
                     <option value="">Select Nearest Road</option>
                     {% if nearest_roads %}
@@ -269,53 +240,106 @@
                     {% endif %}
                 </select>
             </div>
-            <!-- Number input fields -->
+
             <div class="form-group">
                 <h2>Building Age</h2>
-                <input type="number" name="building_age" required value="{{ building_age|default:'' }}" class="number-input" placeholder="Select Building Age" min="0">
+                <input type="number" name="building_age" required value="{{ building_age|default:'' }}" class="number-input" placeholder="0" min="0">
             </div>
 
             <div class="form-group">
                 <h2>Total Units</h2>
-                <input type="number" name="total_units" required class="number-input" value="{{ total_units|default:'' }}" placeholder="Select Total Units" min="0">
+                <input type="number" name="total_units" required class="number-input" value="{{ total_units|default:'' }}" placeholder="0" min="0">
             </div>
 
             <div class="form-group">
                 <h2>Room Size</h2>
                 <select name="room_size" class="custom-select" required>
+                    <option value="">Select Room Type</option>
                     <option value="Studio" {% if room_size == "Studio" %}selected{% endif %}>Studio (24 sqm)</option>
                     <option value="1 Bedroom" {% if room_size == "1 Bedroom" %}selected{% endif %}>1 Bedroom (35 sqm)</option>
                     <option value="2 Bedrooms" {% if room_size == "2 Bedrooms" %}selected{% endif %}>2 Bedrooms (60 sqm)</option>
                     <option value="3 Bedrooms" {% if room_size == "3 Bedrooms" %}selected{% endif %}>3 Bedrooms (100 sqm)</option>
                 </select>
             </div>
-            
+
             <div class="distance-section">
                 <h3>Distance (km)</h3>
                 {% for field, value in distance_fields.items %}
                 <div class="distance-item">
                     <label for="{{ field }}">{{ field|title }}</label>
-                    <input type="range" id="{{ field }}" name="{{ field }}" min="0" max="20" step="0.1" required 
-                           value="{{ value|default:10 }}" 
+                    <input type="range" id="{{ field }}" name="{{ field }}" min="0" max="15" step=".01" required 
+                           value="{{ value|default:8 }}" 
                            oninput="this.nextElementSibling.value = this.value + ' km'">
-                    <output>{{ value|default:10 }} km</output>
+                    <output>{{ value|default:8 }} km</output>
                 </div>
                 {% endfor %}
             </div>
-            
             
 
             <div class="facilities-section">
                 <h2>Project Facilities</h2>
                 <div class="facilities-grid">
-                    {% for facility in facilities %}
                     <div class="facility-item">
-                        <input type="checkbox" id="{{ facility|lower }}" name="{{ facility|lower }}">
-                        <label for="{{ facility|lower }}">{{ facility }}</label>
+                        <input type="checkbox" 
+                               id="Swimming_Pool" 
+                               name="swimming_pool"
+                               {% if facility_values.SwimmingPool %}checked{% endif %}> 
+                        <label for="Swimming_Pool">Swimming Pool</label>
                     </div>
-                    {% endfor %}
+                    
+                    <div class="facility-item">
+                        <input type="checkbox" 
+                               id="Car_Park" 
+                               name="car_park"
+                               {% if facility_values.CarPark %}checked{% endif %}> 
+                        <label for="Car_Park">Car Park</label>
+                    </div>
+                    
+                    <div class="facility-item">
+                        <input type="checkbox" 
+                               id="CCTV" 
+                               name="cctv"
+                               {% if facility_values.CCTV %}checked{% endif %}> 
+                        <label for="CCTV">CCTV</label>
+                    </div>
+                    
+                    <div class="facility-item">
+                        <input type="checkbox" 
+                               id="Fitness" 
+                               name="fitness"
+                               {% if facility_values.Fitness %}checked{% endif %}> 
+                        <label for="Fitness">Fitness</label>
+                    </div>
+                    
+                    <div class="facility-item">
+                        <input type="checkbox" 
+                               id="Library" 
+                               name="library"
+                               {% if facility_values.Library %}checked{% endif %}> 
+                        <label for="Library">Library</label>
+                    </div>
+                    
+                    <div class="facility-item">
+                        <input type="checkbox" 
+                               id="MiniMart" 
+                               name="mini_mart"
+                               {% if facility_values.MiniMart %}checked{% endif %}> 
+                        <label for="MiniMart">Mini Mart</label>
+                    </div>
+                    
+                    <div class="facility-item">
+                        <input type="checkbox" 
+                               id="Electrical_SubStation" 
+                               name="electrical_sub_station"
+                               {% if facility_values.ElectricalSubStation %}checked{% endif %}> 
+                        <label for="Electrical_SubStation">Electrical Sub Station</label>
+                    </div>
+                    
                 </div>
-            </div> 
+            </div>
+            
+            
+            
 
             <button type="submit" class="predict-button">Predict</button>
 
@@ -336,11 +360,10 @@
         <div class="image-section">
             <img src="{% static 'image/building.png' %}" alt="Condo Illustration">
         </div>
-        
     </div>
 
     <footer>
-        Thesis Project Made with ❤️ © 2024 Condo Price Prediction | Kasetsart University
+        Thesis Project Made with ❤️ © 2024 Condo Price Prediction with XGBoost | Kasetsart University
     </footer>
 </body>
 </html>
@@ -351,7 +374,6 @@
         const subdistrictSelect = document.getElementById('subdistrict');
         const nearestRoadSelect = document.getElementById('nearest_road');
     
-        // Function to update subdistricts
         function updateSubdistricts() {
             const selectedOption = districtSelect.options[districtSelect.selectedIndex];
             const districtId = selectedOption.getAttribute('data-id');
@@ -360,11 +382,8 @@
                 fetch(`/get-subdistricts/${districtId}/`)
                     .then(response => response.json())
                     .then(data => {
-                        // Clear existing options
                         subdistrictSelect.innerHTML = '<option value="">Select Subdistrict</option>';
                         nearestRoadSelect.innerHTML = '<option value="">Select Nearest Road</option>';
-                        
-                        // Add new options
                         data.forEach(subdistrict => {
                             const option = document.createElement('option');
                             option.value = subdistrict.name;
@@ -377,7 +396,6 @@
             }
         }
     
-        // Function to update nearest roads
         function updateNearestRoads() {
             const selectedOption = subdistrictSelect.options[subdistrictSelect.selectedIndex];
             const subdistrictId = selectedOption.getAttribute('data-id');
@@ -386,10 +404,7 @@
                 fetch(`/get-nearest-roads/${subdistrictId}/`)
                     .then(response => response.json())
                     .then(data => {
-                        // Clear existing options
                         nearestRoadSelect.innerHTML = '<option value="">Select Nearest Road</option>';
-                        
-                        // Add new options
                         data.forEach(road => {
                             const option = document.createElement('option');
                             option.value = road.name;
@@ -401,10 +416,7 @@
             }
         }
     
-        // Add event listeners
         districtSelect.addEventListener('change', updateSubdistricts);
         subdistrictSelect.addEventListener('change', updateNearestRoads);
     });
-    </script>
-</body>
-</html>
+</script> "

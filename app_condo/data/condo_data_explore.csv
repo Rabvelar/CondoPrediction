@@ -1,0 +1,1169 @@
+ID,Name,PSM,NearestRoad,LandAppraisal,TrainStation,University,Airport,Departmentstore,Hospital,Subdistrict,District,GroupDistrict,TotalUnits,BuiltYear,BuildingAge,CarPark,CCTV,Fitness,Library,Swimmingpool,Security,MiniMart,ElectricalSubStation
+1,KnightsBridge SkyCity Sapanmai,96729.25,Vibhavadi Rangsit Road,216666.6667,0.41,1.5,3.5,0.4,0.3,Anusawari,Bang Khen,North Bangkok,490,2017,7,0,1,1,0,0,0,0,0
+2,Wynn Condo Phaholyothin 52,69287.50,Phahonyothin Road,330000,0.49,0.5,2.9,0.8,0.9,Khlong Thanon,Sai Mai,North Bangkok,275,2018,6,0,1,1,1,1,1,0,0
+3,Kensington Phaholyothin 63,78162.33,Phahonyothin Road,330000,0.3,1.3,3.8,0.6,0.8,Anusawari,Bang Khen,North Bangkok,231,2018,6,0,1,1,1,0,0,0,0
+4,Episode Phaholyothin-Sapanmai,81112.60,Chang Akat Uthit Road,31500,0.4,1,3.2,0.2,0.1,Anusawari,Bang Khen,North Bangkok,465,2017,7,1,1,1,0,0,0,0,0
+5,The Next Garden Suites,71154.00,Pridi Banomyong Road,240000,0.3,3.2,16.4,0.2,2.2,Phra Khanong,Khlong Toei,South Bangkok,136,2009,15,0,1,1,0,1,1,0,0
+6,Regent Orchid Sukhumvit 101,76786.00,Udom Suk Road (Sukhumvit 103),185000,0.2,2.1,15,2,3.19,Bang Chak,Phra Khanong,South Bangkok,580,2013,11,0,1,1,0,1,1,1,0
+7,Quintara Arte Sukhumvit 52,129216.00,Pridi Banomyong Road,240000,0.4,3.2,16.4,0.3,2.2,Bang Chak,Phra Khanong,South Bangkok,154,2021,3,0,1,1,1,0,1,0,0
+8,Tree Condo LUXE Sukhumvit 52,91228.00,Pridi Banomyong Road,240000,0.3,3.1,16.2,0.3,2.3,Bang Chak,Phra Khanong,South Bangkok,93,2012,12,0,1,1,1,1,1,0,0
+9,Bangkok Feliz @Bangkhae Station,96318.00,Kanlapaphruek Road,65000,0.6,4.5,14.6,0.8,1.6,Bang Khae,Bang Khae,South Krungthon,79,2017,7,0,1,1,0,1,1,0,0
+10,Origin Plug & Play Ramkhamhaeng Triple Station,85106.00,Hua Mak Road,85000,0.6,0.7,13.5,0.8,1.7,Hua Mak,Bang Kapi,Eastern Bangkok,482,2023,1,0,1,1,0,0,0,0,0
+11,The One Plus D Hua-mark 12,63636.00,Hua Mak Road,85000,0.8,2,14,1.4,0.5,Hua Mak,Bang Kapi,Eastern Bangkok,242,2017,7,0,1,1,0,0,1,1,0
+12,The Niche ID Ladprao 130,52222.00,Hua Mak Road,85000,0.4,1.2,15.8,1.2,0.7,Khlong Chan,Bang Kapi,Eastern Bangkok,370,2012,12,0,1,1,0,1,1,0,0
+13,Aspire Ladprao 113,56737.50,Hua Mak Road,85000,0.2,1.1,14.9,0.5,0.3,Khlong Chan,Bang Kapi,Eastern Bangkok,270,2017,7,1,1,1,0,1,1,0,0
+14,Living Place Ladprao 138,35427.00,Nak Niwat Road,80000,0.2,1.1,15,0.5,0.3,Khlong Chan,Bang Kapi,Eastern Bangkok,192,1998,26,0,1,0,0,0,1,0,0
+15,The Base Garden Rama 9,99201.63,Rama 9 Road,188333.3333,0.7,1.6,16.8,2.8,0.3,Hua Mak,Bang Kapi,Eastern Bangkok,639,2019,5,1,1,1,0,0,1,0,0
+16,Chewathai Ramkamhaeng,68881.67,Hua Mak Road,85000,0.9,1.9,15,0.9,0.3,Hua Mak,Bang Kapi,Eastern Bangkok,535,2013,11,1,1,1,0,1,1,0,0
+17,The Base Rama 9-Ramkhamhaeng,78793.29,Rama 9 Road,188333.3333,0.8,1.4,16.9,2.9,0.5,Hua Mak,Bang Kapi,Eastern Bangkok,923,2012,12,0,1,1,0,1,1,1,0
+18,The Muve Ram 22,74583.00,Hua Mak Road,85000,0.9,0.4,16.3,1.41,1.3,Hua Mak,Bang Kapi,Eastern Bangkok,254,2023,1,0,1,1,0,0,1,0,0
+19,The Fourwings Residence,73871.00,Hua Mak Road,85000,0.7,1.9,13.2,1.4,1.2,Hua Mak,Bang Kapi,Eastern Bangkok,470,2008,16,0,1,1,0,1,1,0,0
+20,624 Condolette Ladprao,45361.00,Hua Mak Road,85000,0.6,1.2,13.8,1.2,0.6,Khlong Chan,Bang Kapi,Eastern Bangkok,471,2010,14,1,1,1,0,1,1,0,0
+21,The Niche Citi Ladprao 130,40562.00,Hua Mak Road,85000,0.6,0.9,15.4,0.9,0.2,Khlong Chan,Bang Kapi,Eastern Bangkok,751,2010,14,1,1,0,0,0,1,0,0
+22,Lumpini Center Ladprao 111,40860.67,Lat Phrao Road,233333.3,0.4,0.9,15.2,0.7,0.1,Khlong Chan,Bang Kapi,Eastern Bangkok,856,2003,21,0,1,0,0,0,1,0,0
+23,IDEO New Rama 9,100683.29,Rama 9 Road,188333.3333,1,1.4,16.8,3,0.6,Hua Mak,Bang Kapi,Eastern Bangkok,996,2018,6,1,1,1,0,1,1,0,0
+24,Bangkok Horizon Ramkhamhaeng,46550.25,Hua Mak Road,85000,0.3,1,13.6,0.8,1.4,Hua Mak,Bang Kapi,Eastern Bangkok,592,2009,15,0,1,1,0,0,0,0,0
+25,Lumpini Center Nawamin,52679.33,Nawamin Road,110000,0.89,0.5,15.3,1.3,1.1,Khlong Chan,Bang Kapi,Eastern Bangkok,470,2006,18,1,1,0,0,0,1,0,0
+26,Living Nest Ramkhamhaeng,58345.00,Hua Mak Road,85000,0.6,1.6,14.4,0.3,0.5,Hua Mak,Bang Kapi,Eastern Bangkok,546,2015,9,0,1,1,0,0,1,0,0
+27,U Delight @ Huamak Station,83634.00,Hua Mak Road,85000,0.8,1.8,13.9,1.6,0.3,Hua Mak,Bang Kapi,Eastern Bangkok,867,2015,9,0,1,1,0,1,1,1,0
+28,Dcondo Ramkhamhaeng 64,47981.00,Ramkhamhaeng Road,124000,0.9,0.6,13.3,1.1,1.9,Hua Mak,Bang Kapi,Eastern Bangkok,486,2012,12,0,1,1,0,1,1,0,0
+29,Lumpini Center Happyland,23191.00,Hua Mak Road,85000,0.9,0.4,15.3,1.1,0.7,Khlong Chan,Bang Kapi,Eastern Bangkok,1765,2002,22,0,1,0,0,0,1,0,0
+30,Condo U @ Huamak Station,48387.00,Hua Mak Road,85000,0.9,1.6,14,1.5,0.4,Hua Mak,Bang Kapi,Eastern Bangkok,408,2012,12,0,1,1,0,1,1,0,0
+31,City Villa,35030.00,Lat Phrao Road,233333.3,0.5,1.5,16,1.5,0.9,Khlong Chan,Bang Kapi,Eastern Bangkok,1748,1997,27,0,1,0,0,1,1,0,0
+32,Metris Rama 9-Ramkhamheang,120167.00,Rama 9 Road,188333.3333,0.9,1.4,16.8,3,0.5,Hua Mak,Bang Kapi,Eastern Bangkok,570,2020,4,0,1,1,1,1,1,0,0
+33,Supalai City Resort Ramkhamhaeng,60310.00,Rama 9 Road,188333.3333,0.9,0.7,16.5,1.41,1,Hua Mak,Bang Kapi,Eastern Bangkok,540,2013,11,0,1,1,0,1,1,0,0
+34,Dcondo Ramkhamhaeng 9,60566.50,Rama 9 Road,188333.3333,1.1,1.2,16.8,1.41,0.7,Hua Mak,Bang Kapi,Eastern Bangkok,1114,2012,12,0,1,1,0,1,1,0,0
+35,KnightsBridge Collage Ramkhamhaeng,113759.00,Hua Mak Road,85000,0.6,1.7,14.3,0.4,0.4,Hua Mak,Bang Kapi,Eastern Bangkok,682,2020,4,1,1,1,0,0,0,0,0
+36,Supalai Veranda Ramkhamhaeng,93687.75,Hua Mak Road,85000,0.9,1.3,15.3,1.5,0.9,Hua Mak,Bang Kapi,Eastern Bangkok,2073,2022,2,0,1,1,0,0,1,0,0
+37,The Tree Hua Mak,92500.00,Hua Mak Road,85000,0.4,1.5,14.2,0.4,0.6,Hua Mak,Bang Kapi,Eastern Bangkok,590,2020,4,0,1,1,0,1,1,0,0
+38,Fak Khao Pode,37196.00,Lat Phrao Road,233333.3,0.9,2.1,14.1,1,0.6,Hua Mak,Bang Kapi,Eastern Bangkok,960,2004,20,0,1,0,0,0,1,0,0
+39,Plum Condo Ladprao 101,45652.00,Pradit Manutham Road,130000,0.89,1.6,14.7,1.8,1.3,Khlong Chan,Bang Kapi,Eastern Bangkok,712,2014,10,0,1,0,0,1,1,0,0
+40,The Remarkable Soonvijai 2,93000.00,Lat Phrao Road,233333.3,3.29,2.3,18.8,1.7,1,Bang Kapi,Huai Khwang,Central Bangkok,87,2017,7,0,1,1,0,1,1,0,0
+41,Kalm Penthouse,110955.00,Bangkok Nonthaburi Road,240000,1.7,2.71,17.35,2.34,1.09,Phaya Thai,Phaya Thai,Central Bangkok,16,2019,5,0,1,1,0,0,1,0,0
+42,Lloyd Soonvijai-Thonglor,131111.00,Thonglor Road (Sukhumvit 55),370000,2,1.8,19.2,1.1,0.7,Bang Kapi,Huai Khwang,Central Bangkok,123,2021,3,0,1,1,0,1,1,0,0
+43,Niche Mono Ramkhamhaeng,84848.00,Hua Mak Road,85000,0.9,2,14.6,0.6,0.1,Hua Mak,Bang Kapi,Eastern Bangkok,1698,2022,2,0,1,1,0,0,0,0,0
+44,Plum Condo Ram 60 Interchange,60462.33,Hua Mak Road,85000,0.4,1.1,13.5,0.9,1.4,Hua Mak,Bang Kapi,Eastern Bangkok,960,2018,6,0,1,0,0,0,1,0,0
+45,Monte Rama 9-Ramkhamhang,79964.00,Rama 9 Road,188333.3333,0.9,0.8,16.3,3,0.9,Hua Mak,Bang Kapi,Eastern Bangkok,536,2021,3,0,1,1,0,0,0,0,0
+46,Lumpini Ville Ramkhamhaeng 44,60542.50,Hua Mak Road,85000,0.5,1.6,14.2,0.4,0.5,Hua Mak,Bang Kapi,Eastern Bangkok,827,2013,11,1,1,1,0,1,1,0,0
+47,The Parkland Petchkasem,77333.33,Somdet Phra Chao Tak Sin Road,145000,0.1,4.9,14.6,0.4,1.2,Bang Khae,Bang Khae,South Krungthon,895,2015,9,1,1,1,0,1,1,0,0
+48,Bangkhae Condo Residence,14803.00,Kanlapaphruek Road,65000,0.69,3.64,14.6,0.89,1.43,Bang Khae,Bang Khae,South Krungthon,286,1998,26,0,1,0,0,0,1,0,0
+49,Lumpini Condo Town Bangkhae,43791.50,Kanlapaphruek Road,65000,0.5,3.8,14.6,0.6,1.3,Bang Khae,Bang Khae,South Krungthon,791,2010,14,0,1,1,0,0,0,1,0
+50,Plum Condo Bangkae,51739.00,Bang Waek Road,53000,1.4,4.4,14.6,1.3,0.2,Bang Khae,Bang Khae,South Krungthon,284,2013,11,0,1,1,0,1,1,0,0
+51,Lumpini Park Phetkasem 98,58548.80,Bang Waek Road,53000,0.69,2.9,14.6,0.3,1.7,Bang Khae,Bang Khae,South Krungthon,2706,2013,11,0,1,1,1,0,0,1,0
+52,Lumpini Ville Bangkae,70264.00,Kanlapaphruek Road,65000,0.2,3.7,14.6,0.3,1.2,Bang Khae,Bang Khae,South Krungthon,267,2010,14,1,1,1,0,1,1,0,0
+53,Niche ID Phetkasem-Bangkae,52992.00,Kanlapaphruek Road,65000,0.8,3.8,14.6,0.9,1.3,Bang Khae,Bang Khae,South Krungthon,420,2019,5,0,1,1,0,1,1,0,0
+54,J Condo Sathorn-Kallaprapruk,56100.00,Wutthakat Road,80000,0.69,3.64,14.6,1.3,1.43,Bang Khae,Bang Khae,South Krungthon,1039,2017,7,0,1,1,0,1,1,0,0
+55,The President Petchkasem-Bangkhae,80566.00,Bang Waek Road,53000,0.5,3.64,14.6,0.1,1,Bang Khae,Bang Khae,South Krungthon,645,2018,6,1,1,1,0,1,1,1,0
+56,Fuse Sense Bangkae,53226.00,Bang Waek Road,53000,1.4,4.4,14.6,1.3,0.2,Bang Khae,Bang Khae,South Krungthon,811,2014,10,1,1,1,0,1,1,1,0
+57,H2 Ramindra 21,65497.50,Ram Inthra Road,135625,0.7,2.3,5.9,0.9,2.7,Anusawari,Bang Khen,North Bangkok,73,2014,10,0,1,1,0,1,1,0,0
+58,Lumpini Condo Town Ramintra-Laksi,60922.25,Chaeng Watthana Road,150000,0.2,0.4,5.1,0.2,1.49,Anusawari,Bang Khen,North Bangkok,1568,2008,16,1,1,1,0,0,1,0,0
+59,Lumpini Place Ramindra - Laksi,82286.00,Vibhavadi Rangsit Road,216666.6667,0.1,0.4,5.3,0.2,2,Anusawari,Bang Khen,North Bangkok,516,2010,14,0,1,1,1,0,1,1,0
+60,SILK PLACE Phaholyothin Laksi,60606.00,Vibhavadi Rangsit Road,216666.6667,0.4,0.6,4.5,0.2,1.5,Anusawari,Bang Khen,North Bangkok,274,2014,10,1,1,1,0,1,1,0,0
+61,Modiz Station Phahonyothin-Ramindra,87083.00,Vibhavadi Rangsit Road,216666.6667,0.1,0.9,4.1,0.2,1.1,Anusawari,Bang Khen,North Bangkok,246,2018,6,0,1,1,1,0,1,0,0
+62,Condo U Kaset-Nawamin,70263.00,Sena Nikhom 1 Road,80000,0.41,2,7.6,2,1.49,Anusawari,Bang Khen,North Bangkok,444,2017,7,1,1,1,0,0,1,0,0
+63,Dcondo Ramindra,56118.50,Ram Inthra Road,135625,0.5,4.5,8.2,0.5,4.3,Tha Raeng,Bang Khen,North Bangkok,825,2012,12,0,1,1,0,1,1,1,0
+64,Premio Fresco,77866.00,Sukonthasawat Road,72500,0.2,2.1,6.4,0.4,1.49,Anusawari,Bang Khen,North Bangkok,266,2016,8,0,1,1,0,1,1,0,0
+65,Lumpini Condo Town Ramindra-Latplakhao,53387.75,Sena Nikhom 1 Road,80000,0.5,1.9,6.3,0.6,3,Anusawari,Bang Khen,North Bangkok,1035,2014,10,0,1,1,0,0,1,1,0
+66,Baan Suan Rachathani Condominium,15152.00,Vibhavadi Rangsit Road,216666.6667,0.41,1.36,4.85,0.66,1.49,Anusawari,Bang Khen,North Bangkok,1380,2012,12,0,0,1,0,1,1,1,0
+67,Regent Home 18 Changwattana-Laksi,60000.00,Vibhavadi Rangsit Road,216666.6667,0.3,0.7,4.6,0.6,1.8,Anusawari,Bang Khen,North Bangkok,1490,2015,9,0,1,1,0,0,1,1,0
+68,Lumpini Condo Town Raminthra-Latplakhao 2,57308.00,Sena Nikhom 1 Road,80000,0.8,2,6.7,0.8,1.49,Anusawari,Bang Khen,North Bangkok,532,2014,10,0,0,1,0,0,0,1,0
+69,The Base Saphanmai,100163.25,Vibhavadi Rangsit Road,216666.6667,0.1,1.4,3.4,0.4,0.2,Anusawari,Bang Khen,North Bangkok,820,2020,4,0,1,1,1,0,1,0,0
+70,KnightsBridge Phaholyothin Interchange,105755.70,Vibhavadi Rangsit Road,216666.6667,0.5,0.7,4.4,0.2,1.4,Anusawari,Bang Khen,North Bangkok,726,2019,5,1,1,1,0,0,0,0,0
+71,We Condo Ekkamai-Ramindra,63755.25,Pradit Manutham Road,130000,0.3,4.5,9,0.9,4.1,Tha Raeng,Bang Khen,North Bangkok,1168,2015,9,1,1,0,0,1,1,0,0
+72,Esta Phahol Sapanmai,76471.00,Phahon Yothin Road,130000,0.41,1.1,3.2,0.2,0.1,Anusawari,Bang Khen,North Bangkok,150,2014,10,1,1,1,0,1,1,0,0
+73,The Great Condo Petchkasem 48,33333.00,Kanlapaphruek Road,65000,0.8,1.3,33,2.6,1.4,Bang Duan,Phasi Charoen,South Krungthon,244,2011,13,0,1,0,0,0,1,0,0
+74,The Prodigy MRT Bangkhae,103864.00,Bang Waek Road,53000,0.5,3,33,0.8,0.6,Bang Duan,Phasi Charoen,South Krungthon,294,2018,6,0,1,1,0,0,0,0,0
+75,Supalai Lite Sathorn-Charoenrat,87059.00,Rama 3 Road,240000,2,1.7,29,2,2.2,Bang Khlo,Bang Kho Laem,South Bangkok,260,2015,9,0,1,1,0,0,1,0,0
+76,Supalai Lite Sathorn,102439.00,Rama 3 Road,240000,0.77,2.64,29,2.38,1.69,Bang Khlo,Bang Kho Laem,South Bangkok,521,2015,9,1,1,1,0,1,1,0,0
+77,Lumpini Place Rama 3 - Riverview,71893.50,Rama 3 Road,240000,0.1,2.8,29,2.6,1.2,Bang Khlo,Bang Kho Laem,South Bangkok,565,2004,20,1,1,0,0,1,1,0,0
+78,The Key Sathorn-Charoenraj,103594.78,Narathiwat Ratchanakharin Road,440000,2.1,1.8,29,2.1,2.2,Bang Khlo,Bang Kho Laem,South Bangkok,565,2017,7,1,1,1,0,0,1,0,0
+79,Star View,131904.33,Rama 3 Road,240000,0.3,3.2,29,2.3,2,Bang Khlo,Bang Kho Laem,South Bangkok,497,2013,11,1,1,1,1,0,0,0,0
+80,Canapaya Residences Rama 3,254497.86,Rama 3 Road,240000,0.2,3,29,2.7,1.7,Bang Khlo,Bang Kho Laem,South Bangkok,885,2017,7,1,1,1,1,0,0,0,0
+81,Salintara Condominium,276134.00,Rama 3 Road,240000,0.6,3.1,29,2.38,1.3,Bang Khlo,Bang Kho Laem,South Bangkok,406,2007,17,0,1,0,0,0,1,0,0
+82,The Key Rama 3,127702.50,Rama 3 Road,240000,0.1,2.9,29,2.6,1.2,Bang Khlo,Bang Kho Laem,South Bangkok,556,2022,2,0,1,1,0,1,1,0,0
+83,Supalai CASA RIVA Vista 2,57955.00,Somdet Phra Chao Tak Sin Road,145000,0.7,1.9,28.2,1.4,0.1,Bang Kho Laem,Bang Kho Laem,South Bangkok,132,2009,15,0,1,1,0,1,1,0,0
+84,August Charoenkrung 80,59712.00,Chalong Krung Road,29500,0.8,1.8,28.2,1.5,0.5,Bang Kho Laem,Bang Kho Laem,South Bangkok,822,2014,10,1,1,1,0,1,1,0,0
+85,Supalai Casa Riva,59073.50,Somdet Phra Chao Tak Sin Road,145000,0.7,1.9,28.2,1.4,0.1,Bang Kho Laem,Bang Kho Laem,South Bangkok,188,2006,18,0,1,0,1,0,1,0,0
+86,The Room Charoenkrung 30,167575.60,Yaowarat Road,700000,0.7,1.5,24.3,0.7,0.6,Bang Rak,Bang Rak,South Bangkok,421,2017,7,0,1,1,0,1,1,0,0
+87,Chewathai Phetkasem 27,87190.00,Wutthakat Road,80000,0.4,0.3,31.5,2.8,1.2,Bang Wa,Phasi Charoen,South Krungthon,180,2017,7,1,1,1,0,0,0,0,0
+88,iCondo Petchkasem 39,54907.00,Kanlapaphruek Road,65000,0.6,2.8,31.5,1.2,0.4,Bang Wa,Phasi Charoen,South Krungthon,484,2013,11,0,1,1,0,1,1,0,0
+89,Bangkok Horizon P48,64194.00,Kanlapaphruek Road,65000,0.1,1,31.5,2.9,1.6,Bang Wa,Phasi Charoen,South Krungthon,99,2015,9,1,1,1,0,0,1,0,0
+90,Bangkok Horizon Lite @ Phekasem 48 Station,92222.00,Somdet Phra Pinklao Road,165000,0.3,0.9,31.5,3,1.6,Bang Wa,Phasi Charoen,South Krungthon,135,2019,5,1,1,1,0,1,1,0,0
+91,Modern Condo The Forest,95813.00,Bang Khun Thian Road,60000,9.7,2.41,33.46,1.1,0.6,Samae Dam,Bang Khun Thian,South Krungthon,244,2019,5,0,1,1,0,1,1,0,0
+92,The Bella Condo Rama 2,51237.00,Bang Khun Thian Road,60000,8.3,2.41,33.46,1,0.6,Samae Dam,Bang Khun Thian,South Krungthon,322,2017,7,1,1,1,0,1,1,0,0
+93,Serrano Rama 2,62363.75,Rama 2 Road,77000,8.4,2.41,33.46,0.7,0.5,Samae Dam,Bang Khun Thian,South Krungthon,458,2014,10,1,1,1,0,1,1,0,0
+94,Serrano Condominium,56219.00,Bang Khun Thian Road,60000,8.4,2.41,33.46,1.5,1.38,Samae Dam,Bang Khun Thian,South Krungthon,458,2014,10,1,1,1,0,1,1,0,0
+95,Supalai River Place Charoen Nakorn,90916.20,Charoen Nakhon Road,192500,2.65,0.9,24.48,1.7,1.4,Bang Lam Phu Lang,Khlong San,North Krungthon,866,2009,15,0,1,1,0,0,0,0,0
+96,Watermark Chaophraya,129111.29,Charoen Nakhon Road,192500,1.7,1.1,24.48,1.8,1.2,Bang Lam Phu Lang,Khlong San,North Krungthon,486,2008,16,0,1,1,0,0,0,0,0
+97,Country Complex Bangna,43749.33,Udom Suk Road (Sukhumvit 103),185000,0.9,0.1,16.4,1.48,1.36,Bang Na Tai,Bang Na,South Bangkok,718,1993,31,1,1,1,0,0,0,1,0
+98,Villa Lasalle Sukhumvit 105,67504.50,Udom Suk Road (Sukhumvit 103),185000,1,2,15.4,2.8,2.7,Bang Na Tai,Bang Na,South Bangkok,353,2014,10,0,1,1,0,0,1,0,0
+99,Whizdom Connect Sukhumvit,161734.80,Udom Suk Road (Sukhumvit 103),185000,0.5,1.8,14.9,2.5,3.19,Bang Chak,Phra Khanong,South Bangkok,673,2018,6,0,1,1,1,0,1,1,0
+100,Central City East Tower,39150.00,Sukhumvit Road,490000,0.57,3.4,12.7,0.1,0.3,Bang Na Nuea,Bang Na,South Bangkok,350,2001,23,0,1,0,0,0,1,0,0
+101,Niran Residence 9,22527.00,Sukhumvit Road,490000,3.32,2.44,11.22,1.71,1.32,Nong Bon,Prawet,Eastern Bangkok,845,2005,19,0,1,0,0,0,1,0,0
+102,Dolce อุดมสุข,82278.00,Sukhumvit Road,490000,0.5,1.3,15,2.5,2.7,Bang Na Nuea,Bang Na,South Bangkok,79,2017,7,1,1,1,0,1,1,0,0
+103,The Sky Sukhumvit,120695.29,Udom Suk Road (Sukhumvit 103),185000,0.6,1.2,15,2.6,1.66,Bang Na Nuea,Bang Na,South Bangkok,898,2015,9,1,1,1,1,0,0,0,0
+104,Lasalle Park Condominium,38571.00,Udom Suk Road (Sukhumvit 103),185000,0.6,1.7,15.8,1.48,1.36,Bang Na Tai,Bang Na,South Bangkok,551,1996,28,0,0,0,0,0,0,0,0
+105,Notting Hill Sukhumvit 105,92775.88,Udom Suk Road (Sukhumvit 103),185000,0.6,1.5,15.8,1.48,1.36,Bang Na Tai,Bang Na,South Bangkok,1113,2019,5,1,1,1,1,0,0,0,0
+106,Supalai City Resort Bearing Station,70068.75,Sukhumvit Road,490000,0.4,1.6,15.9,1.48,1.36,Bang Na Tai,Bang Na,South Bangkok,334,2013,11,0,0,1,0,1,1,0,0
+107,Bangna Residence,43888.00,Udom Suk Road (Sukhumvit 103),185000,1,0.2,16.4,1.75,1.66,Bang Na Nuea,Bang Na,South Bangkok,410,2002,22,0,0,0,0,0,1,0,0
+108,S&S Sukhumvit 101/1,68480.50,Sukhumvit Road,490000,0.7,1.9,14.6,2.7,3,Bang Khae,Bang Khae,South Krungthon,819,2013,11,1,1,1,0,1,1,0,0
+109,NS Tower Central City Bangna,53310.67,Udom Suk Road (Sukhumvit 103),185000,0.57,3.1,12.6,0.3,0.7,Bang Na Nuea,Bang Na,South Bangkok,800,2015,9,0,1,0,0,0,1,0,0
+110,IDEO O2 Bangna,102722.11,Udom Suk Road (Sukhumvit 103),185000,0.6,0.4,15.8,1.48,1.36,Bang Na Tai,Bang Na,South Bangkok,1569,2017,7,1,1,1,0,0,1,0,0
+111,iCondo Sukhumvit 105,47026.00,Udom Suk Road (Sukhumvit 103),185000,0.7,3.7,13.3,1.1,0.9,Bang Na Tai,Bang Na,South Bangkok,1384,2016,8,0,1,1,0,1,1,0,0
+112,Evergreen View Tower,35693.00,Srinakarin Road,142500,0.7,2.43,14.44,1.48,1.36,Bang Na Tai,Bang Na,South Bangkok,368,1992,32,0,1,0,0,0,1,0,0
+113,IDEO Blucove Sukhumvit,100980.13,Udom Suk Road (Sukhumvit 103),185000,0.2,1,15.3,3,1.66,Bang Na Nuea,Bang Na,South Bangkok,421,2011,13,1,1,1,1,0,0,0,0
+114,The Coast,97664.40,Sukhumvit Road,490000,0.3,0.6,15.8,1.48,1.36,Bang Na Tai,Bang Na,South Bangkok,820,2011,13,1,1,1,0,0,0,0,0
+115,Elio Del Nest,88024.67,Udom Suk Road (Sukhumvit 103),185000,0.7,1.7,14.6,2.3,2.5,Bang Na Nuea,Bang Na,South Bangkok,1459,2020,4,0,1,1,0,0,1,1,0
+116,I'm Fine Bangna,56651.33,Udom Suk Road (Sukhumvit 103),185000,1,4,12.7,0.6,0.4,Bang Na Tai,Bang Na,South Bangkok,600,2014,10,1,1,1,0,1,1,0,0
+117,IDEO MOBI Sukhumvit Eastgate,118614.60,Udom Suk Road (Sukhumvit 103),185000,0.3,1.1,16,1.48,1.36,Bang Na Tai,Bang Na,South Bangkok,844,2016,8,1,1,1,0,1,1,0,0
+118,Lumpini Place Bangna Km.3,74828.88,Udom Suk Road (Sukhumvit 103),185000,0.57,3,12.4,0.4,0.6,Bang Na Nuea,Bang Na,South Bangkok,609,2018,6,1,1,1,0,0,0,1,0
+119,Apool Condo Bangna,49924.00,Udom Suk Road (Sukhumvit 103),185000,0.7,3.5,13.1,0.6,0.5,Bang Na Tai,Bang Na,South Bangkok,238,2012,12,0,1,1,0,1,1,0,0
+120,The Origin Sukhumvit 105,84088.67,Udom Suk Road (Sukhumvit 103),185000,1.5,2.2,14.7,1.48,2,Bang Na Tai,Bang Na,South Bangkok,672,2021,3,0,1,1,0,1,1,0,0
+121,Atmoz Bangna,87608.50,Srinakarin Road,142500,0.4,2.43,11.4,1.4,1.1,Bang Na Tai,Bang Na,South Bangkok,1101,2021,3,0,1,1,0,1,1,0,0
+122,NUE Noble Centre Bangna,133993.00,Udom Suk Road (Sukhumvit 103),185000,1,3.3,12.6,0.1,0.4,Bang Na Nuea,Bang Na,South Bangkok,204,2022,2,0,1,1,0,1,1,0,0
+123,The Green Place Bangna,27500.00,Udom Suk Road (Sukhumvit 103),185000,0.7,2.43,13,0.4,0.3,Bang Na Tai,Bang Na,South Bangkok,145,1997,27,0,1,1,0,1,1,0,0
+124,MeStyle @ Sukhumvit-Bangna,72098.50,Udom Suk Road (Sukhumvit 103),185000,0.57,3.2,12.5,0.2,0.5,Bang Na Nuea,Bang Na,South Bangkok,566,2015,9,1,1,1,0,1,1,0,0
+125,The Parkland Bangna,35043.00,Srinakarin Road,142500,0.7,2.8,11,1.6,1.3,Bang Na Nuea,Bang Na,South Bangkok,1250,2013,11,1,1,1,0,0,1,0,0
+126,Attitude Lasalle,57576.00,Sukhumvit Road,490000,0.6,4.5,12.5,1.3,1.1,Bang Na Tai,Bang Na,South Bangkok,147,2020,4,0,1,1,0,1,1,0,0
+127,The Excel Parc,53214.00,Udom Suk Road (Sukhumvit 103),185000,1,1.8,15.3,2.7,2.7,Bang Na Tai,Bang Na,South Bangkok,104,2017,7,0,1,1,1,1,1,0,0
+128,Beyond Sukhumvit,63281.00,Udom Suk Road (Sukhumvit 103),185000,0.8,0.4,15.9,1.75,1.66,Bang Na Nuea,Bang Na,South Bangkok,180,2014,10,1,1,0,0,0,1,0,0
+129,Regent Home 7 Sukhumvit,44168.50,Sukhumvit Road,490000,0.8,0.4,15.9,1.75,1.66,Bang Na Nuea,Bang Na,South Bangkok,1745,2017,7,0,1,1,0,1,1,0,0
+130,Aspen Condo Lasalle,72284.00,Srinakarin Road,142500,0.6,4.3,11.8,1.9,1.7,Bang Na Tai,Bang Na,South Bangkok,425,2018,6,1,1,1,0,0,0,0,0
+131,The Excel Groove Lasalle 52,57393.00,Udom Suk Road (Sukhumvit 103),185000,1,4.1,13,1.2,1,Bang Na Tai,Bang Na,South Bangkok,182,2017,7,1,1,1,0,0,0,1,0
+132,Niche Mono Bangna,47619.00,Udom Suk Road (Sukhumvit 103),185000,0.8,3.8,12.5,0.4,0.3,Bang Na Tai,Bang Na,South Bangkok,643,2012,12,1,1,1,1,1,1,0,0
+133,IDEO Mix Sukhumvit 103,94350.43,Udom Suk Road (Sukhumvit 103),185000,0.1,1.3,15.1,2.9,1.66,Bang Na Nuea,Bang Na,South Bangkok,1172,2010,14,0,1,1,0,1,1,0,0
+134,iCondo Sukhumvit 103,60382.75,Srinakarin Road,142500,0.9,2.7,12.2,0.7,0.8,Bang Na Nuea,Bang Na,South Bangkok,840,2013,11,1,1,1,0,1,1,0,0
+135,Pause Sukhumvit 103,74177.00,Udom Suk Road (Sukhumvit 103),185000,0.4,1.5,14.9,2.9,3,Bang Na Nuea,Bang Na,South Bangkok,268,2016,8,0,1,1,0,1,1,0,0
+136,Lumpini Ville Lasalle Barring,56184.80,Udom Suk Road (Sukhumvit 103),185000,0.7,2.9,14,1.4,1.3,Bang Na Tai,Bang Na,South Bangkok,1028,2012,12,0,1,1,0,0,1,0,0
+137,The Excel Bearing,64815.00,Sukhumvit Road,490000,0.7,1.5,15.6,3,3,Bang Na Tai,Bang Na,South Bangkok,60,2014,10,1,1,0,0,1,1,0,0
+138,Pause Sukhumvit 107,62426.00,Udom Suk Road (Sukhumvit 103),185000,0.5,1.9,16.1,1.48,1.36,Bang Na Tai,Bang Na,South Bangkok,157,2017,7,0,1,1,0,1,1,0,0
+139,IDEO Mobi Sukhumvit Eastpoint,133604.75,Udom Suk Road (Sukhumvit 103),185000,0.2,0.9,16,1.48,1.36,Bang Na Tai,Bang Na,South Bangkok,1162,2020,4,0,1,1,0,0,0,1,0
+140,Udomsuk Tower,32500.00,Udom Suk Road (Sukhumvit 103),185000,0.4,1.5,14.8,2.6,2.8,Bang Na Nuea,Bang Na,South Bangkok,469,2004,20,0,1,0,0,0,1,0,0
+141,City Home Sukhumvit,53549.25,Udom Suk Road (Sukhumvit 103),185000,0.2,1.3,15.1,2.8,1.66,Bang Na Nuea,Bang Na,South Bangkok,966,2008,16,0,1,1,0,0,1,1,0
+142,The Excel Hideaway,55068.50,Udom Suk Road (Sukhumvit 103),185000,1,3.7,17.3,1.5,1,Bang Na Tai,Bang Na,South Bangkok,159,2015,9,1,1,1,0,1,1,0,0
+143,City Home Srinakarin,38021.75,Srinakarin Road,142500,0.7,4.2,11.7,1.9,1.7,Bang Na Tai,Bang Na,South Bangkok,1100,2010,14,0,1,1,0,1,1,1,0
+144,Bleisure Charan 96/1,70275.00,Charansanitwong Road,200000,0.9,1.5,15.7,1.7,0.7,Bang Ao,Bang Phlat,North Krungthon,193,2019,5,0,1,1,0,1,1,0,0
+145,My Condo Pinklao,55385.00,Charan Sanitwong Road,200000,0.3,1.3,19.35,0.6,1.5,Bang Bamru,Bang Phlat,North Krungthon,420,2009,15,0,1,0,0,1,1,0,0
+146,Chateau In Town Charansanitwong 96/2,74425.00,Kamphaeng Phet 6 Road,35000,0.9,1.3,15.6,1.8,0.9,Bang Ao,Bang Phlat,North Krungthon,406,2017,7,0,1,1,0,1,1,0,0
+147,Thana Arcadia,72857.50,Charan Sanitwong Road,200000,0.2,1.1,18.73,0.7,1.6,Bang Yi Khan,Bang Phlat,North Krungthon,247,2013,11,1,1,1,0,0,1,1,0
+148,Feel Condo Pinklao - Charan 59,57987.00,Charan Sanitwong Road,200000,0.6,1.7,19.5,1.2,1.5,Bang Bamru,Bang Phlat,North Krungthon,79,2017,7,0,1,1,0,1,1,0,0
+149,Lumpini Place Pinklao,56333.00,Charan Sanitwong Road,200000,0.6,1.5,19.35,0.3,1.2,Bang Bamru,Bang Phlat,North Krungthon,580,2006,18,1,1,1,0,1,1,1,0
+150,The Tree Rio Bang-Aor,98445.50,Sirindhorn Road,150000,0.3,1.7,16.6,1.2,0.5,Bang Ao,Bang Phlat,North Krungthon,1412,2017,7,0,1,1,0,1,1,0,0
+151,Supalai City Resort Rama 8,76899.33,Charan Sanitwong Road,200000,0.7,0.6,18.73,1.7,2.3,Bang Yi Khan,Bang Phlat,North Krungthon,446,2019,5,1,1,1,1,0,0,0,0
+152,The Parkland Charan-Pinklao,98624.33,Charan Sanitwong Road,200000,0.1,0.9,20,0.9,1.6,Bang Yi Khan,Bang Phlat,North Krungthon,1784,2019,5,1,1,1,0,0,0,0,0
+153,My Resort @ River,95506.00,Ratchawithi Road,225000,0.4,0.8,17.7,0.4,1.4,Bang Ao,Bang Phlat,North Krungthon,123,2012,12,1,1,1,1,0,1,0,0
+154,City Home Ratchada-PinKlao,47286.25,Nimit Mai Road,28500,0.6,1.7,16,1.5,0.5,Bang Ao,Bang Phlat,North Krungthon,2018,2010,14,0,1,1,0,0,1,1,0
+155,Lumpini Park Pinklao,71478.60,Charan Sanitwong Road,200000,0.52,1.8,19.35,0.3,0.5,Bang Bamru,Bang Phlat,North Krungthon,2707,2011,13,0,1,1,0,1,1,1,0
+156,De Lapis Charan 81,78857.00,Sirindhorn Road,150000,0.1,1.1,17.6,0.5,1.2,Bang Ao,Bang Phlat,North Krungthon,635,2019,5,0,1,1,0,1,1,0,0
+157,Chateau In Town Rama 8,75836.50,Somdet Phra Pinklao Road,165000,1,0.4,18.73,1.7,2.5,Bang Yi Khan,Bang Phlat,North Krungthon,506,2017,7,0,1,0,0,0,1,0,0
+158,Chewathai Pinklao,110345.00,Somdet Phra Pinklao Road,165000,0.8,0.6,18.73,1.2,2.1,Bang Yi Khan,Bang Phlat,North Krungthon,588,2022,2,0,1,1,0,1,1,0,0
+159,Thana Tower,55556.00,Charan Sanitwong Road,200000,0.2,3.3,14,2.3,1.1,Bang Yi Khan,Bang Phlat,North Krungthon,170,1993,31,0,0,0,0,1,1,0,0
+160,Modern Condo Bangplad-Charan 79,89440.00,Charansanitwong Road,200000,0.1,1.1,17.5,0.6,1.1,Bang Ao,Bang Phlat,North Krungthon,237,2019,5,0,1,1,0,1,1,0,0
+161,Supalai City Resort Charan 91,68286.00,Ratchawithi Road,225000,0.2,1.9,16.4,1.2,0.3,Bang Ao,Bang Phlat,North Krungthon,1036,2022,2,0,0,0,1,1,1,0,0
+162,Thana Tri Condominium,81308.00,Charan Sanitwong Road,200000,0.3,1.1,18.73,0.7,1.6,Bang Yi Khan,Bang Phlat,North Krungthon,76,2007,17,0,1,1,0,0,1,0,0
+163,Urbano Rajavithi,94260.00,Charan Sanitwong Road,200000,0.3,0.7,18.8,0.8,2.4,Bang Phlat,Bang Phlat,North Krungthon,323,2019,5,0,1,1,0,0,0,1,0
+164,Thana Astoria Pinklao,99322.00,Charansanitwong Road,200000,0.3,0.9,19.9,1,1.6,Bang Yi Khan,Bang Phlat,North Krungthon,493,2018,6,0,1,1,1,0,0,0,0
+165,Rattanakosin View Mansion,89247.00,Somdet Phra Pinklao Road,165000,0.76,0.3,18.73,2,1.7,Bang Yi Khan,Bang Phlat,North Krungthon,121,1992,32,0,1,1,0,1,1,0,0
+166,Lumpini Selected Charan 65 – Sirinthon Station,75000.00,Charan Sanitwong Road,200000,0.3,0.8,19.2,1.3,1.9,Bang Bamru,Bang Phlat,North Krungthon,514,2022,2,0,0,1,0,0,0,0,0
+167,Lumpini Park Borom Ratchachonni-Sirindhorn,78351.50,Ratchadamri Road,825000,0.8,2.4,19.35,1.1,0.2,Bang Bamru,Bang Phlat,North Krungthon,649,2020,4,0,1,1,0,1,1,0,0
+168,Life Pinklao,104044.50,Charan Sanitwong Road,200000,0.1,1,18.73,0.8,1.6,Bang Yi Khan,Bang Phlat,North Krungthon,803,2017,7,1,1,1,0,0,0,0,0
+169,Plum Condo Pinklao Station,88077.00,Charan Sanitwong Road,200000,0.6,1.1,18.73,0.7,1.6,Bang Yi Khan,Bang Phlat,North Krungthon,964,2018,6,0,1,1,1,0,0,0,0
+170,State Tower,138608.86,Silom Road,600000,0.4,0.7,22.93,0.2,0.1,Silom,Bang Rak,South Bangkok,166,2001,23,0,1,0,0,1,1,0,0
+171,The Ritz-Carlton Residences,454457.70,Narathiwat Ratchanakharin Road,440000,0.1,0.3,22.93,0.9,0.6,Silom,Bang Rak,South Bangkok,209,2016,8,1,1,1,1,0,0,0,0
+172,The Diplomat Sathorn,235407.75,Sathon Road,625000,0.1,0.3,22.93,0.7,0.3,Silom,Bang Rak,South Bangkok,192,2016,8,1,1,1,0,1,1,0,0
+173,ITF Silom Palace,85294.00,Silom Road,600000,0.2,0.4,22.21,0.8,0.5,Suriya Wong,Bang Rak,South Bangkok,930,1986,38,0,1,0,0,1,1,0,0
+174,Metro Park Sathorn,38673.67,Kanlapaphruek Road,65000,0.9,1.1,31.5,2.9,1.9,Bang Wa,Phasi Charoen,South Krungthon,465,2007,17,0,1,1,0,1,1,0,0
+175,The Metro Sathorn-Kanlapaphruek,36381.00,Kanlapaphruek Road,65000,0.6,1.3,31.5,2.37,2.2,Bang Wa,Phasi Charoen,South Krungthon,196,2012,12,0,1,1,0,1,1,0,0
+176,Supalai Elite Surawong,135610.00,Silom Road,600000,0.8,1.3,21.85,1.3,0.7,Si Phraya,Bang Rak,South Bangkok,277,2019,5,0,1,0,0,0,1,0,0
+177,Silom City Resort,108387.00,Sathon Road,625000,0.3,0.4,22.93,0.5,0.3,Silom,Bang Rak,South Bangkok,117,2008,16,0,1,0,0,0,1,0,0
+178,M Silom,221208.33,Silom Road,600000,0.5,0.8,22.21,0.8,0.5,Suriya Wong,Bang Rak,South Bangkok,161,2012,12,0,1,1,0,1,1,0,0
+179,Saladaeng Residences,234912.00,Thaniya Road,600000,0.5,1,22.93,0.5,0.3,Silom,Bang Rak,South Bangkok,132,2010,14,0,1,1,0,1,1,0,0
+180,Baan Siri Silom,171019.33,Silom Road,600000,0.2,0.4,22.93,0.7,0.4,Silom,Bang Rak,South Bangkok,137,2006,18,0,1,0,0,1,1,0,0
+181,The Base Phetkasem,95217.33,Kanlapaphruek Road,65000,0.2,0.9,31.5,2.37,1.7,Bang Wa,Phasi Charoen,South Krungthon,211,2020,4,0,1,1,1,0,0,0,0
+182,Pipat Place,106667.00,Sathon Road,625000,0.3,0.4,22.93,0.5,0.3,Silom,Bang Rak,South Bangkok,129,2002,22,0,1,0,0,0,1,0,0
+183,Collezio Sathorn-Pipat,138636.00,Sathon Road,625000,0.2,0.3,22.93,0.6,0.4,Silom,Bang Rak,South Bangkok,95,2013,11,1,1,1,0,1,1,0,0
+184,Klass Silom,158939.50,Patpong Road,600000,0.3,0.5,22.93,0.5,0.3,Silom,Bang Rak,South Bangkok,176,2014,10,1,1,1,0,1,1,0,0
+185,Bangkok Horizon Petchkasem,51476.00,Kanlapaphruek Road,65000,0.5,1.5,31.5,2.4,1,Bang Wa,Phasi Charoen,South Krungthon,1598,2013,11,0,1,1,0,1,1,0,0
+186,The Room Sathorn,161307.09,Silom Road,600000,0.4,0.6,22.93,0.9,0.4,Silom,Bang Rak,South Bangkok,219,2016,8,0,1,1,0,1,1,0,0
+187,The Royal Saladaeng,215962.00,Thaniya Road,600000,0.4,1,22.93,0.4,0.3,Silom,Bang Rak,South Bangkok,77,2006,18,1,0,0,1,1,1,0,0
+188,Noble Revo Silom,156953.89,Sathon Road,625000,0.2,0.4,22.93,0.5,0.4,Silom,Bang Rak,South Bangkok,319,2015,9,1,1,1,0,1,1,0,0
+189,Dusit Central Park (Residences),414053.00,Rama 4 Road,475000,0.1,1.1,22.93,0.3,0.4,Silom,Bang Rak,South Bangkok,665,2023,1,0,1,1,0,0,0,0,0
+190,The Infinity,263357.00,Narathiwat Ratchanakharin Road,440000,0.1,0.2,22.93,0.8,0.6,Silom,Bang Rak,South Bangkok,108,2007,17,0,1,1,0,0,0,1,0
+191,The Address Sathorn,188879.67,Silom Road,600000,0.4,0.5,22.93,1.2,0.4,Silom,Bang Rak,South Bangkok,562,2011,13,0,1,1,0,1,1,0,0
+192,The Lofts Silom,228642.80,Silom Road,600000,0.5,0.7,22.93,0.9,0.4,Silom,Bang Rak,South Bangkok,268,2020,4,0,1,1,0,0,1,0,0
+193,Surawong City Resort,96429.00,Silom Road,600000,0.8,1,21.85,1.2,0.6,Si Phraya,Bang Rak,South Bangkok,116,2011,13,0,1,0,0,0,1,0,0
+194,ASHTON Chula-Silom,252296.93,Patpong Road,600000,0.2,0.8,21.85,0.6,0.3,Si Phraya,Bang Rak,South Bangkok,1180,2018,6,1,1,1,0,1,1,0,0
+195,Saladaeng One,342378.88,Thaniya Road,600000,0.5,1.3,22.93,0.7,0.7,Silom,Bang Rak,South Bangkok,187,2018,6,1,1,1,0,0,1,0,0
+196,Siamese Surawong,150459.33,Patpong Road,600000,0.4,1,21.85,0.8,0.4,Si Phraya,Bang Rak,South Bangkok,206,2015,9,1,1,1,0,0,1,0,0
+197,Pearl Garden Condominium,148125.50,Prachathipok Road,143500,0.1,0.3,22.93,0.7,0.5,Silom,Bang Rak,South Bangkok,69,2014,10,0,0,0,0,0,0,0,0
+198,Chapter Chula-Samyan,198445.00,Silom Road,600000,0.7,1.2,21.85,1.3,0.8,Si Phraya,Bang Rak,South Bangkok,181,2021,3,0,1,1,0,1,1,0,0
+199,IDEO Chula-Samyan,177600.00,Silom Road,600000,0.5,1,21.85,1.1,0.7,Si Phraya,Bang Rak,South Bangkok,774,2023,1,0,1,1,0,1,1,0,0
+200,Supalai Premier Si Phraya-Samyan,130228.50,Silom Road,600000,0.9,1.3,21.85,1.4,1,Si Phraya,Bang Rak,South Bangkok,384,2023,1,0,1,1,0,0,1,0,0
+201,The Surawong,114286.00,Silom Road,600000,0.4,0.9,21.85,0.7,0.3,Si Phraya,Bang Rak,South Bangkok,52,2011,13,0,0,0,0,0,1,0,0
+202,Focus on Saladaeng condominium,143532.00,Thaniya Road,600000,0.3,1,22.93,0.3,0.3,Silom,Bang Rak,South Bangkok,62,2012,12,0,0,1,0,1,1,0,0
+203,Supalai Veranda Phasi Charoen Station,75273.50,Kanlapaphruek Road,65000,0.3,2.5,31.5,1.4,0.1,Bang Wa,Phasi Charoen,South Krungthon,499,2021,3,0,1,1,0,0,0,0,0
+204,The Legend Saladaeng,200235.80,Thaniya Road,600000,0.4,0.9,22.93,0.4,0.3,Silom,Bang Rak,South Bangkok,75,2005,19,0,1,1,0,1,1,0,0
+205,Chapter One Shine Bangpo,96118.60,Pracharat Sai 1 Road,195000,0.6,1,14.7,1.7,0.6,Bang Sue,Bang Sue,North Bangkok,615,2019,5,1,1,1,1,0,0,0,0
+206,Chapter One Flow Bangpo,109200.00,Kamphaeng Phet 6 Road,35000,0.7,1,14.7,1.8,0.7,Bang Sue,Bang Sue,North Bangkok,386,2020,4,1,1,1,1,0,0,0,0
+207,The Parkland Ratchada-Wongsawang,74924.00,Kamphaeng Phet 6 Road,35000,0.2,1.8,12.8,0.2,1.3,Wong Sawang,Bang Sue,North Bangkok,743,2015,9,1,1,1,0,1,1,0,0
+208,U Delight @ Bangson Station‎,79221.67,Kamphaeng Phet 6 Road,35000,0.3,2,13.5,1.1,1.5,Bang Sue,Bang Sue,North Bangkok,527,2015,9,1,1,1,1,0,1,0,0
+209,The Line Wongsawang,84717.86,Kamphaeng Phet 6 Road,35000,0.1,1.7,12.9,0.3,1.4,Wong Sawang,Bang Sue,North Bangkok,1287,2018,6,1,1,1,1,0,0,1,0
+210,Rich Park @ Bang Son,56333.00,Ratchadaphisek Road,390000,1.87,1.98,12.22,2.39,3.12,Wong Sawang,Bang Sue,North Bangkok,803,2013,11,0,1,0,0,1,1,0,0
+211,U Delight @ Bang Sue Station,69143.00,Kamphaeng Phet 6 Road,35000,1.11,1.53,13.68,2.68,2.77,Bang Sue,Bang Sue,North Bangkok,622,2013,11,1,1,0,0,1,1,0,0
+212,The Stage Taopoon Interchange,87740.80,Kamphaeng Phet 6 Road,35000,1.42,1.17,14.71,1.88,1.73,Bang Sue,Bang Sue,North Bangkok,773,2017,7,0,1,1,0,0,0,0,0
+213,333 Riverside,157188.33,Kamphaeng Phet 6 Road,35000,2.16,0.82,15.04,1.14,1.19,Bang Sue,Bang Sue,North Bangkok,950,2013,11,0,1,1,0,1,1,0,0
+214,Rich Park 2 Toapoon,66667.00,Pracharat Sai 2 Road,210000,1.36,1.34,14.06,2.13,2.08,Bang Sue,Bang Sue,North Bangkok,720,2014,10,1,1,1,0,1,1,0,0
+215,Rich Park @ Taopoon Interchange,84624.00,Kamphaeng Phet 6 Road,35000,1.16,1.33,14.52,2.15,2,Bang Sue,Bang Sue,North Bangkok,735,2014,10,0,1,1,0,1,1,0,0
+216,IDEO Mobi Grand Interchange Bangsue,119259.00,Kamphaeng Phet 6 Road,35000,0.77,1.64,14.22,2.57,2.43,Bang Sue,Bang Sue,North Bangkok,661,2018,6,0,1,1,1,0,0,0,0
+217,Supalai Veranda Ratchavipha-Prachachuen,67781.00,Kamphaeng Phet 6 Road,35000,1.73,1.78,12.95,3.07,3.36,Bang Sue,Bang Sue,North Bangkok,1705,2017,7,1,1,1,1,1,1,1,0
+218,Metro Sky Prachachuen,87998.80,Kamphaeng Phet 6 Road,35000,2.14,2.02,12.55,1.58,3.71,Wong Sawang,Bang Sue,North Bangkok,1319,2017,7,1,1,1,1,0,0,0,0
+219,IDEO Mobi Wongsawang Interchange,98351.50,Kamphaeng Phet 6 Road,35000,1.92,1.36,13.18,2.67,3.06,Bang Sue,Bang Sue,North Bangkok,559,2016,8,1,1,1,0,0,0,0,0
+220,U Delight 3 Prachachuen-Bangsue,71765.50,Kamphaeng Phet 6 Road,35000,2.45,2.19,12.29,3.4,3.95,Wong Sawang,Bang Sue,North Bangkok,745,2013,11,1,1,1,0,0,1,0,0
+221,Regent Home Bangson 27,51001.00,Kamphaeng Phet 6 Road,35000,2.1,1.2,13.26,2.5,2.96,Bang Sue,Bang Sue,North Bangkok,4000,2017,7,1,1,1,0,1,1,1,0
+222,Lumpini Ville Prachachuen-Phongphet 2,57883.60,Prachachuen Road,180000,2.98,1.97,10.19,4.98,3.66,Wong Sawang,Bang Sue,North Bangkok,1395,2012,12,0,1,1,1,1,1,1,0
+223,U Delight 2 @ Bang Sue Station,68965.00,Kamphaeng Phet 6 Road,35000,1.79,1.82,12.88,3.11,3.42,Bang Sue,Bang Sue,North Bangkok,645,2012,12,0,1,1,0,1,1,0,0
+224,Modiz Collection BangPho,132080.50,Kamphaeng Phet 6 Road,35000,1.95,0.94,15.01,1.35,1.27,Bang Sue,Bang Sue,North Bangkok,235,2022,2,0,1,1,0,0,1,0,0
+225,The Tree Bang Po Station,71154.50,Pracharat Sai 1 Road,195000,1.36,1.34,14.06,2.13,2.08,Bang Sue,Bang Sue,North Bangkok,709,2013,11,1,1,1,0,1,1,0,0
+226,Niche Pride Taopoon-Interchange,126377.67,Pracharat Sai 2 Road,210000,1.36,1.34,14.06,2.13,2.08,Bang Sue,Bang Sue,North Bangkok,742,2020,4,1,1,1,1,0,0,0,0
+227,The Tree Interchange,77090.78,Kamphaeng Phet 6 Road,35000,1.54,1.12,14.79,1.76,1.61,Bang Sue,Bang Sue,North Bangkok,1724,2014,10,1,1,1,0,1,1,0,0
+228,Centric Scene Ratchavipha,70366.25,Kamphaeng Phet 6 Road,35000,2.92,2.24,12.14,3,4.09,Wong Sawang,Bang Sue,North Bangkok,669,2009,15,0,1,1,0,0,1,0,0
+229,The Privacy Taopoon Interchange,105357.00,Kamphaeng Phet 6 Road,35000,1.2,1.37,13.77,2.53,2.63,Bang Sue,Bang Sue,North Bangkok,486,2021,3,0,1,1,1,0,0,0,0
+230,Aspire Ratchada-Wongsawang,71197.40,Kamphaeng Phet 6 Road,35000,2.29,1.91,12.65,3.29,3.76,Wong Sawang,Bang Sue,North Bangkok,1232,2016,8,1,1,1,0,1,1,0,0
+231,Lumpini Ville Ratchaphruek-Bangwaek,45217.00,Bang Waek Road,53000,3.78,3.32,26.46,3.1,4.47,Bang Waek,Phasi Charoen,South Krungthon,1085,2017,7,1,1,1,0,0,0,0,0
+232,Lumpini Place Rama 8,57364.50,Charan Sanitwong Road,200000,4.73,1.95,19.75,0.98,3.54,Bang Yi Khan,Bang Phlat,North Krungthon,1121,2009,15,0,1,1,0,0,1,1,0
+233,Brix Charansanitwong 64,90909.00,Charan Sanitwong Road,200000,0.1,2.75,20,0.16,3.82,Bang Yi Khan,Bang Phlat,North Krungthon,560,2018,6,0,1,1,1,0,0,1,0
+234,Present Condo Wutthakat-Ekachai,56304.00,Kanlapaphruek Road,65000,3.35,2.5,30.01,1.01,1.97,Bang Khun Thian,Chom Thong,North Krungthon,392,2017,7,1,1,0,0,1,1,0,0
+235,IDEO Wutthakat,89763.33,Wutthakat Road,80000,0.27,0.71,26.57,4.21,4.39,Bang Kho,Chom Thong,North Krungthon,979,2016,8,1,1,1,1,0,1,0,0
+236,The Park Chidlom,280444.86,Phloen Chit Road,500000,0.43,1.69,19.46,3.21,1.14,Lumphini,Pathum Wan,South Bangkok,219,2010,14,1,1,1,0,1,1,0,0
+237,ASHTON Silom,240458.17,Silom Road,600000,2.63,3.68,22.36,2.16,3.58,Suriya Wong,Bang Rak,South Bangkok,428,2018,6,0,1,1,1,0,0,0,0
+238,Noble Revolve Ratchada,159339.67,Ratchadaphisek Ram Inthra Road,60000,3.59,2.97,16.95,3.72,3.34,Huai Khwang,Huai Khwang,Central Bangkok,802,2017,7,1,1,1,0,0,1,0,0
+239,Life Asoke-Rama 9,148912.43,Ratchadaphisek Ram Inthra Road,60000,2.54,1.83,18.06,2.78,2.63,Makkasan,Ratchathewi,Central Bangkok,2248,2020,4,1,1,1,0,0,1,0,0
+240,CU Terrace,112963.00,Rama 1 Road,700000,1.95,3.54,20.97,1.68,2.3,Pathum Wan,Pathum Wan,South Bangkok,510,2013,11,1,1,1,0,1,1,0,0
+241,Penthouse Condominium 2,148511.00,Ekkamai Road,255000,1.07,3.73,17.89,2.25,2.9,Phra Khanong Nuea,Watthana,South Bangkok,6,2019,5,0,1,1,0,1,1,0,0
+242,The Monument Sanampao,271327.00,Rangnam Road,250000,2.8,3.82,17.4,3.22,1.45,Phaya Thai,Phaya Thai,Central Bangkok,86,2015,9,1,0,0,0,0,0,0,0
+243,The Bangkok Sab Condominium,116092.67,Patpong Road,600000,2.23,3.45,21.85,1.79,3.08,Si Phraya,Bang Rak,South Bangkok,155,2005,19,0,0,0,0,0,1,0,0
+244,Green Point Silom,96374.33,Patpong Road,600000,2.31,3.36,22.06,1.84,3.29,Suriya Wong,Bang Rak,South Bangkok,156,2013,11,0,0,0,0,0,0,0,0
+245,Vibhavadee Suite,42063.00,Kamphaeng Phet 6 Road,35000,1.75,3.91,12.23,2.36,2.98,Chatuchak,Chatuchak,North Bangkok,150,1992,32,1,1,0,0,1,1,1,0
+246,Whizdom The Exclusive,84615.00,Udom Suk Road (Sukhumvit 103),185000,4.9,3.38,15.5,2.02,3.38,Phra Khanong Tai,Phra Khanong,South Bangkok,79,2012,12,1,1,1,1,0,1,0,0
+247,Chateau In Town Ratchada 20,74419.00,Ratchadaphisek Road,390000,1.6,2.72,13.76,2.43,4.22,Samsen Nok,Huai Khwang,Central Bangkok,79,2012,12,0,0,1,0,1,1,0,0
+248,Baan Bang Khun Non Rimnam,23064.00,Bang Khun Non Road,90000,1.55,4.35,21.65,2.07,2.91,Bang Khun Non,Bangkok Noi,North Krungthon,402,1996,28,0,1,0,0,1,1,0,0
+249,Bangkok Noi Waterside,31864.00,Phran Nok Road,150000,4.62,3.48,22.93,2.79,1.16,Bang Khun Non,Bangkok Noi,North Krungthon,319,2004,20,0,1,0,0,0,1,0,0
+250,The Trust Residence Pinklao,56055.60,Sirindhorn Road,150000,1.9,4.58,20.45,1.89,3.78,Arun Amarin,Bangkok Noi,North Krungthon,1408,2012,12,0,1,1,0,0,1,0,0
+251,Supalai Park Yaek Fai Chai Station,89231.00,Phran Nok Road,150000,4.41,3.38,23.02,2.91,1.01,Ban Chang Lo,Bangkok Noi,North Krungthon,726,2022,2,0,1,1,0,0,0,0,0
+252,Supalai Loft Yaek Fai Chai Station,70213.00,Phran Nok Road,150000,4.51,3.79,23.22,3.07,1.44,Bang Khun Si,Bangkok Noi,North Krungthon,366,2019,5,1,1,1,0,0,0,0,0
+253,Dbura Prannok,85413.33,Wang Lang Road,150000,4.77,2.57,22.19,2.19,0.52,Ban Chang Lo,Bangkok Noi,North Krungthon,416,2014,10,0,1,1,0,0,1,0,0
+254,IDEO Mobi Charan Interchange,99903.00,Phran Nok Road,150000,0.17,3.23,22.13,1.97,1.37,Bang Khun Si,Bangkok Noi,North Krungthon,1196,2015,9,1,0,1,1,0,0,0,0
+255,Pracha Ruamjai Condo Town,39991.00,Charansanitwong Road,200000,0.52,0.91,19.79,0.68,1.61,Khlong Toei Nuea,Watthana,South Bangkok,309,1997,27,1,1,0,0,0,1,1,0
+256,Dcondo Charan-Bang Khun Non,51333.00,Bang Khun Non Road,90000,0.89,3.7,21.63,1.66,2.25,Bang Khun Non,Bangkok Noi,North Krungthon,445,2012,12,0,1,0,0,1,1,0,0
+257,Ratanakosin Island,53017.50,Arun Amarin Road,150000,4.7,0.89,21.39,3.32,4.32,Wat Ratchabophit,Phra Nakhon,Central Bangkok,588,1999,25,0,1,1,0,1,1,0,0
+258,The Privacy Thaphra Interchange,107826.00,Itsaraphap Road,120000,2.09,4.24,24.73,2.96,2.46,Wat Tha Phra,Bangkok Yai,North Krungthon,795,2020,4,1,1,1,0,0,0,0,0
+259,IDEO Thaphra Interchange,96385.33,Itsaraphap Road,120000,1.91,4.23,24.78,3.08,2.66,Wat Tha Phra,Bangkok Yai,North Krungthon,844,2018,6,1,1,1,1,0,1,0,0
+260,Supalai Lite Thaphra-Wongwian Yai,78214.00,Itsaraphap Road,120000,2.06,4.02,24.59,3.02,2.71,Wat Tha Phra,Bangkok Yai,North Krungthon,421,2022,2,0,1,1,0,0,0,0,0
+261,Unio Charan 3,53423.50,Itsaraphap Road,120000,2.17,4.65,25.01,3.23,2.62,Wat Tha Phra,Bangkok Yai,North Krungthon,1932,2016,8,1,1,1,0,0,0,0,0
+262,The Parkland Phetkasem-Thapra,78549.00,Phet Kasem Road,160000,0.4,1.1,24.73,1.7,1.5,Wat Tha Phra,Bangkok Yai,North Krungthon,814,2016,8,0,1,1,1,0,1,1,0
+263,City Home Tha-Phra Intersection,54929.00,Itsaraphap Road,120000,1.79,4.4,24.93,3.21,2.76,Wat Tha Phra,Bangkok Yai,North Krungthon,610,2009,15,0,1,1,0,0,1,1,0
+264,Niche Mono Itsaraphap,110769.00,Itsaraphap Road,120000,3.36,2.77,23.31,1.7,1.51,Wat Arun,Bangkok Yai,North Krungthon,259,2022,2,0,1,1,0,1,1,0,0
+265,Chewathai Hallmark Charan 13,85736.00,Phran Nok Road,150000,3.07,4.2,24.32,2.64,1.94,Wat Tha Phra,Bangkok Yai,North Krungthon,184,2020,4,0,1,1,1,1,1,0,0
+266,Lumpini Ville Ratburana-Riverview,63300.00,Rama 3 Road,240000,4.07,2.64,26.19,3.55,1.88,Bang Pakok,Rat Burana,South Krungthon,1028,2010,14,0,1,1,1,0,0,0,0
+267,The Kith Plus Nawamin,42065.33,Ram Inthra Road,135625,1,2.6,10.13,0.76,2.68,Nuanchan,Bueng Kum,Eastern Bangkok,406,2013,11,0,1,1,0,1,1,0,0
+268,iCondo Sukhapiban 2,42842.67,Ramkhamhaeng Road,124000,4.45,2.45,13.28,4.33,3.94,Khlong Kum,Bueng Kum,Eastern Bangkok,658,2013,11,1,1,1,0,1,1,0,0
+269,Unio Ramkhamhaeng-Serithai,55542.57,Ramkhamhaeng Road,124000,4.71,2.13,13.48,3.25,2.85,Khlong Kum,Bueng Kum,Eastern Bangkok,703,2017,7,0,1,1,0,1,1,0,0
+270,Nawa Living,53329.00,Watcharaphon Road,65000,3.9,13.2,19.9,13.1,3.5,Nawamin,Bueng Kum,Eastern Bangkok,378,2017,7,1,1,1,1,0,1,0,0
+271,Lumpini Park Nawamin-Sriburapha,61605.25,Ramkhamhaeng Road,124000,4.27,1.89,14.16,2.61,1.79,Khlong Kum,Bueng Kum,Eastern Bangkok,1831,2015,9,0,1,1,1,0,0,0,0
+272,The Cube Loft Nuanchan,90023.00,Prasert Manukit Road,75000,2.6,1.63,9.65,2,1.62,Nuanchan,Bueng Kum,Eastern Bangkok,208,2020,4,0,1,1,0,1,1,0,0
+273,PARC EXO Kaset-Nawamintra,64920.00,Ram Inthra Road,135625,4.6,3.18,11.69,1.86,3.09,Ram Inthra,Khan Na Yao,Eastern Bangkok,1296,2013,11,0,1,1,0,1,1,1,0
+274,iCondo Serithai Green Space,74072.50,Seri Thai Road,85000,4.45,2.65,13.55,2.55,3.17,Khlong Kum,Bueng Kum,Eastern Bangkok,505,2018,6,1,1,1,0,1,1,0,0
+275,Lumpini Condo Town Nida-Sereethai 2,51359.25,Ramkhamhaeng Road,124000,4.38,2.06,13.69,2.84,2.36,Khlong Kum,Bueng Kum,Eastern Bangkok,691,2012,12,0,0,1,0,0,1,1,0
+276,Plum Condo Nawamin,47454.00,Nuan Chan Road,75000,2.5,3.5,11.3,1.85,2.01,Nuanchan,Bueng Kum,Eastern Bangkok,711,2013,11,0,1,1,0,1,1,0,0
+277,MileStone Condominium @ Serithai,40741.00,Seri Thai Road,85000,4.45,2.73,13.35,1.39,4.55,Khlong Kum,Bueng Kum,Eastern Bangkok,242,2012,12,0,1,1,0,1,1,0,0
+278,Brown Condo Ratchada 32,80674.00,Lad Phrao Wang Hin Road,80000,2.38,2.62,10.71,2.54,2.21,Chan Kasem,Chatuchak,North Bangkok,242,2018,6,1,1,1,0,0,0,0,0
+279,Mazarine Ratchayothin,149758.40,Phahonyothin Road,330000,1.94,2.94,11.05,2.56,2.04,Chan Kasem,Chatuchak,North Bangkok,474,2020,4,0,1,1,1,1,1,1,0
+280,Chapter One The Campus Ladprao 1,83886.00,Kamphaeng Phet 6 Road,35000,1.94,0.52,11.8,2.73,2.55,Chom Phon,Chatuchak,North Bangkok,180,2014,10,1,1,1,0,1,1,0,0
+281,Maxxi Condo Ratchayothin-Phahol 34,78333.00,Sena Nikhom 1 Road,80000,4.34,3.99,8.7,4.42,1.06,Sena Nikhom,Chatuchak,North Bangkok,249,2019,5,0,1,1,1,1,1,0,0
+282,lugano,69879.50,Kubon Road,42000,1.5,0.3,13.3,1.4,2.4,Chom Phon,Chatuchak,North Bangkok,123,2013,11,1,1,1,0,1,1,0,0
+283,Formosa Ladprao 7,89479.00,Kamphaeng Phet 6 Road,35000,1.46,4,12.09,2.33,2.86,Chom Phon,Chatuchak,North Bangkok,97,2017,7,1,1,1,1,0,1,0,0
+284,Chateau In Town Vibhavadi 30-2,74873.33,Thetsaban Songkhro Road,200000,2.93,1.36,10.96,2.2,1.8,Chatuchak,Chatuchak,North Bangkok,79,2013,11,0,1,1,0,1,1,0,0
+285,Haus 23 Ratchada-Ladprao,88889.00,Lad Phrao Wang Hin Road,80000,0.68,3.88,12.35,2.04,3.35,Chan Kasem,Chatuchak,North Bangkok,236,2013,11,1,1,1,0,0,0,0,0
+286,The Maple Ratchada-Ladprao,74194.00,Nak Niwat Road,80000,4.69,3.88,10.63,1.1,4.77,Chom Phon,Chatuchak,North Bangkok,168,2014,10,1,1,1,0,1,1,0,0
+287,Abstracts Phahonyothin Park,91576.90,Phahonyothin Road,330000,2.34,2.94,15.95,2.4,2.16,Sam Sen Nai,Phaya Thai,Central Bangkok,1012,2013,11,1,1,1,1,1,1,0,0
+288,The Line Phahonyothin Park,126076.33,Kamphaeng Phet 6 Road,35000,2.23,0.89,11.39,2.59,2.15,Chom Phon,Chatuchak,North Bangkok,880,2022,2,0,1,0,0,1,1,0,0
+289,M Ladprao,152281.00,Kamphaeng Phet 6 Road,35000,2.29,0.6,11.68,3,2.45,Chom Phon,Chatuchak,North Bangkok,286,2014,10,1,1,1,0,1,1,0,0
+290,The Crest Park Residences,218867.67,Kamphaeng Phet 6 Road,35000,2.23,4.24,12,2.79,2.78,Chom Phon,Chatuchak,North Bangkok,429,2022,2,0,1,0,0,1,1,0,0
+291,La Maison Phaholyothin 24,42647.00,Phahonyothin Road,330000,1.96,2.56,12.6,2.23,3.1,Chom Phon,Chatuchak,North Bangkok,366,1995,29,0,1,0,0,0,1,0,0
+292,Lumpini Place Ratchayothin,98214.00,Sena Nikhom 1 Road,80000,3.46,2.36,9.91,1.11,0.67,Chan Kasem,Chatuchak,North Bangkok,1827,2011,13,0,1,1,0,0,0,0,0
+293,Centric Ratchayothin,148083.00,Sena Nikhom 1 Road,80000,3.65,3.51,9.72,4.95,0.49,Chan Kasem,Chatuchak,North Bangkok,261,2019,5,1,1,1,1,0,0,0,0
+294,Chateau In Town Vibhavadi 30-1,75758.00,Thetsaban Songkhro Road,200000,2.95,1.35,10.99,2.24,1.84,Chatuchak,Chatuchak,North Bangkok,79,2013,11,0,1,1,0,1,1,0,0
+295,Condo One Ladprao Station,75532.00,Lat Phrao Road,233333.3,1.96,2.56,12.6,2.23,3.1,Chom Phon,Chatuchak,North Bangkok,123,2009,15,0,0,0,0,0,1,0,0
+296,The Selected Kaset-Ngam Wongwan,126250.67,Ngam Wong Wan Road,150000,1.41,1.84,8.72,3.62,1.54,Lat Yao,Chatuchak,North Bangkok,310,2020,4,1,1,1,1,0,0,0,0
+297,Chateau In Town Major Ratchayothin 2,55138.00,Phahonyothin Road,330000,1.94,2.94,11.05,2.56,2.04,Chan Kasem,Chatuchak,North Bangkok,192,2012,12,1,1,1,0,1,1,0,0
+298,Chapter One The Campus Kaset,99655.00,Sena Nikhom 1 Road,80000,4.35,3.16,8.91,4.2,0.34,Lat Yao,Chatuchak,North Bangkok,768,2014,10,1,1,0,1,0,1,0,0
+299,The Unique 10,85000.00,Lat Phrao Road,233333.3,1.96,2.56,12.6,2.23,3.1,Chom Phon,Chatuchak,North Bangkok,127,2013,11,1,1,1,0,0,1,0,0
+300,Knightsbridge Prime Ratchayothin,171566.75,Thetsaban Songkhro Road,200000,3.01,1.68,10.59,1.79,1.37,Chatuchak,Chatuchak,North Bangkok,333,2020,4,1,1,1,0,0,0,0,0
+301,Miti Chiva Kaset Station,158090.67,Sena Nikhom 1 Road,80000,4.6,3.25,8.56,3.97,0.7,Sena Nikhom,Chatuchak,North Bangkok,200,2019,5,0,1,1,0,1,1,0,0
+302,WIND Ratchayothin,90660.25,Thetsaban Songkhro Road,200000,3.37,1.99,10.31,1.56,1.17,Lat Yao,Chatuchak,North Bangkok,390,2009,15,1,1,1,0,1,1,0,0
+303,Vantage Ratchavipa,75110.33,Ratchadaphisek Road,390000,3.06,2.66,9.77,2.92,1.55,Lat Yao,Chatuchak,North Bangkok,332,2012,12,0,1,1,0,1,1,0,0
+304,Niche Mono Ratchavipha,73852.33,Thetsaban Songkhro Road,200000,3.08,2.86,11.57,2.71,3.7,Lat Yao,Chatuchak,North Bangkok,840,2016,8,0,1,1,1,1,1,0,0
+305,The Issara Ladprao,109268.14,Lad Phrao Wang Hin Road,80000,1.3,3.88,12.21,2.18,3,Chom Phon,Chatuchak,North Bangkok,561,2009,15,1,1,0,0,1,1,0,0
+306,CIELA Sripatum,121605.88,Sena Nikhom 1 Road,80000,0.1,3.33,6.7,2.47,2.56,Lat Yao,Chatuchak,North Bangkok,900,2019,5,1,1,1,1,0,0,0,0
+307,Estabe Phahonyothin 18,83541.00,Kamphaeng Phet 6 Road,35000,1.86,2.46,13.81,1.5,4.77,Chom Phon,Chatuchak,North Bangkok,222,2018,6,1,1,1,0,1,1,0,0
+308,The Unique 19,83814.00,Lat Phrao Road,233333.3,1.96,2.56,12.6,2.23,3.1,Chom Phon,Chatuchak,North Bangkok,76,2015,9,1,1,1,0,1,1,0,0
+309,Elephant Tower,70513.00,Sena Nikhom 1 Road,80000,2.98,1.76,10.51,1.7,1.27,Chom Phon,Chatuchak,North Bangkok,362,1997,27,0,0,1,0,0,1,0,0
+310,D’Mura Ratchayothin,71209.00,Sena Nikhom 1 Road,80000,4.31,3.97,8.73,4.43,1.02,Sena Nikhom,Chatuchak,North Bangkok,216,2017,7,1,1,1,1,0,0,0,0
+311,Equinox Phahol Vibha,114952.00,Kamphaeng Phet 6 Road,35000,2.02,3.69,12.56,2.32,3.33,Chom Phon,Chatuchak,North Bangkok,490,2013,11,1,1,1,0,1,1,0,0
+312,Life @ Ratchada,74891.50,Lad Phrao Wang Hin Road,80000,0.59,3.76,12.48,2,3.56,Chan Kasem,Chatuchak,North Bangkok,474,2010,14,1,1,1,0,1,1,0,0
+313,Chokchai Ruammit,38462.00,Vibhavadi Rangsit Road,216666.7,1.96,2.56,12.6,2.23,3.1,Chom Phon,Chatuchak,North Bangkok,915,1993,31,0,1,0,0,0,1,0,0
+314,The Key Phahonyothin,60404.00,Sena Nikhom 1 Road,80000,4.17,3.73,8.92,4.45,0.64,Sena Nikhom,Chatuchak,North Bangkok,505,2011,13,1,1,1,0,1,1,0,0
+315,Chapter one Midtown Ladprao 24,113929.27,Lad Phrao Wang Hin Road,80000,0.83,3.81,12.32,2.01,3.21,Chom Phon,Chatuchak,North Bangkok,514,2017,7,0,1,1,1,0,0,1,0
+316,The Ville Kaset-sart,80841.00,Ngamwongwan Road,200000,3.06,2.66,9.77,2.92,1.55,Lat Yao,Chatuchak,North Bangkok,79,2015,9,1,1,1,0,1,1,0,0
+317,Regent Home 6 Prachacheun,33709.50,Prachachuen Road,180000,3.14,1.51,9.72,4.53,3.68,Chatuchak,Chatuchak,North Bangkok,1031,2009,15,0,1,0,0,0,1,0,0
+318,SYM Vibha-Ladprao,84356.00,Kamphaeng Phet 6 Road,35000,1.93,3.43,12.81,2.1,3.57,Chom Phon,Chatuchak,North Bangkok,728,2011,13,1,1,1,0,1,1,0,0
+319,U Delight Ratchavibha,87735.25,Thetsaban Songkhro Road,200000,4.47,2.29,9.7,4.57,1.71,Lat Yao,Chatuchak,North Bangkok,875,2017,7,1,1,1,0,0,0,0,0
+320,Life Ladprao,148585.70,Kamphaeng Phet 6 Road,35000,2.34,0.7,11.58,2.78,2.35,Chom Phon,Chatuchak,North Bangkok,1615,2020,4,0,1,1,0,0,1,1,0
+321,Tree Condo Ladprao 27,64000.00,Lad Phrao Wang Hin Road,80000,0.7,3.85,12.37,2.11,3.46,Chan Kasem,Chatuchak,North Bangkok,79,2008,16,0,1,1,0,1,1,0,0
+322,The Room Ratchada-Ladprao,74461.22,Lad Phrao Wang Hin Road,80000,0.46,3.77,12.58,1.85,3.6,Chan Kasem,Chatuchak,North Bangkok,801,2008,16,1,1,1,0,1,1,0,0
+323,Whizdom Avenue Ratchada-Ladprao,159719.67,Lad Phrao Wang Hin Road,80000,0.67,3.78,12.4,1.95,3.35,Chom Phon,Chatuchak,North Bangkok,497,2016,8,1,1,1,1,0,0,0,0
+324,The Legacy Viphawadi,50758.00,Kamphaeng Phet 6 Road,35000,1.58,3.85,12.27,2.25,3.02,Lat Yao,Chatuchak,North Bangkok,193,1992,32,1,1,1,0,0,1,0,0
+325,IDEO Ladprao 5,89244.50,Kamphaeng Phet 6 Road,35000,1.61,3.99,12.11,2.37,2.87,Chom Phon,Chatuchak,North Bangkok,418,2010,14,0,1,1,1,0,1,0,0
+326,The Nigh Condo Ngamwongwan,53497.00,Ngam Wong Wan Road,150000,4.81,1.16,8.68,3.48,2.26,Lat Yao,Chatuchak,North Bangkok,77,2012,12,0,1,1,0,1,1,0,0
+327,Levo Ladprao 18 Project 1,76333.00,Lat Phrao Road,233333.3,1.96,2.56,12.6,2.23,3.1,Chom Phon,Chatuchak,North Bangkok,129,2014,10,0,1,1,0,1,1,0,0
+328,Supalai Cute Ratchayothin-Phaholyothin 34,65886.83,Sena Nikhom 1 Road,80000,4.33,3.76,8.74,4.33,0.83,Sena Nikhom,Chatuchak,North Bangkok,882,2016,8,0,1,1,0,0,1,1,0
+329,Central Ratchayothin Park,55000.00,Sena Nikhom 1 Road,80000,3.29,2.17,10.1,1.3,0.86,Chan Kasem,Chatuchak,North Bangkok,257,1996,28,0,0,1,0,1,1,0,0
+330,Wilmore Condominium,56050.00,Sena Nikhom 1 Road,80000,3.83,3.61,9.37,4.73,0.24,Chan Kasem,Chatuchak,North Bangkok,69,2008,16,0,1,0,0,0,1,0,0
+331,Supalai Park Phaholyothin,78324.67,Thetsaban Songkhro Road,200000,2.83,1.37,10.91,2.12,1.7,Lat Yao,Chatuchak,North Bangkok,828,2011,13,1,1,0,0,1,1,0,0
+332,Kensington Phahol-Kaset,86644.33,Sena Nikhom 1 Road,80000,0.56,3.2,7.91,3.42,1.36,Sena Nikhom,Chatuchak,North Bangkok,229,2017,7,0,1,1,0,1,1,0,0
+333,Knightsbridge Space Ratchayothin,157921.38,Thetsaban Songkhro Road,200000,2.99,1.65,10.63,1.83,1.41,Chatuchak,Chatuchak,North Bangkok,488,2020,4,1,1,1,1,0,0,0,0
+334,Life Ladprao Valley,153166.29,Kamphaeng Phet 6 Road,35000,2.24,0.56,11.71,2.95,2.48,Chom Phon,Chatuchak,North Bangkok,1140,2021,3,0,1,1,1,0,0,1,0
+335,The Line Jatujak-Mochit,188621.13,Kamphaeng Phet 6 Road,35000,1.9,3.31,13.01,2.1,3.78,Chom Phon,Chatuchak,North Bangkok,841,2018,6,0,1,0,0,0,0,0,0
+336,The Seed Terre Ratchayothin,86444.00,Sena Nikhom 1 Road,80000,3.49,3.58,9.95,1.16,0.74,Lat Yao,Chatuchak,North Bangkok,236,2010,14,0,1,1,0,1,1,0,0
+337,Bridge Phaholyothin 37,82603.00,Phahonyothin Road,330000,3.06,2.66,9.77,2.92,1.55,Lat Yao,Chatuchak,North Bangkok,308,2008,16,1,1,1,0,1,1,0,0
+338,Young Place Grand Le Jardin,53020.00,Sena Nikhom 1 Road,80000,3.82,3.27,9.67,4.83,0.58,Lat Yao,Chatuchak,North Bangkok,235,1992,32,0,1,0,0,0,1,0,0
+339,U Delight @ Phaholyothin Station,68538.00,Phahonyothin Road,330000,1.96,2.56,12.6,2.23,3.1,Chom Phon,Chatuchak,North Bangkok,389,2014,10,1,1,1,0,1,1,0,0
+340,M Jatujak,128437.18,Kamphaeng Phet 6 Road,35000,1.51,2.4,14.09,1.78,4.36,Chatuchak,Chatuchak,North Bangkok,864,2015,9,1,1,0,0,1,1,0,0
+341,Lumpini Park Phahon 32,121071.00,Sena Nikhom 1 Road,80000,3.74,3.48,9.58,4.84,0.35,Chan Kasem,Chatuchak,North Bangkok,546,2019,5,0,1,1,0,0,0,0,0
+342,Supalai Park Kaset,52756.50,Sena Nikhom 1 Road,80000,4.45,3.61,8.63,4.18,0.81,Sena Nikhom,Chatuchak,North Bangkok,1456,2009,15,0,1,1,0,0,0,1,0
+343,Chewathai Kaset-Nawamin,127500.00,Sena Nikhom 1 Road,80000,4.79,4.09,8.24,4.15,1.52,Sena Nikhom,Chatuchak,North Bangkok,649,2021,3,0,1,1,1,1,1,0,0
+344,iCondo Kaset-Nawamin,60999.67,Prasert Manukit Road,75000,3.86,3.56,8.7,4.04,0.91,Sena Nikhom,Chatuchak,North Bangkok,180,2012,12,0,1,1,0,1,1,0,0
+345,Metro Luxe Kaset,81873.67,Sena Nikhom 1 Road,80000,4.85,4.06,8.18,4.09,1.54,Sena Nikhom,Chatuchak,North Bangkok,563,2015,9,0,1,1,0,0,1,0,0
+346,Premsiri Boutique Park,60168.00,Sena Nikhom 1 Road,80000,4.55,3.65,8.52,4.12,0.95,Sena Nikhom,Chatuchak,North Bangkok,834,2007,17,0,1,1,0,1,1,0,0
+347,Sarin Place,52941.00,Thetsaban Songkhro Road,200000,3.6,3.37,10.21,1.54,1.2,Lat Yao,Chatuchak,North Bangkok,285,1996,28,0,1,0,0,0,1,0,0
+348,Supalai Park Ratchayothin,60017.33,Thetsaban Songkhro Road,200000,3.77,3.22,10.3,3.41,1.45,Lat Yao,Chatuchak,North Bangkok,804,2011,13,1,1,0,0,1,1,0,0
+349,The Cube Premium Ratchada 32,92517.50,Lad Phrao Wang Hin Road,80000,2.08,2.11,10.95,2.5,2.11,Chan Kasem,Chatuchak,North Bangkok,171,2018,6,1,1,1,0,1,1,0,0
+350,Pensiri Place,57826.00,Sena Nikhom 1 Road,80000,3.7,3.61,9.54,4.86,0.31,Sena Nikhom,Chatuchak,North Bangkok,99,1994,30,0,1,0,0,0,1,0,0
+351,Supalai City Resort Ratchayothin-Phaholyothin 32,68025.00,Phahon Yothin Road,130000,0.6,1.7,9.7,1.6,0.5,Chan Kasem,Chatuchak,North Bangkok,322,2014,10,1,1,1,0,0,1,0,0
+352,The Tree Ladprao 15,83704.00,Lat Phrao Road,233333.3,1.96,2.56,12.6,2.23,3.1,Chom Phon,Chatuchak,North Bangkok,214,2019,5,0,1,1,0,1,1,0,0
+353,The Classy Ratchadapisek 19,56250.00,Ratchadaphisek Ram Inthra Road,60000,2.75,2.04,17.86,2.92,2.78,Chom Phon,Chatuchak,North Bangkok,49,2012,12,0,1,1,0,0,1,0,0
+354,My Condo Ladprao 27,52621.40,Lad Phrao Wang Hin Road,80000,0.82,3.95,12.25,2.22,3.35,Chan Kasem,Chatuchak,North Bangkok,378,2009,15,0,1,0,0,1,1,0,0
+355,Supapong Place,39106.00,Lad Phrao Wang Hin Road,80000,0.96,3.84,12.22,2.37,3.44,Chan Kasem,Chatuchak,North Bangkok,194,1993,31,0,1,0,0,0,1,0,0
+356,Maru Ladprao 15,147922.00,Lad Phrao Wang Hin Road,80000,1.01,3.86,12.24,2.09,3.09,Chom Phon,Chatuchak,North Bangkok,332,2021,3,1,1,1,0,1,1,0,0
+357,The Belgravia @ Ratchada-Ladprao 15,90116.00,Lad Phrao Wang Hin Road,80000,1.26,4.28,11.85,2.48,2.76,Chom Phon,Chatuchak,North Bangkok,185,2020,4,0,1,1,0,1,1,0,0
+358,THE MUVE Kaset,121499.00,Sena Nikhom 1 Road,80000,4.4,2.8,9.12,4.24,0.6,Lat Yao,Chatuchak,North Bangkok,248,2023,1,0,1,1,0,0,1,0,0
+359,Notting Hill Chatuchak-Interchange,126471.00,Kamphaeng Phet 6 Road,35000,2.9,3.92,11.28,2.76,2.43,Chom Phon,Chatuchak,North Bangkok,156,2018,6,0,1,1,1,1,1,0,0
+360,Elio Del Mos Phaholyothin 34,74858.20,Sena Nikhom 1 Road,80000,4.52,3.92,8.51,4.25,1.15,Sena Nikhom,Chatuchak,North Bangkok,1522,2019,5,0,1,1,0,1,1,0,0
+361,The Prive Ratchadapisek 30,71632.50,Lad Phrao Wang Hin Road,80000,1.38,1.63,11.66,2.69,2.67,Chan Kasem,Chatuchak,North Bangkok,79,2014,10,1,1,1,0,1,1,0,0
+362,Modiz Ratchada 32,98000.00,Lad Phrao Wang Hin Road,80000,1.75,1.65,11.31,2.71,2.29,Chan Kasem,Chatuchak,North Bangkok,191,2019,5,0,1,1,1,0,1,0,0
+363,Condo U Vibha-Ladprao,78130.50,Kamphaeng Phet 6 Road,35000,1.45,3.05,13.07,1.58,3.83,Chom Phon,Chatuchak,North Bangkok,362,2014,10,0,1,1,0,1,1,0,0
+364,Baan Prachaniwet 1,28732.00,Prachachuen Road,180000,3.06,2.66,9.77,2.92,1.55,Lat Yao,Chatuchak,North Bangkok,800,1999,25,0,1,0,0,1,1,0,0
+365,Tawanna Residence 2,30522.00,Thetsaban Songkhro Road,200000,3,3.86,11.16,3.43,2.45,Chatuchak,Chatuchak,North Bangkok,248,1986,38,0,1,1,0,1,1,0,0
+366,The Saint Residences Ladprao,103489.20,Kamphaeng Phet 6 Road,35000,2.07,3.93,12.3,2.52,3.07,Chom Phon,Chatuchak,North Bangkok,1533,2017,7,1,1,1,1,0,0,0,0
+367,Regent Home 5 Ratchada 19,35890.00,Ratchadaphisek Ram Inthra Road,60000,2.75,2.04,17.86,2.92,2.78,Chom Phon,Chatuchak,North Bangkok,332,2008,16,0,1,0,0,1,1,0,0
+368,Knightsbridge Kaset-Society,151823.50,Sena Nikhom 1 Road,80000,4.22,3.23,9.04,4.33,0.21,Sena Nikhom,Chatuchak,North Bangkok,332,2020,4,0,1,1,0,1,1,0,0
+369,Baan Suanthon Ratchada,36047.00,Ratchadaphisek Road,390000,1.94,2.94,11.05,2.56,2.04,Chan Kasem,Chatuchak,North Bangkok,128,2012,12,0,0,1,0,1,1,0,0
+370,624 Condolette Ratchada 36,76264.50,Lad Phrao Wang Hin Road,80000,2.55,2.05,10.53,1.91,1.5,Chan Kasem,Chatuchak,North Bangkok,486,2013,11,0,1,1,0,1,1,0,0
+371,Life @ Ladprao 18,89661.29,Kamphaeng Phet 6 Road,35000,2.34,0.7,11.58,2.78,2.35,Chom Phon,Chatuchak,North Bangkok,456,2013,11,1,1,1,0,0,1,0,0
+372,Lumpini Ville Suksawat-Rama 2,71739.00,Witthayu Road,1000000,3.81,3.64,28.34,2.63,3.7,Bang Mot,Chom Thong,North Krungthon,377,2019,5,0,1,1,0,1,1,0,0
+373,Lumpini Place Suksawat - Rama 2,62451.67,Chom Thong Road,80000,2.71,3.7,27.98,2.7,3.45,Chom Thong,Chom Thong,North Krungthon,747,2014,10,1,1,1,0,0,1,1,0
+374,Aspire Sathorn - Taksin Timber Zone,67110.00,Wutthakat Road,80000,0.53,1.04,26.94,4.59,4.69,Bang Kho,Chom Thong,North Krungthon,546,2015,9,0,1,1,0,1,1,1,0
+375,Aspire Sathon-Taksin (Copper Zone),78605.33,Wutthakat Road,80000,0.49,1.08,26.97,4.61,4.74,Bang Kho,Chom Thong,North Krungthon,613,2016,8,1,1,1,0,0,0,1,0
+376,Aspire Sathorn-Taksin (Brick Zone),59286.00,Ratchaphruek Road,123333.3,0.33,1.05,26.79,3.97,4.09,Bang Kho,Chom Thong,North Krungthon,364,2015,9,0,1,1,0,0,0,1,0
+377,Elio Sathorn-Wutthakat,94259.00,Wutthakat Road,80000,0.51,0.8,26.69,4.35,4.44,Bang Kho,Chom Thong,North Krungthon,1161,2021,3,0,1,1,1,0,0,0,0
+378,The Niche ID Rama 2,51698.67,Chom Thong Road,80000,3.78,2.78,29.89,2.63,1.5,Bang Mot,Chom Thong,North Krungthon,616,2013,11,0,1,1,1,1,1,0,0
+379,The Tempo Grand Sathorn-Wutthakat,83772.50,Wutthakat Road,80000,0.11,0.93,26.74,4.37,4.6,Bang Kho,Chom Thong,North Krungthon,1004,2016,8,1,1,1,1,0,1,0,0
+380,The Key Sathorn-Ratchapreuk,67000.00,Wutthakat Road,80000,0.33,0.98,26.85,4.49,4.66,Bang Kho,Chom Thong,North Krungthon,834,2014,10,1,1,1,0,1,1,0,0
+381,Grand Condominium Wutthakat 57,63967.00,Wutthakat Road,80000,0.33,1.05,26.79,3.97,4.09,Bang Kho,Chom Thong,North Krungthon,72,2021,3,0,1,1,0,1,1,0,0
+382,Fuse Miti Ratchada-Sutthisan,80000.00,Watcharaphon Road,65000,2.74,2.49,17.94,3.18,2.66,Din Daeng,Din Daeng,Central Bangkok,281,2015,9,1,1,1,0,1,1,0,0
+383,Metro  SKY Ratchada,70370.00,Ratchadaphisek Ram Inthra Road,60000,1.7,4.57,14.72,0.8,4.13,Ratchadaphisek,Din Daeng,Central Bangkok,441,2011,13,0,1,1,0,1,1,0,0
+384,Metro Sky Ratchada,75758.00,Ratchadaphisek Ram Inthra Road,60000,1.7,4.57,14.72,0.8,4.13,Ratchadaphisek,Din Daeng,Central Bangkok,441,2011,13,0,1,0,0,0,1,0,0
+385,Quinn Condo Ratchada 17,112442.60,Lat Phrao Road,233333.3333,1.39,2.42,14.41,0.82,4.33,Din Daeng,Din Daeng,Central Bangkok,729,2015,9,1,1,1,1,0,1,0,0
+386,Metro Luxe Ratchada,118353.71,Ratchadaphisek Ram Inthra Road,60000,1.67,4.61,14.68,0.9,4.09,Ratchadaphisek,Din Daeng,Central Bangkok,535,2017,7,0,1,1,0,1,0,0,0
+387,ASHTON Asoke - Rama 9,223926.67,Ratchadaphisek Ram Inthra Road,60000,2.62,1.92,17.97,2.85,2.68,Din Daeng,Din Daeng,Central Bangkok,599,2020,4,1,1,1,0,0,1,0,0
+388,Boutique Ratchada 17,45161.00,Watcharaphon Road,65000,1.32,4,14.32,1.64,4.21,Ratchadaphisek,Din Daeng,Central Bangkok,70,2007,17,0,0,0,0,0,1,0,0
+389,KnightsBridge Space Rama 9,210568.75,Ratchadaphisek Ram Inthra Road,60000,2.46,1.88,18,2.92,2.48,Din Daeng,Din Daeng,Central Bangkok,325,2021,3,1,1,1,0,0,0,1,0
+390,Casa Condo Asoke - Dindaeng,78427.14,Asoke Din Daeng Road,375000,2.24,2.35,17.74,3.63,1.78,Din Daeng,Din Daeng,Central Bangkok,920,2013,11,0,1,1,0,1,1,0,0
+391,A Space Hideaway Asoke-Ratchada,80769.00,Ratchadaphisek Ram Inthra Road,60000,2.75,2.04,17.86,2.92,2.78,Din Daeng,Din Daeng,Central Bangkok,439,2009,15,0,1,1,0,1,1,0,0
+392,A Space Asoke-Ratchada,76920.43,Ratchadaphisek Ram Inthra Road,60000,2.33,1.94,17.97,3.07,2.25,Din Daeng,Din Daeng,Central Bangkok,2177,2010,14,1,1,1,0,0,1,0,0
+393,A Space ID Asok-Ratchada,107267.67,Ratchadaphisek Ram Inthra Road,60000,2.33,1.94,17.97,3.07,2.25,Din Daeng,Din Daeng,Central Bangkok,543,2019,5,1,1,1,0,0,1,0,0
+394,Baan Klang Krung Resort (Ratchada 7),54120.00,Rama 3 Road,240000,4.45,3.84,26.7,4.16,3.76,Din Daeng,Din Daeng,Central Bangkok,443,2007,17,0,1,0,0,1,1,0,0
+395,Amanta Ratchada,89589.00,Ratchadaphisek Ram Inthra Road,60000,3.55,3.03,16.86,3.85,3.22,Din Daeng,Din Daeng,Central Bangkok,344,2005,19,0,1,1,0,0,1,0,0
+396,Lumpini Suite Dindaeng-Ratchaprarop,109696.00,Asoke Din Daeng Road,375000,2.22,2.36,17.75,3.66,1.73,Din Daeng,Din Daeng,Central Bangkok,491,2019,5,1,1,1,0,0,0,0,0
+397,Srivara Mansion,38750.00,Ratchadapisek Road,302333.3,2.74,2.49,17.94,3.18,2.66,Din Daeng,Din Daeng,Central Bangkok,532,1992,32,0,1,0,0,0,1,0,0
+398,The Line Asoke-Ratchada,176684.29,Ratchadaphisek Ram Inthra Road,60000,2.54,1.9,17.99,2.88,2.58,Din Daeng,Din Daeng,Central Bangkok,473,2019,5,1,1,1,0,0,0,0,0
+399,Supalai Park Asoke-Ratchada,67476.86,Ratchadaphisek Ram Inthra Road,60000,2.33,1.86,18.03,2.96,2.32,Din Daeng,Din Daeng,Central Bangkok,500,2011,13,0,1,1,0,0,0,1,0
+400,The Tree Dindaeng - Ratchaprarop,119298.00,Asoke Din Daeng Road,375000,2.05,2.74,17.85,2.52,1.11,Din Daeng,Din Daeng,Central Bangkok,226,2019,5,0,1,1,0,1,1,0,0
+401,The Kris Ratchada 17,79323.60,Ratchadapisek Road,302333.3,1.32,4,14.32,1.64,4.21,Ratchadaphisek,Din Daeng,Central Bangkok,327,2013,11,0,1,1,0,1,1,0,0
+402,Chateau In Town Ratchada 13,59700.00,Ratchadaphisek Ram Inthra Road,60000,1.92,4.94,14.94,4.76,3.92,Ratchadaphisek,Din Daeng,Central Bangkok,292,2007,17,0,1,0,0,0,1,0,0
+403,Chateau In Town Ratchada 17,70185.00,Ratchadaphisek Ram Inthra Road,60000,1.6,4.67,14.63,0.82,4.17,Ratchadaphisek,Din Daeng,Central Bangkok,150,2013,11,0,0,0,0,0,0,0,0
+404,Condo One Ratchada-Ladprao,70000.00,Lad Phrao Wang Hin Road,80000,0.11,3.25,13,1.4,3.95,Ratchadaphisek,Din Daeng,Central Bangkok,90,2015,9,0,0,0,0,0,0,0,0
+405,The Kris Extra 5,67821.00,Ratchadaphisek Road,390000,1.32,4,14.32,1.64,4.21,Ratchadaphisek,Din Daeng,Central Bangkok,193,2012,12,1,1,1,0,0,0,1,0
+406,Emerald Residence Ratchada,76819.00,Ratchadaphisek Ram Inthra Road,60000,4.54,4.18,15.71,4.02,3.96,Din Daeng,Din Daeng,Central Bangkok,635,2012,12,0,1,1,0,1,1,0,0
+407,The Teak Ratchada 19,145641.00,Lad Phrao Wang Hin Road,80000,0.1,3.18,13.08,1.34,4.04,Ratchadaphisek,Din Daeng,Central Bangkok,78,2020,4,0,1,1,0,1,1,0,0
+408,Aspire Asoke-Ratchada,101636.00,Ratchadaphisek Ram Inthra Road,60000,2.93,2.8,17.14,3.9,2.43,Din Daeng,Din Daeng,Central Bangkok,1025,2020,4,0,1,1,0,0,1,1,0
+409,Maestro 03 Ratchada-Rama 9,134544.40,Ratchadaphisek Ram Inthra Road,60000,3.15,2.72,17.16,3.65,2.84,Din Daeng,Din Daeng,Central Bangkok,335,2018,6,1,1,1,0,0,0,0,0
+410,Maestro 19 Ratchada 19–Vipha,93129.00,Watcharaphon Road,65000,2.74,2.49,17.94,3.18,2.66,Din Daeng,Din Daeng,Central Bangkok,560,2019,5,1,1,1,1,0,1,0,0
+411,IDEO Ratchada-Sutthisan,109290.33,Sangkhom Songkhro Road,70000,1.13,2.92,14.14,0.42,4.78,Ratchadaphisek,Din Daeng,Central Bangkok,410,2020,4,0,1,1,0,1,1,0,0
+412,Centric Ratchada-Suthisan,93663.00,Sangkhom Songkhro Road,70000,1.02,2.68,14.04,0.79,4.69,Ratchadaphisek,Din Daeng,Central Bangkok,270,2013,11,1,1,1,0,0,1,0,0
+413,Happy Condo Donmuang The Terminal,83292.00,Song Prapha Road,49000,4.13,2.82,3.05,0.81,4.25,Si Kan,Don Mueang,North Bangkok,1072,2006,18,1,0,1,0,1,1,0,0
+414,JW Condo @ Don Mueang,67900.00,Chang Akat Uthit Road,31500,2.57,3.87,1.6,0.84,2.71,Si Kan,Don Mueang,North Bangkok,673,2017,7,0,1,1,0,1,1,0,0
+415,Den Vibhavadi,49635.50,Vibhavadi Rangsit Road,216666.6667,1.82,3.27,3.29,1.95,3.98,Sanambin,Don Mueang,North Bangkok,706,2012,12,1,1,0,0,0,1,0,0
+416,Supalai Premier Samsen-Ratchawat,113730.00,Ratchawithi Road,225000,4.04,3.49,17.31,4.35,2.66,Thanon Nakhon Chai Si,Dusit,Central Bangkok,248,2023,1,0,1,1,0,0,0,0,0
+417,Lumpini Ville Ramkhamhaeng 26,48408.33,Hua Mak Road,85000,2.31,1.69,14.69,1.47,2.14,Hua Mak,Bang Kapi,Eastern Bangkok,998,2009,15,0,1,1,0,0,0,1,0
+418,Lumpini Ville Ramkhamhaeng 60/2,59107.00,Hua Mak Road,85000,2.79,1.41,13.55,1.15,1.68,Hua Mak,Bang Kapi,Eastern Bangkok,1212,2014,10,0,1,1,1,0,0,0,0
+419,City Home Ratchada,51387.67,Ratchadaphisek Ram Inthra Road,60000,4.69,4.06,15.95,4.63,2.65,Huai Khwang,Huai Khwang,Central Bangkok,1414,2013,11,0,1,1,0,1,1,0,0
+420,Chateau In Town Ratchada 10,79592.00,Ratchadaphisek Ram Inthra Road,60000,4.47,3.89,16.08,4.52,4.07,Huai Khwang,Huai Khwang,Central Bangkok,79,2013,11,0,1,0,0,1,1,0,0
+421,Belle Grand Rama 9,138422.83,Ratchadaphisek Ram Inthra Road,60000,3.33,2.59,17.36,3.29,3.25,Huai Khwang,Huai Khwang,Central Bangkok,1991,2015,9,1,1,1,0,0,0,0,0
+422,PG2 Rama IX,66129.00,Rama 9 Road,188333.3,3.17,3.55,16.33,3.93,3.08,Huai Khwang,Huai Khwang,Central Bangkok,217,2009,15,0,0,1,0,0,1,1,0
+423,My Resort Bangkok Condominium,95372.67,Phetchaburi Road,243333.3333,2.59,1.34,18.7,2,3.07,Bang Kapi,Huai Khwang,Central Bangkok,382,2009,15,1,1,1,0,0,1,0,0
+424,Supalai Premier Asoke,134186.67,Phetchaburi Road,243333.3333,2.44,1.22,18.77,1.98,2.95,Bang Kapi,Huai Khwang,Central Bangkok,645,2013,11,1,1,1,0,1,1,1,0
+425,The Parkland Grand Asoke-Phetchaburi,100261.00,Phetchaburi Road,243333.3333,2.73,1.48,18.62,2.04,3.19,Bang Kapi,Huai Khwang,Central Bangkok,295,2012,12,1,1,1,0,1,1,0,0
+426,Life @ Ratchada-Huai Khwang,94640.89,Ratchadaphisek Ram Inthra Road,60000,2.24,4.72,15.2,4.34,3.47,Huai Khwang,Huai Khwang,Central Bangkok,483,2009,15,1,1,1,0,1,1,0,0
+427,One9Five Asoke-Rama 9,175679.82,Ratchadaphisek Ram Inthra Road,60000,3.04,2.16,17.8,2.86,3.12,Huai Khwang,Huai Khwang,Central Bangkok,1911,2022,2,1,1,1,0,0,0,0,0
+428,Diamond Ratchada (Tower A),87178.29,Ratchadaphisek Road,390000,3.17,3.55,16.33,3.93,3.08,Huai Khwang,Huai Khwang,Central Bangkok,691,2012,12,0,1,1,0,1,1,1,0
+429,Rhythm Ratchada-Huaikwang,117844.00,Ratchadaphisek Ram Inthra Road,60000,2.34,4.63,15.3,4.24,3.37,Huai Khwang,Huai Khwang,Central Bangkok,539,2011,13,1,1,1,0,1,1,0,0
+430,XT Huaikhwang,165738.38,Ratchadaphisek Ram Inthra Road,60000,2.11,4.83,15.08,4.47,3.6,Huai Khwang,Huai Khwang,Central Bangkok,1404,2021,3,1,1,1,1,0,0,0,0
+431,Life Ratchadapisek,106369.25,Ratchadaphisek Ram Inthra Road,60000,1.79,4.54,14.76,4.78,3.9,Huai Khwang,Huai Khwang,Central Bangkok,837,2013,11,1,1,1,0,1,1,0,0
+432,The Capital Ekamai-Thonglor,150271.50,Thonglor Road (Sukhumvit 55),370000,4.75,3.17,18.62,2.47,0.68,Bang Kapi,Huai Khwang,Central Bangkok,281,2015,9,1,1,0,0,1,1,0,0
+433,A Space Play,50266.00,Sangkhom Songkhro Road,70000,1.88,2.03,13.74,1.45,4.57,Samsen Nok,Huai Khwang,Central Bangkok,485,2008,16,0,1,1,0,1,1,1,0
+434,Supalai City Resort Ratchada-Huaykwang,60717.50,Ratchadaphisek Ram Inthra Road,60000,4.83,4.16,15.9,4.69,2.62,Huai Khwang,Huai Khwang,Central Bangkok,875,2014,10,1,1,1,0,1,1,0,0
+435,AQ Alix Residence Soonvijai,121213.00,Phetchaburi Road,243333.3,3.29,2.4,18.41,2.39,2.2,Bang Kapi,Huai Khwang,Central Bangkok,66,2018,6,1,1,0,0,0,1,0,0
+436,Supalai Veranda Rama 9,92082.58,Thonglor Road (Sukhumvit 55),370000,4.56,3.32,17.44,3.3,0.88,Bang Kapi,Huai Khwang,Central Bangkok,1410,2019,5,0,1,1,0,0,0,0,0
+437,U Delight Huay Kwang Station,73810.00,Ratchadaphisek Ram Inthra Road,60000,3.03,4.33,15.8,4.79,2.63,Huai Khwang,Huai Khwang,Central Bangkok,597,2011,13,1,1,1,0,0,1,0,0
+438,Ivy Ampio,159886.50,Ratchadaphisek Ram Inthra Road,60000,3.45,2.85,17.06,3.62,3.22,Huai Khwang,Huai Khwang,Central Bangkok,289,2013,11,1,1,1,0,1,1,0,0
+439,Family Park Condominium,37254.50,Sangkhom Songkhro Road,70000,1.6,2.53,13.25,1.81,4.82,Samsen Nok,Huai Khwang,Central Bangkok,725,2005,19,0,1,0,0,1,1,0,0
+440,Rhythm Ratchada,96589.88,Lad Phrao Wang Hin Road,80000,0.17,3.35,13.02,1.5,4.06,Samsen Nok,Huai Khwang,Central Bangkok,881,2011,13,1,1,1,0,1,1,0,0
+441,IDEO Ratchada-Huaikwang,93704.00,Ratchadaphisek Ram Inthra Road,60000,2.3,4.67,15.26,4.28,3.41,Huai Khwang,Huai Khwang,Central Bangkok,398,2011,13,1,1,1,0,1,1,1,0
+442,Asher Ratchada,69053.50,Lat Phrao Road,233333.3333,1.83,1.69,14.21,2.05,4.12,Samsen Nok,Huai Khwang,Central Bangkok,117,2019,5,1,1,1,0,1,1,0,0
+443,Noble Revolve Ratchada 2,150199.57,Ratchadaphisek Ram Inthra Road,60000,3.52,2.89,17.03,3.63,3.31,Huai Khwang,Huai Khwang,Central Bangkok,755,2018,6,1,1,1,0,0,0,0,0
+444,Condolette Midst Rama 9,143549.80,Ratchadaphisek Ram Inthra Road,60000,2.83,2.01,17.91,2.82,2.92,Huai Khwang,Huai Khwang,Central Bangkok,433,2015,9,1,1,1,0,1,1,0,0
+445,SOHO Bangkok Ratchada,147511.67,Ratchadaphisek Ram Inthra Road,60000,2.28,4.74,15.21,4.28,3.39,Huai Khwang,Huai Khwang,Central Bangkok,341,2023,1,0,1,1,0,0,1,0,0
+446,Lumpini Park Rama 9 - Ratchada,85668.50,Ratchadaphisek Ram Inthra Road,60000,3.73,2.49,17.95,2.65,2.67,Bang Kapi,Huai Khwang,Central Bangkok,1540,2014,10,1,1,1,0,1,1,1,0
+447,IDEO MOBI Rama 9,136617.42,Ratchadaphisek Ram Inthra Road,60000,2.78,2,17.91,2.84,2.86,Huai Khwang,Huai Khwang,Central Bangkok,703,2013,11,1,1,1,0,0,0,0,0
+448,PG Rama 9,74083.50,Ratchadaphisek Ram Inthra Road,60000,3.07,2.12,17.88,2.76,3.2,Huai Khwang,Huai Khwang,Central Bangkok,400,2008,16,0,1,1,0,1,1,0,0
+449,Artisan Ratchada,89544.00,Ratchadaphisek Ram Inthra Road,60000,3.44,4.24,16.09,4.55,2.26,Huai Khwang,Huai Khwang,Central Bangkok,1337,2020,4,0,1,1,0,0,0,0,0
+450,Life Asoke,156128.35,Phetchaburi Road,243333.3333,2.45,1.43,18.5,2.28,2.81,Bang Kapi,Huai Khwang,Central Bangkok,1642,2018,6,1,1,1,0,1,1,0,0
+451,Garden Asoke-Rama 9,63669.50,Ratchadaphisek Ram Inthra Road,60000,3.5,2.18,18.27,2.32,3.88,Bang Kapi,Huai Khwang,Central Bangkok,630,2010,14,0,1,1,0,1,1,0,0
+452,The Next Ladprao,55357.00,Lat Phrao Road,233333.3,1.6,2.72,13.76,2.43,4.22,Samsen Nok,Huai Khwang,Central Bangkok,250,2007,17,0,0,0,0,0,1,0,0
+453,The Niche Ladprao 48,45249.50,Sangkhom Songkhro Road,70000,1.55,2.76,13.03,1.97,4.61,Samsen Nok,Huai Khwang,Central Bangkok,261,2007,17,0,1,0,0,0,1,0,0
+454,The Raffles,87857.00,Lat Phrao Road,233333.3,1.6,2.72,13.76,2.43,4.22,Samsen Nok,Huai Khwang,Central Bangkok,101,2012,12,1,1,0,0,1,1,0,0
+455,Ratchada Prestige,32810.50,Sangkhom Songkhro Road,70000,1.55,2.66,13.13,1.92,4.69,Samsen Nok,Huai Khwang,Central Bangkok,583,1997,27,0,0,1,0,1,1,1,0
+456,The Pulse Ladprao 44,51060.50,Lad Phrao Wang Hin Road,80000,0.87,3.29,12.7,2.15,3.99,Samsen Nok,Huai Khwang,Central Bangkok,202,2009,15,0,1,0,0,0,1,0,0
+457,Happy Condo Ratchada 18,54458.64,Lat Phrao Road,233333.3333,2.11,1.42,14.43,4.86,3.89,Samsen Nok,Huai Khwang,Central Bangkok,500,2009,15,0,1,1,0,1,1,0,0
+458,Cloud Thonglor-Phetchaburi,146315.89,Thonglor Road (Sukhumvit 55),370000,3.65,2.15,18.7,1.95,2.61,Bang Kapi,Huai Khwang,Central Bangkok,591,2022,2,0,1,1,0,0,0,0,0
+459,IDEO Mobi Asoke,202177.50,Phetchaburi Road,243333.3333,2.52,1.31,18.7,2.03,2.99,Bang Kapi,Huai Khwang,Central Bangkok,508,2018,6,1,1,1,1,0,0,1,0
+460,The Niche Pride Thonglor-Phetchaburi,119661.17,Thonglor Road (Sukhumvit 55),370000,4.35,2.78,18.79,2.2,3.31,Bang Kapi,Huai Khwang,Central Bangkok,667,2016,8,1,0,1,0,1,1,0,0
+461,Supalai Park Ekkamai-Thonglor,77091.11,Thonglor Road (Sukhumvit 55),370000,2.39,3.38,18.38,2.61,0.89,Bang Kapi,Huai Khwang,Central Bangkok,660,2014,10,0,1,1,0,1,1,0,0
+462,Thru Thonglor,96758.43,Thonglor Road (Sukhumvit 55),370000,4.58,3,18.78,2.36,0.56,Bang Kapi,Huai Khwang,Central Bangkok,515,2012,12,1,1,1,0,1,1,1,0
+463,The Base Petchaburi-Thonglor,134325.50,Thonglor Road (Sukhumvit 55),370000,4.24,2.68,18.73,2.18,3.2,Bang Kapi,Huai Khwang,Central Bangkok,496,2022,2,0,1,1,0,0,0,0,0
+464,Veranda Residence,104727.50,Phetchaburi Road,243333.3,3.29,2.4,18.41,2.39,2.2,Bang Kapi,Huai Khwang,Central Bangkok,77,2006,18,0,1,0,0,0,1,0,0
+465,Chapter One ECO Ratchada-Huaikwang,103521.50,Ratchadaphisek Ram Inthra Road,60000,3.07,4.28,15.85,4.74,2.58,Huai Khwang,Huai Khwang,Central Bangkok,1844,2019,5,1,1,1,0,0,0,0,0
+466,City Living Ratchada,57593.25,Ratchadaphisek Ram Inthra Road,60000,4.68,4.03,16,4.58,2.58,Huai Khwang,Huai Khwang,Central Bangkok,176,2005,19,0,1,0,0,0,1,0,0
+467,Zenith Place @ Huay Kwang,72776.50,Ratchadaphisek Ram Inthra Road,60000,2.48,4.77,15.28,4.1,3.17,Huai Khwang,Huai Khwang,Central Bangkok,126,2008,16,0,1,1,0,1,1,0,0
+468,Lumpini Ville Cultural Center,61916.00,Ratchadaphisek Ram Inthra Road,60000,3.22,4.5,15.82,4.82,2.51,Samsen Nok,Huai Khwang,Central Bangkok,1324,2006,18,0,1,1,0,0,0,1,0
+469,Brighton Place,56166.50,Rama 9 Road,188333.3,3.29,2.4,18.41,2.39,2.2,Bang Kapi,Huai Khwang,Central Bangkok,325,1998,26,0,1,0,0,0,1,0,0
+470,I-House Rama IX-Ekamai,55172.00,Rama 9 Road,188333.3,3.29,2.4,18.41,2.39,2.2,Bang Kapi,Huai Khwang,Central Bangkok,474,2005,19,0,1,0,0,0,1,0,0
+471,Rise Rama 9,72873.50,Rama 9 Road,188333.3333,3.6,4.51,17.73,3.88,1.64,Bang Kapi,Huai Khwang,Central Bangkok,655,2018,6,1,1,1,1,1,1,0,0
+472,IDEO Rama 9-Asoke,171149.60,Ratchadaphisek Ram Inthra Road,60000,2.87,1.96,18,2.69,3.02,Huai Khwang,Huai Khwang,Central Bangkok,1222,2022,2,1,1,1,1,0,0,0,0
+473,Lumpini Place Rama 9-Ratchada,85192.67,Ratchadaphisek Ram Inthra Road,60000,3.46,2.54,17.51,3.1,3.49,Huai Khwang,Huai Khwang,Central Bangkok,2330,2009,15,1,1,1,0,0,0,1,0
+474,Siamese Rama 9,109322.00,Thonglor Road (Sukhumvit 55),370000,4.56,3.26,17.62,3.16,0.69,Huai Khwang,Huai Khwang,Central Bangkok,1980,2022,2,0,1,1,1,0,1,0,0
+475,Supalai Prime Rama 9,92647.00,Thonglor Road (Sukhumvit 55),370000,4.51,3.23,17.61,3.15,3.45,Bang Kapi,Huai Khwang,Central Bangkok,217,2020,4,0,1,1,0,1,1,0,0
+476,TC Green Rama 9,87080.92,Ratchadaphisek Ram Inthra Road,60000,3.63,2.46,17.85,2.73,3.85,Huai Khwang,Huai Khwang,Central Bangkok,1908,2013,11,0,1,1,0,1,1,1,0
+477,Niche Mono Rama 9,100270.00,Rama 9 Road,188333.3333,4.49,4.62,16.74,4.43,1.87,Bang Kapi,Huai Khwang,Central Bangkok,410,2023,1,0,1,1,0,0,0,0,0
+478,Centric Ratchada-Huai Khwang,123627.20,Ratchadaphisek Ram Inthra Road,60000,2.07,4.86,15.05,4.51,3.64,Huai Khwang,Huai Khwang,Central Bangkok,674,2014,10,1,1,1,1,1,1,0,0
+479,Life @ Ratchada-Suthisan,98362.50,Sangkhom Songkhro Road,70000,0.91,2.68,13.91,0.93,4.76,Samsen Nok,Huai Khwang,Central Bangkok,520,2009,15,0,1,1,0,0,1,0,0
+480,I-House Laguna Garden,53507.33,Rama 9 Road,188333.3,3.29,2.4,18.41,2.39,2.2,Bang Kapi,Huai Khwang,Central Bangkok,900,2006,18,0,1,0,0,0,1,0,0
+481,TC Tower Condo,35000.00,Lat Phrao Road,233333.3333,2.13,4.7,14.78,4.55,3.61,Huai Khwang,Huai Khwang,Central Bangkok,153,1996,28,0,0,0,0,0,1,1,0
+482,The Excel Ratchada 18,111332.33,Lat Phrao Road,233333.3333,2.06,1.41,14.67,4.65,3.7,Huai Khwang,Huai Khwang,Central Bangkok,270,2020,4,0,1,1,1,1,1,0,0
+483,Asher Prive Sutthisan,72428.00,Sangkhom Songkhro Road,70000,1.06,2.45,13.63,1.64,4.8,Samsen Nok,Huai Khwang,Central Bangkok,79,2020,4,0,1,1,0,1,1,0,0
+484,Rhythm Asoke 2,169569.33,Ratchadaphisek Ram Inthra Road,60000,2.61,1.77,18.14,2.63,2.78,Bang Kapi,Huai Khwang,Central Bangkok,347,2017,7,1,1,1,0,0,0,0,0
+485,Amaranta Residence Ratchada-Huai,103269.00,Pracharat Sai 1 Road,195000,3.17,3.55,16.33,3.93,3.08,Huai Khwang,Huai Khwang,Central Bangkok,159,2018,6,1,1,1,0,0,0,0,0
+486,The Seed Ratchada-Huai Khwang,59895.50,Intharaphon Road,87500,2.64,4.93,15.26,4.05,3.09,Samsen Nok,Huai Khwang,Central Bangkok,308,2008,16,0,1,0,0,0,1,0,0
+487,The Niche Ratchada-Huai Khwang,75610.00,Ratchadaphisek Ram Inthra Road,60000,2.27,4.6,15.29,4.41,4.25,Ratchadaphisek,Din Daeng,Central Bangkok,203,2010,14,0,1,0,0,0,1,0,0
+488,Aspire Rama 9,96278.20,Ratchadaphisek Ram Inthra Road,60000,2.83,1.94,18,2.7,2.97,Huai Khwang,Huai Khwang,Central Bangkok,663,2013,11,1,1,1,0,1,1,0,0
+489,The Privacy Ratchada-Sutthisan,71937.80,Lat Phrao Road,233333.3333,1.95,1.96,13.8,1.38,4.51,Samsen Nok,Huai Khwang,Central Bangkok,199,2014,10,1,1,1,0,0,1,0,0
+490,Supalai Wellington,142757.38,Ratchadaphisek Ram Inthra Road,60000,4.61,3.78,16.4,4.19,2.07,Huai Khwang,Huai Khwang,Central Bangkok,1002,2014,10,1,1,1,1,1,1,0,0
+491,Supalai Wellington 2,81215.33,Ratchadaphisek Ram Inthra Road,60000,4.83,3.92,16.39,4.23,1.98,Huai Khwang,Huai Khwang,Central Bangkok,1092,2017,7,0,1,1,1,0,0,0,0
+492,Asher Sutthisan,72857.00,Sangkhom Songkhro Road,70000,1.4,2.53,13.31,2.25,4.77,Samsen Nok,Huai Khwang,Central Bangkok,78,2019,5,1,1,1,0,1,1,0,0
+493,Chateau In Town Ratchada 20-2,73463.50,Ratchadaphisek Road,390000,1.6,2.72,13.76,2.43,4.22,Samsen Nok,Huai Khwang,Central Bangkok,73,2013,11,0,1,0,0,0,1,0,0
+494,Centric Huai Khwang Station,123600.00,Ratchadaphisek Ram Inthra Road,60000,2.07,4.86,15.05,4.51,3.64,Huai Khwang,Huai Khwang,Central Bangkok,674,2016,8,0,1,1,1,1,1,0,0
+495,U Delight @ Jatujak Station,77196.50,Kamphaeng Phet 6 Road,35000,1.92,2.48,13.77,1.46,4.53,Chom Phon,Chatuchak,North Bangkok,900,2010,14,0,1,1,1,1,1,0,0
+496,The Elegant Ladprao 1,99667.00,Kamphaeng Phet 6 Road,35000,1.94,0.57,11.76,2.76,2.51,Chom Phon,Chatuchak,North Bangkok,147,2019,5,0,1,1,0,1,1,0,0
+497,PHILO Ladprao 18,124000.00,Lad Phrao Wang Hin Road,80000,0.81,3.56,12.55,1.78,3.39,Chom Phon,Chatuchak,North Bangkok,53,2020,4,0,1,1,0,1,1,0,0
+498,Atmoz Ladprao 15,74807.50,Lad Phrao Wang Hin Road,80000,1.77,1.05,11.53,2.83,2.33,Chom Phon,Chatuchak,North Bangkok,570,2021,3,0,1,1,0,0,1,0,0
+499,Denim Jatujak,93892.00,Kamphaeng Phet 6 Road,35000,1.91,2.38,13.83,1.33,4.94,Chom Phon,Chatuchak,North Bangkok,1813,2019,5,0,1,1,0,1,1,0,0
+500,Lumpini Park Vibhavadi-Chatuchak,100337.00,Kamphaeng Phet 6 Road,35000,1.76,2.36,13.8,1.2,4.56,Chom Phon,Chatuchak,North Bangkok,736,2019,5,1,1,1,0,0,0,0,0
+501,Regent Home 12,54182.67,Lad Phrao Wang Hin Road,80000,1.4,3.48,12.34,2.7,3.87,Samsen Nok,Huai Khwang,Central Bangkok,491,2011,13,0,0,1,0,1,1,1,0
+502,The Cube Nawamin-Ramintra,61852.00,Ram Inthra Road,135625,0.8,2.97,10.38,0.61,2.9,Ram Inthra,Khan Na Yao,Eastern Bangkok,338,2017,7,1,1,1,0,1,1,0,0
+503,Origin Plug & Play Ramintra,91485.00,Ram Inthra Road,135625,0.3,3.18,11.69,1.86,3.09,Ram Inthra,Khan Na Yao,Eastern Bangkok,679,2023,1,0,1,1,0,1,1,0,0
+504,CHAMBERS Ramintra,56414.00,Nuan Chan Road,75000,2.8,3.21,11.89,2.25,4.69,Khan Na Yao,Khan Na Yao,Eastern Bangkok,152,2014,10,1,1,1,1,0,1,0,0
+505,Lumpini Ville Laksi-Ramintra,62759.50,Vibhavadi Rangsit Road,216666.6667,1.18,2.78,4.48,3.05,4.38,Anusawari,Bang Khen,North Bangkok,1269,2008,16,0,1,1,0,1,1,0,0
+506,Blossom Condo @ Fashion Beyond,72323.67,Seri Thai Road,85000,1.4,4.11,13.02,3.02,4.87,Khan Na Yao,Khan Na Yao,Eastern Bangkok,450,2019,5,0,1,1,0,1,1,1,0
+507,Chambers Cher Ratchada Ramintra,69679.33,Nuan Chan Road,75000,3.8,3.11,12.85,3.06,3.89,Ram Inthra,Khan Na Yao,Eastern Bangkok,252,2017,7,0,1,1,0,1,1,0,0
+508,Niche ID Serithai-Wongwaen,54791.00,Seri Thai Road,85000,4.45,4.63,13.31,0.9,3.54,Khlong Kum,Bueng Kum,Eastern Bangkok,434,2019,5,0,1,1,0,1,1,0,0
+509,The Niche ID Serithai,41714.00,Seri Thai Road,85000,3,3.66,12.46,2.64,4.78,Khan Na Yao,Khan Na Yao,Eastern Bangkok,455,2017,7,1,1,1,0,1,1,0,0
+510,The Origin Ramintra 83 Station,93432.00,Ram Inthra Road,135625,0.3,3.53,10.67,0.69,1.68,Ram Inthra,Khan Na Yao,Eastern Bangkok,879,2021,3,0,1,1,1,0,1,0,0
+511,The Cube Loft Ladprao 107,91064.00,Hua Mak Road,85000,4.19,2.8,15.58,2.53,0.41,Khlong Chan,Bang Kapi,Eastern Bangkok,207,2020,4,0,1,1,0,1,1,0,0
+512,The Residences At Mandarin Oriental,612358.24,Charoen Nakhon Road,192500,2.71,3.56,23.91,3.54,1.65,Khlong Ton Sai,Khlong San,North Krungthon,146,2018,6,0,1,1,0,0,0,0,0
+513,IDEO Mobi Sathorn,106007.00,Krung Thonburi Road,300000,2.5,4.17,24.09,4.2,1.61,Bang Lam Phu Lang,Khlong San,North Krungthon,529,2014,10,1,1,1,1,0,1,1,0
+514,Saichol Mansion,106435.00,Charoen Nakhon Road,192500,2.64,1.27,24.28,4.51,1.28,Bang Lam Phu Lang,Khlong San,North Krungthon,114,1993,31,0,1,1,0,1,1,1,0
+515,IDEO Sathorn-Taksin,100773.00,Krung Thonburi Road,300000,2.51,4.14,24.08,4.16,1.65,Bang Lam Phu Lang,Khlong San,North Krungthon,349,2010,14,1,1,1,0,0,1,0,0
+516,Flexi Sathorn - Charoennakorn,99781.00,Krung Thonburi Road,300000,2.61,4.52,24.24,4.6,1.4,Bang Lam Phu Lang,Khlong San,North Krungthon,899,2021,3,0,1,1,0,1,1,0,0
+517,HIVE Taksin,93649.00,Krung Thonburi Road,300000,2.85,4.02,24.25,3.8,2.26,Khlong Ton Sai,Khlong San,North Krungthon,365,2013,11,0,1,1,0,1,1,0,0
+518,Baan Chao Praya,107717.25,Yaowarat Road,700000,3.85,2.92,22.52,3.51,4.16,Khlong San,Khlong San,North Krungthon,478,1995,29,0,1,1,1,0,0,0,0
+519,IDEO Sathorn-Wongwian Yai,141837.50,Krung Thonburi Road,300000,2.78,4,24.2,3.82,2.17,Khlong Ton Sai,Khlong San,North Krungthon,508,2019,5,1,1,1,0,0,0,1,0
+520,Bangkok Feliz At Krungthonburi Station,124473.00,Krung Thonburi Road,300000,2.45,4.1,24.02,4.15,1.59,Khlong Ton Sai,Khlong San,North Krungthon,79,2015,9,1,1,1,0,1,1,0,0
+521,Magnolias Waterfront Residences,444563.17,Lat Ya Road,145000,3.98,3.52,23,3.59,4.48,Khlong Ton Sai,Khlong San,North Krungthon,379,2019,5,1,1,1,0,0,0,0,0
+522,NYE by Sansiri,117586.27,Krung Thonburi Road,300000,2.73,4.01,24.18,3.85,2.1,Khlong Ton Sai,Khlong San,North Krungthon,636,2015,9,0,1,1,1,1,1,0,0
+523,Urbano Absolute Sathon-Taksin,105582.43,Charoen Rat Road,140000,4.63,4.1,23.77,4.21,1.11,Khlong Ton Sai,Khlong San,North Krungthon,593,2012,12,1,1,1,0,1,1,0,0
+524,The Room BTS Wongwianyai,139014.00,Krung Thonburi Road,300000,2.65,3.02,24.48,3.43,1.84,Bang Lam Phu Lang,Khlong San,North Krungthon,201,2014,10,0,1,1,1,0,1,0,0
+525,Villa Sathorn,114804.33,Krung Thonburi Road,300000,2.3,4.05,23.9,4.48,1.42,Khlong Ton Sai,Khlong San,North Krungthon,636,2009,15,0,1,1,0,0,0,1,0
+526,The Master Sathorn Executive,66279.00,Krung Thonburi Road,300000,2.56,4.01,24.07,3.95,1.86,Khlong Ton Sai,Khlong San,North Krungthon,199,2007,17,0,1,1,0,1,1,0,0
+527,Baan Sathorn Chao Phraya,95777.75,Krung Thonburi Road,300000,4.6,4.37,23.88,4.16,0.96,Khlong Ton Sai,Khlong San,North Krungthon,446,2005,19,0,1,0,0,1,1,0,0
+528,The Fine at River,115702.14,Charoen Nakhon Road,192500,2.65,3.02,24.48,3.43,1.84,Bang Lam Phu Lang,Khlong San,North Krungthon,187,2007,17,0,1,0,0,0,1,0,0
+529,The Light House Sathorn–Chareonnakorn,97076.50,Charoen Rat Road,140000,4.46,4.1,23.65,4.04,0.93,Khlong Ton Sai,Khlong San,North Krungthon,297,2008,16,0,1,0,0,1,1,0,0
+530,Tridhos City Marina,106383.00,Charoen Nakhon Road,192500,2.99,2.67,25.46,2.97,2.69,Bang Lam Phu Lang,Khlong San,North Krungthon,437,2009,15,0,1,1,0,1,1,0,0
+531,Chapter Charoennakhon–Riverside,197696.64,Charoen Nakhon Road,192500,3.02,1.66,24.66,1.97,1.65,Bang Lam Phu Lang,Khlong San,North Krungthon,669,2022,2,0,1,1,0,1,1,0,0
+532,Fuse Sathorn-Taksin,109520.43,Krung Thonburi Road,300000,2.91,4.17,24.36,3.96,2.22,Bang Lam Phu Lang,Khlong San,North Krungthon,377,2011,13,0,1,1,0,1,1,0,0
+533,The Rich Sathorn-Taksin,86111.00,Krung Thonburi Road,300000,2.76,4.3,24.61,3.94,2.61,Bang Lam Phu Lang,Khlong San,North Krungthon,511,2017,7,1,1,1,0,0,1,0,0
+534,The Bangkok Sathorn-Taksin,177313.40,Krung Thonburi Road,300000,2.48,4.21,24.08,4.28,1.53,Khlong Ton Sai,Khlong San,North Krungthon,214,2007,17,0,1,0,0,1,1,0,0
+535,Hive Sathorn,151175.00,Krung Thonburi Road,300000,2.38,4,23.94,4.05,1.6,Khlong Ton Sai,Khlong San,North Krungthon,363,2009,15,0,1,1,0,1,1,0,0
+536,Supalai Premier Charoen Nakhon,137325.50,Lat Ya Road,145000,4.17,3.11,22.88,3.82,4.52,Khlong San,Khlong San,North Krungthon,578,2021,3,0,1,1,0,0,1,0,0
+537,Supalai Loft Prajadhipok-Wongwian Yai,96221.86,Charoen Rat Road,140000,2.64,3.28,23.67,2.97,3.05,Somdet Chao Phraya,Khlong San,North Krungthon,363,2021,3,0,1,1,0,1,1,0,0
+538,Bangkok Feliz Sathorn-Taksin,103562.50,Charoen Rat Road,140000,4.81,4,23.82,4.4,1.36,Khlong Ton Sai,Khlong San,North Krungthon,200,2014,10,0,1,1,0,1,1,0,0
+539,Reference Sathorn-Wongwianyai,188965.33,Krung Thonburi Road,300000,2.82,4.28,24.57,3.94,2.55,Bang Lam Phu Lang,Khlong San,North Krungthon,819,2022,2,0,1,1,0,1,1,0,0
+540,Banyan Tree Residences Riverside,358800.56,Yaowarat Road,700000,3.84,2.96,22.55,3.49,4.17,Khlong San,Khlong San,North Krungthon,133,2019,5,1,1,1,0,0,0,0,0
+541,Q House Condo Sathorn,118065.33,Krung Thonburi Road,300000,2.5,4.04,24.04,4.03,1.73,Khlong Ton Sai,Khlong San,North Krungthon,533,2009,15,1,1,1,0,1,1,0,0
+542,Tourmaline Lite Sathorn-Taksin,97113.00,Charoen Rat Road,140000,2.34,3.89,23.87,3.92,1.66,Khlong Ton Sai,Khlong San,North Krungthon,126,2013,11,0,1,0,0,1,1,0,0
+543,Vue Lifestyle by the River,270000.00,Charoen Nakhon Road,192500,2.71,3.56,23.91,3.54,1.65,Khlong Ton Sai,Khlong San,North Krungthon,150,2014,10,0,0,0,0,0,0,0,0
+544,D25 Thonglor,108627.67,Thonglor Road (Sukhumvit 55),370000,4.32,2.66,18.9,1.79,3.34,Khlong Tan Nuea,Watthana,South Bangkok,98,2012,12,0,1,1,0,1,1,0,0
+545,CEIL by Sansiri,119186.88,Ekkamai Road,255000,1.23,3.36,18.12,2.05,2.07,Khlong Tan Nuea,Watthana,South Bangkok,376,2013,11,1,1,1,1,0,0,0,0
+546,The Diplomat 39,338527.09,Asoke Montri Road,600000,3.3,1.62,19.94,0.23,2.53,Khlong Tan Nuea,Watthana,South Bangkok,156,2019,5,1,1,1,0,0,1,0,0
+547,DLV Thonglor 20,84673.00,Thonglor Road (Sukhumvit 55),370000,4.8,3.13,18.44,2.18,1.18,Khlong Tan Nuea,Watthana,South Bangkok,79,2007,17,0,1,0,0,1,1,0,0
+548,The Alcove Thonglor 10,124558.30,Ekkamai Road,255000,1.13,3.18,18.3,1.88,1.99,Khlong Tan Nuea,Watthana,South Bangkok,135,2008,16,0,1,1,0,1,1,0,0
+549,Prime Mansion Sukhumvit 31,138517.50,Asoke Montri Road,600000,2.68,1,19.64,1.01,3.55,Khlong Tan Nuea,Watthana,South Bangkok,70,2008,16,0,1,1,0,1,1,0,0
+550,Tristan Sukhumvit 39,108871.00,Sukhumvit Road,490000,1.36,2.24,18.93,0.8,1.07,Khlong Tan Nuea,Watthana,South Bangkok,25,2009,15,0,1,1,0,1,1,0,0
+551,Tela Thonglor 13,398547.00,Ekkamai Road,255000,4.39,2.68,18.79,1.46,1.74,Khlong Tan Nuea,Watthana,South Bangkok,84,2017,7,1,1,1,0,0,0,0,0
+552,Oriental Towers,98253.00,Pridi Banomyong Road,240000,1.32,3.46,18.01,2.16,2.11,Khlong Tan Nuea,Watthana,South Bangkok,70,1995,29,0,1,0,0,0,1,0,0
+553,Via 49,183921.00,Ekkamai Road,255000,3.87,2.17,19.36,0.76,3.06,Khlong Tan Nuea,Watthana,South Bangkok,85,2012,12,0,1,1,0,1,1,0,0
+554,Royal Castle Sukhumvit,97823.29,Asoke Montri Road,600000,3.31,1.6,19.88,0.56,2.46,Khlong Toei Nuea,Watthana,South Bangkok,146,1993,31,0,1,1,0,1,1,0,0
+555,Hampton Thonglor 10,155556.00,Ekkamai Road,255000,4.58,2.87,18.6,1.61,1.83,Khlong Tan Nuea,Watthana,South Bangkok,73,2005,19,0,1,1,0,1,1,0,0
+556,Via BOTANI,152929.33,Ekkamai Road,255000,3.71,2.01,19.5,0.67,2.89,Khlong Tan Nuea,Watthana,South Bangkok,137,2012,12,0,1,1,0,1,1,1,0
+557,Siamese Thirty Nine,140385.60,Asoke Montri Road,600000,3.25,1.58,19.54,1.07,2.29,Khlong Tan Nuea,Watthana,South Bangkok,87,2013,11,0,1,1,0,1,1,0,0
+558,Fifty Fifth Tower,99866.25,Ekkamai Road,255000,4.52,2.84,18.78,1.35,2.55,Khlong Tan Nuea,Watthana,South Bangkok,103,1996,28,0,1,1,0,0,1,0,0
+559,C Ekkamai,158458.38,Thonglor Road (Sukhumvit 55),370000,2.13,3.42,18.21,2.5,1.19,Khlong Tan Nuea,Watthana,South Bangkok,736,2018,6,1,1,1,1,0,0,0,0
+560,M Thonglor 10,160240.25,Ekkamai Road,255000,1.19,3.26,18.21,1.96,2,Khlong Tan Nuea,Watthana,South Bangkok,173,2016,8,1,1,1,0,0,0,0,0
+561,Aequa Sukhumvit 49,184127.50,Ekkamai Road,255000,3.95,2.28,19.34,0.77,3.2,Khlong Tan Nuea,Watthana,South Bangkok,153,2011,13,0,1,1,0,1,1,0,0
+562,The Bangkok Thonglor,368539.75,Thonglor Road (Sukhumvit 55),370000,4.59,2.97,18.73,2.24,0.74,Khlong Tan Nuea,Watthana,South Bangkok,148,2019,5,0,1,1,1,0,1,0,0
+563,LAVIQ Sukhumvit 57,292951.53,Ekkamai Road,255000,4.58,2.92,18.75,1.4,2.7,Khlong Tan Nuea,Watthana,South Bangkok,235,2019,5,1,1,1,0,0,0,0,0
+564,Baan Chan,88900.00,Thonglor Road (Sukhumvit 55),370000,1.36,2.24,18.93,0.8,0.2,Khlong Tan Nuea,Watthana,South Bangkok,96,1987,37,0,1,0,0,0,1,0,0
+565,Chewathai Residence Thonglor,215059.50,Thonglor Road (Sukhumvit 55),370000,4.73,3.07,18.51,2.14,1.13,Khlong Tan Nuea,Watthana,South Bangkok,130,2020,4,0,1,1,0,0,0,0,0
+566,Nivati Thonglor 23,244638.73,Thonglor Road (Sukhumvit 55),370000,4.07,2.4,19.14,1.56,3.1,Khlong Tan Nuea,Watthana,South Bangkok,52,2019,5,0,1,1,0,1,1,0,0
+567,Art @Thonglor 25,130403.00,Thonglor Road (Sukhumvit 55),370000,4.12,2.47,19.12,1.69,3.12,Khlong Tan Nuea,Watthana,South Bangkok,102,2015,9,0,1,1,0,1,1,0,0
+568,Chapter Thonglor 25,155268.67,Thonglor Road (Sukhumvit 55),370000,4.42,2.82,18.91,2.14,3.39,Khlong Tan Nuea,Watthana,South Bangkok,288,2021,3,0,1,1,0,1,1,1,0
+569,Condo One Thonglor Station,118000.00,Ekkamai Road,255000,4.75,3.11,18.68,1.58,3.01,Phra Khanong,Khlong Toei,South Bangkok,132,2015,9,0,1,0,0,0,1,0,0
+570,The Address Sukhumvit 28,203834.27,Ekkamai Road,255000,3.62,1.97,19.68,0.45,2.9,Khlong Tan,Khlong Toei,South Bangkok,246,2010,14,0,1,1,0,1,1,0,0
+571,Q1 Sukhumvit,372653.20,Sukhumvit Road,490000,0.1,1.2,20.37,0.5,1.9,Khlong Toei,Khlong Toei,South Bangkok,273,2018,6,1,1,1,0,0,0,0,0
+572,Venio Sukhumvit 10,157385.20,Nana Road (Sukhumvit 3),350000,1.82,0.52,20.4,1.38,3.04,Khlong Toei,Khlong Toei,South Bangkok,162,2017,7,1,1,1,0,1,1,0,0
+573,The Excel Hideaway Sukhumvit 50,88462.00,Ekkamai Road,255000,2.44,0.1,17.28,3.61,3.55,Phra Khanong,Khlong Toei,South Bangkok,772,2019,5,1,1,1,0,1,1,0,0
+574,Wyne Sukhumvit,121085.93,Ekkamai Road,255000,2.13,4.89,17.05,3.36,4.15,Phra Khanong,Khlong Toei,South Bangkok,460,2012,12,0,1,1,0,1,1,0,0
+575,Coco Parc,266109.00,Rama 4 Road,475000,2.65,1.96,21.59,1.91,2.63,Khlong Toei,Khlong Toei,South Bangkok,468,2022,2,0,1,1,0,0,0,0,0
+576,Vtara Sukhumvit 36,141177.27,Ekkamai Road,255000,4.65,3.13,19.04,1.64,3.55,Phra Khanong,Khlong Toei,South Bangkok,466,2018,6,1,1,1,1,0,0,0,0
+577,The Seed Musee,123585.60,Ekkamai Road,255000,3.66,2.08,19.77,0.59,3.02,Khlong Tan,Khlong Toei,South Bangkok,138,2008,16,0,1,1,0,1,1,0,0
+578,The Lakes,196438.50,Ratchadaphisek Road,390000,1.69,1.26,20.37,1.02,2.42,Khlong Toei,Khlong Toei,South Bangkok,165,2004,20,1,1,1,0,1,1,0,0
+579,The Estelle Phrom Phong,386725.50,Ekkamai Road,255000,3.49,1.84,19.83,0.31,2.78,Khlong Tan,Khlong Toei,South Bangkok,146,2022,2,0,1,1,0,1,1,0,0
+580,AGUSTON Sukhumvit 22,161586.36,Rama 4 Road,475000,3.15,1.74,20.42,0.73,2.66,Khlong Tan,Khlong Toei,South Bangkok,269,2010,14,1,1,1,0,0,1,0,0
+581,Ramada Plaza By Wyndham Bangkok Sukhumvit 48,116279.00,Pridi Banomyong Road,240000,2.78,0.81,16.49,4.01,3.73,Phra Khanong,Khlong Toei,South Bangkok,339,2020,4,0,1,1,1,0,0,0,0
+582,Siamese Sukhumvit 48,141236.00,Pridi Banomyong Road,240000,2.76,0.76,16.53,3.99,3.72,Phra Khanong,Khlong Toei,South Bangkok,339,2019,5,1,1,1,1,1,1,0,0
+583,Diamond Sukhumvit,89963.75,Pridi Banomyong Road,240000,2.89,0.83,16.41,4.12,3.85,Phra Khanong,Khlong Toei,South Bangkok,485,2010,14,0,1,1,0,1,1,0,0
+584,168 Sukhumvit 36,119376.00,Ekkamai Road,255000,4.68,3.16,19.04,1.68,3.59,Phra Khanong,Khlong Toei,South Bangkok,105,2019,5,0,1,1,0,1,1,0,0
+585,Siamese Exclusive 42,188571.00,Ekkamai Road,255000,1.09,3.83,18.12,2.29,3.55,Phra Khanong,Khlong Toei,South Bangkok,449,2020,4,1,1,1,0,1,1,0,0
+586,Lake Green,148800.00,Nana Road (Sukhumvit 3),350000,1.76,0.6,20.48,1.47,3.01,Khlong Toei,Khlong Toei,South Bangkok,68,1997,27,1,1,1,0,1,1,0,0
+587,Circle Rein Sukhumvit 12,192688.00,Nana Road (Sukhumvit 3),350000,1.85,0.41,20.29,1.33,3.03,Khlong Toei Nuea,Watthana,South Bangkok,122,2016,8,0,1,1,1,1,1,0,0
+588,Siri Residence,203552.00,Asoke Montri Road,600000,3.27,1.68,20.09,0.26,2.63,Khlong Tan,Khlong Toei,South Bangkok,185,2006,18,0,1,0,0,1,1,0,0
+589,Crystal Garden,154442.50,Sukhumvit Road,490000,1.69,1.26,20.37,1.02,2.42,Khlong Toei,Khlong Toei,South Bangkok,112,1991,33,0,1,0,0,0,1,0,0
+590,The Nest Sukhumvit 22,120833.00,Rama 4 Road,475000,3.05,1.68,20.56,0.82,2.6,Khlong Toei,Khlong Toei,South Bangkok,316,2018,6,1,1,1,0,1,1,0,0
+591,Sukhumvit Park,120588.00,Sukhumvit Road,490000,1.69,1.26,20.37,1.02,2.42,Khlong Toei,Khlong Toei,South Bangkok,135,1994,30,0,1,0,0,0,1,0,0
+592,Fynn Asoke,199795.50,Nana Road (Sukhumvit 3),350000,1.77,0.44,20.32,1.41,2.97,Khlong Toei,Khlong Toei,South Bangkok,263,2022,2,0,1,1,0,0,0,0,0
+593,Belgravia Residences,179740.00,Ekkamai Road,255000,3.86,2.23,19.49,0.7,3.16,Khlong Tan,Khlong Toei,South Bangkok,48,2007,17,0,1,0,0,0,1,0,0
+594,Oka Haus Sukhumvit 36,150877.94,Ekkamai Road,255000,4.64,3.17,19.17,1.72,3.75,Khlong Tan,Khlong Toei,South Bangkok,1178,2019,5,0,1,1,0,1,1,0,0
+595,Citi Smart Sukhumvit 18,142368.00,Asoke Montri Road,600000,2.32,0.68,20.26,0.87,3.43,Khlong Toei,Khlong Toei,South Bangkok,192,2005,19,0,1,1,0,0,0,1,0
+596,Siamese Exclusive Queens,259569.14,Rama 4 Road,475000,3.02,1.81,20.77,1.15,2.69,Khlong Toei,Khlong Toei,South Bangkok,331,2019,5,1,1,1,1,0,0,0,0
+597,Fairview Tower,107692.00,Asoke Montri Road,600000,2.51,0.96,20.56,0.7,3.68,Khlong Toei,Khlong Toei,South Bangkok,54,1992,32,0,1,1,0,0,1,1,0
+598,Lumpini Place Rama 4-Kluaynamthai,91814.50,Ekkamai Road,255000,1.39,3.99,18.29,2.48,4.03,Phra Khanong,Khlong Toei,South Bangkok,887,2010,14,1,1,1,0,1,1,0,0
+599,Sukhumvit Plus,85838.29,Ekkamai Road,255000,1.94,4.69,17.26,3.16,4.05,Phra Khanong,Khlong Toei,South Bangkok,383,2015,9,0,1,0,0,1,1,0,0
+600,Siam Penthouse 1,87500.00,Nana Road (Sukhumvit 3),350000,1.58,0.33,20.16,1.6,2.75,Khlong Toei,Khlong Toei,South Bangkok,48,1981,43,0,1,0,0,0,1,0,0
+601,SIRI on 8 Sukhumvit 8,163366.00,Nana Road (Sukhumvit 3),350000,1.62,0.34,20.19,1.56,2.8,Khlong Toei,Khlong Toei,South Bangkok,74,2009,15,1,1,1,0,1,1,0,0
+602,Noble Ambience Sukhumvit 42,166169.71,Ekkamai Road,255000,0.94,3.67,18.29,2.13,3.48,Phra Khanong,Khlong Toei,South Bangkok,259,2020,4,1,1,1,0,1,1,0,0
+603,XVI The Sixteenth,127157.00,Rama 4 Road,475000,2.92,1.63,20.74,0.96,2.52,Khlong Toei,Khlong Toei,South Bangkok,76,2011,13,1,1,1,0,1,1,0,0
+604,Park Origin Phrom Phong,234240.54,Rama 4 Road,475000,3.2,1.74,20.33,0.64,2.68,Khlong Tan,Khlong Toei,South Bangkok,940,2020,4,0,1,1,0,1,1,0,0
+605,Omni Tower Sukhumvit Nana,70513.00,Nana Road (Sukhumvit 3),350000,1.32,0.55,20.2,1.87,2.55,Khlong Toei,Khlong Toei,South Bangkok,90,2007,17,1,1,1,0,1,1,0,0
+606,The Waterford Diamond Tower Sukhumvit,109085.55,Ekkamai Road,255000,3.77,2.14,19.57,0.6,3.07,Khlong Tan,Khlong Toei,South Bangkok,538,1999,25,0,1,1,0,1,1,0,0
+607,Keyne by Sansiri,198796.75,Ekkamai Road,255000,4.23,2.59,19.13,1.06,3.51,Khlong Toei,Khlong Toei,South Bangkok,216,2013,11,1,1,1,0,0,1,0,0
+608,Noble Remix 2 Thonglor,169675.00,Ekkamai Road,255000,4.43,2.72,18.77,1.39,1.99,Khlong Tan,Khlong Toei,South Bangkok,152,2014,10,1,1,1,0,1,1,0,0
+609,The Crest Sukhumvit 34,213176.33,Ekkamai Road,255000,4.19,2.55,19.16,1.02,3.47,Khlong Tan,Khlong Toei,South Bangkok,265,2013,11,1,1,1,1,1,1,0,0
+610,Wilshire Condominium,180113.50,Phalasinthon Road,50000,0.5,2.4,20.37,0.8,1.6,Khlong Toei,Khlong Toei,South Bangkok,78,2005,19,0,1,0,0,1,1,0,0
+611,ASHTON Morph 38,236782.29,Ekkamai Road,255000,4.66,3.05,18.81,1.52,3.1,Phra Khanong,Khlong Toei,South Bangkok,199,2012,12,1,1,1,0,1,1,0,0
+612,IDEO Morph 38,181332.25,Ekkamai Road,255000,4.67,3.06,18.8,1.53,3.11,Phra Khanong,Khlong Toei,South Bangkok,162,2012,12,1,1,1,0,1,1,0,0
+613,The Waterford Sukhumvit 50,67519.00,Ekkamai Road,255000,2.5,0.12,17.09,3.69,3.58,Phra Khanong,Khlong Toei,South Bangkok,738,2009,15,1,1,1,0,0,1,0,0
+614,Siri At Sukhumvit,189043.79,Ekkamai Road,255000,4.65,3,18.74,1.47,2.88,Phra Khanong,Khlong Toei,South Bangkok,460,2009,15,1,1,1,0,1,1,0,0
+615,Metro Luxe Rama 4,125627.50,Ekkamai Road,255000,1.39,3.89,18.51,2.4,4.09,Phra Khanong,Khlong Toei,South Bangkok,478,2016,8,1,1,0,0,1,1,0,0
+616,Aspire Rama 4,88136.40,Ekkamai Road,255000,1.51,4.16,18.08,2.64,4.07,Phra Khanong,Khlong Toei,South Bangkok,1432,2011,13,0,1,1,0,0,0,1,0
+617,Monterey Place,124926.50,Kubon Road,42000,0.2,2.1,20.37,1,1.9,Khlong Toei,Khlong Toei,South Bangkok,196,1994,30,0,1,0,0,1,1,0,0
+618,The Waterford Rama 4,47250.60,Rama 4 Road,475000,2.16,2.88,17.78,2.39,3.17,Phra Khanong,Khlong Toei,South Bangkok,514,1998,26,0,1,0,0,1,1,0,0
+619,Newton Tower,105414.00,Nana Road (Sukhumvit 3),350000,1.43,0.35,20.05,1.76,2.58,Khlong Toei,Khlong Toei,South Bangkok,82,1991,33,0,1,0,0,0,1,0,0
+620,Baan Siri Sukhumvit 10,127222.00,Nana Road (Sukhumvit 3),350000,1.68,0.3,20.17,1.5,2.84,Khlong Toei,Khlong Toei,South Bangkok,118,2014,10,0,1,0,0,0,1,0,0
+621,City Lakes Tower,89286.00,Sukhumvit Road,490000,1.69,1.26,20.37,1.02,2.42,Khlong Toei,Khlong Toei,South Bangkok,54,1992,32,0,1,0,0,0,1,0,0
+622,Trapezo Sukhumvit 16,113861.50,Rama 4 Road,475000,2.88,1.56,20.73,0.9,2.46,Khlong Toei,Khlong Toei,South Bangkok,70,2014,10,1,1,1,0,1,1,0,0
+623,Voque Sukhumvit 16,97619.00,Rama 4 Road,475000,2.62,1.29,20.9,0.91,3.89,Khlong Toei,Khlong Toei,South Bangkok,140,2010,14,0,1,1,0,1,1,0,0
+624,Focus Ploenchit,139418.25,Nana Road (Sukhumvit 3),350000,1.06,0.69,20.04,1.17,2.27,Khlong Toei,Khlong Toei,South Bangkok,132,2014,10,1,1,1,0,1,1,0,0
+625,La Maison Sukhumvit 22,47000.00,Sukhumvit Road,490000,3.7,2.5,20.37,0.7,1.5,Khlong Toei,Khlong Toei,South Bangkok,35,1994,30,0,1,0,0,0,1,0,0
+626,Le Raffine Sukhumvit 24,227252.25,Rama 4 Road,475000,3.29,1.78,20.18,0.52,2.72,Khlong Tan,Khlong Toei,South Bangkok,54,2005,19,0,1,1,0,1,1,0,0
+627,Pearl Residences,156977.00,Sukhumvit Road,490000,2.37,2.3,19.57,0.77,2.24,Khlong Tan,Khlong Toei,South Bangkok,78,2012,12,0,1,1,0,1,1,0,0
+628,Condolette Dwell Sukhumvit 26,136908.20,Ekkamai Road,255000,3.63,2.05,19.79,0.56,2.99,Khlong Tan,Khlong Toei,South Bangkok,224,2013,11,1,1,1,0,1,1,0,0
+629,Regent on the Park 1,104000.00,Ekkamai Road,255000,3.46,1.9,19.97,0.47,2.84,Khlong Tan,Khlong Toei,South Bangkok,81,1992,32,0,1,0,0,0,1,0,0
+630,Tidy Deluxe,135176.33,Ekkamai Road,255000,4.02,2.4,19.36,0.86,3.33,Khlong Tan,Khlong Toei,South Bangkok,138,2014,10,1,1,1,1,1,1,0,0
+631,IDEO Q Sukhumvit 36,174359.50,Ekkamai Road,255000,4.42,2.84,19.11,1.32,3.17,Khlong Tan,Khlong Toei,South Bangkok,449,2020,4,0,1,1,1,0,0,0,0
+632,La Vie En Rose Place,140625.00,Ekkamai Road,255000,4.37,2.77,19.11,1.24,3.06,Khlong Tan,Khlong Toei,South Bangkok,78,2007,17,0,1,1,0,1,1,0,0
+633,The Room Sukhumvit 38,224972.00,Ekkamai Road,255000,0.83,3.42,18.64,1.91,3.53,Phra Khanong,Khlong Toei,South Bangkok,229,2020,4,1,1,1,0,0,0,0,0
+634,Von Napa Sukhumvit 38,140000.00,Ekkamai Road,255000,4.53,2.89,18.87,1.36,2.88,Phra Khanong,Khlong Toei,South Bangkok,76,2008,16,0,1,0,0,0,1,0,0
+635,IDEO Mobi Sukhumvit 40,165729.00,Ekkamai Road,255000,0.88,3.54,18.48,2.02,3.53,Phra Khanong,Khlong Toei,South Bangkok,272,2019,5,0,1,1,0,1,1,0,0
+636,Issara @ 42 Sukhumvit,108585.00,Ekkamai Road,255000,1.21,3.95,18.01,2.41,3.63,Phra Khanong,Khlong Toei,South Bangkok,69,2007,17,0,1,0,0,0,1,0,0
+637,Nusasiri Grand,134614.50,Ekkamai Road,255000,0.84,3.6,18.23,2.07,3.26,Phra Khanong,Khlong Toei,South Bangkok,303,2007,17,0,1,0,0,1,1,0,0
+638,Ficus Lane,142268.20,Ekkamai Road,255000,1.65,4.4,17.58,2.87,3.91,Phra Khanong,Khlong Toei,South Bangkok,70,2008,16,0,1,1,1,1,1,0,0
+639,Life Sukhumvit 48,129848.87,Ekkamai Road,255000,2.26,0.65,16.97,3.49,4.31,Phra Khanong,Khlong Toei,South Bangkok,612,2018,6,1,1,1,0,1,1,0,0
+640,Mayfair Place Sukhumvit 50,119178.17,Ekkamai Road,255000,0.7,3.4,16.9,0.6,1.8,Phra Khanong,Khlong Toei,South Bangkok,356,2017,7,0,1,1,1,0,0,0,0
+641,Modiz Sukhumvit 50,186703.00,Ekkamai Road,255000,1.3,3.3,17.4,1.2,1.9,Phra Khanong,Khlong Toei,South Bangkok,582,2022,2,1,0,0,0,0,0,0,0
+642,Serio Sukhumvit 50,97629.33,Pridi Banomyong Road,240000,0.4,3.5,16.6,0.3,1.9,Phra Khanong,Khlong Toei,South Bangkok,154,2018,6,1,1,1,1,1,1,0,0
+643,Saranjai Mansion,83229.00,Nana Road (Sukhumvit 3),350000,0.2,1.4,20.37,0.5,1.8,Khlong Toei,Khlong Toei,South Bangkok,480,1991,33,0,0,0,0,0,0,0,0
+644,Mieler Sukhumvit 40,167424.50,Ekkamai Road,255000,0.5,3.7,18.5,1.2,0.5,Khlong Tan,Khlong Toei,South Bangkok,24,2018,6,0,1,1,0,1,1,0,0
+645,Domus Condominium,251613.00,Sukhumvit Road,490000,0.5,1.4,20.37,0.5,1.6,Khlong Toei,Khlong Toei,South Bangkok,108,2008,16,0,1,1,0,1,1,0,0
+646,38 Mansion,98174.00,Ekkamai Road,255000,0.9,2.6,17.78,5.6,0.7,Phra Khanong,Khlong Toei,South Bangkok,137,1992,32,0,1,0,0,0,1,0,0
+647,Aree Mansion,84762.00,Ekkamai Road,255000,0.3,2,19.57,1,1.1,Khlong Tan,Khlong Toei,South Bangkok,15,1981,43,1,1,1,0,1,1,0,0
+648,Bright Sukhumvit 24,187894.86,Rama 4 Road,475000,0.7,2.5,19.57,0.7,1.5,Khlong Tan,Khlong Toei,South Bangkok,292,2009,15,1,1,1,0,1,1,0,0
+649,Premier Condominium,117073.00,Ekkamai Road,255000,0.6,2.3,19.57,0.5,1.4,Khlong Tan,Khlong Toei,South Bangkok,76,1981,43,0,1,0,0,0,1,0,0
+650,The Lumpini 24,224084.04,Rama 4 Road,475000,0.6,2.5,19.57,0.7,1.5,Khlong Tan,Khlong Toei,South Bangkok,402,2016,8,1,1,1,0,0,0,0,0
+651,Aspire Sukhumvit 48,88496.38,Ekkamai Road,255000,0.5,4.1,17,1,1.2,Phra Khanong,Khlong Toei,South Bangkok,837,2013,11,1,1,1,0,1,1,0,0
+652,Millennium Residence,208865.67,Asoke Montri Road,600000,0.8,1.8,20.37,0.6,1.6,Khlong Toei,Khlong Toei,South Bangkok,604,2009,15,1,1,1,0,0,1,0,0
+653,Rhythm Sukhumvit 44/1,154100.73,Ekkamai Road,255000,0.1,4.4,17.5,1.4,0.6,Phra Khanong,Khlong Toei,South Bangkok,486,2013,11,1,1,1,0,1,1,0,0
+654,Zenith Place Sukhumvit 42,83806.00,Ekkamai Road,255000,0.4,4,18,1.2,0.3,Phra Khanong,Khlong Toei,South Bangkok,280,2009,15,1,1,1,0,1,1,0,0
+655,IDEO Blucove Sathorn,93056.00,Krung Thonburi Road,300000,0.1,1.5,23.91,1.2,1,Khlong Ton Sai,Khlong San,North Krungthon,266,2009,15,0,1,1,0,1,1,0,0
+656,The Seed Sathorn-Taksin,68438.00,Krung Thonburi Road,300000,0.3,1.4,23.91,1.1,1.1,Khlong Ton Sai,Khlong San,North Krungthon,248,2009,15,0,1,0,0,0,1,0,0
+657,The River by Raimon Land,193468.97,Charoen Nakhon Road,192500,0.5,0.7,23.91,0.6,0.9,Khlong Ton Sai,Khlong San,North Krungthon,890,2009,15,0,1,1,0,1,1,0,0
+658,Hyde Sukhumvit 11,195502.00,Nana Road (Sukhumvit 3),350000,0.1,1.1,19.79,0.4,2,Khlong Toei Nuea,Watthana,South Bangkok,478,2018,6,1,1,1,0,0,0,0,0
+659,Wind Sukhumvit 23,133994.14,Asoke Montri Road,600000,0.3,0.7,19.79,0.5,1.4,Khlong Toei Nuea,Watthana,South Bangkok,220,2009,15,0,1,1,0,1,1,0,0
+660,The Esse Asoke,243787.23,Asoke Montri Road,600000,0.5,0.5,20,0.6,1.5,Khlong Toei Nuea,Watthana,South Bangkok,419,2019,5,1,1,1,0,0,0,0,0
+661,Q Prasarnmit‎,153333.00,Asoke Montri Road,600000,0.52,0.4,19.8,0.68,3.3,Khlong Toei Nuea,Watthana,South Bangkok,76,2020,4,0,1,0,0,1,1,1,0
+662,InterLux Premier Sukhumvit 13,132665.75,Phetchaburi Road,243333.3333,0.5,0.8,19.6,1.1,1.5,Khlong Toei Nuea,Watthana,South Bangkok,145,2014,10,1,1,1,1,1,1,0,0
+663,Thonglor Tower,77913.67,Thonglor Road (Sukhumvit 55),370000,3,2.5,18.6,0.4,0.5,Khlong Tan Nuea,Watthana,South Bangkok,736,1995,29,1,1,1,0,0,1,0,0
+664,The Rich Ploenchit-Nana,206473.00,Sukhumvit Road,490000,0.4,1.3,19.79,0.9,1.6,Khlong Toei Nuea,Watthana,South Bangkok,377,2020,4,0,1,1,0,1,1,0,0
+665,Noble Remix,142086.25,Ekkamai Road,255000,0.1,2.7,19.1,1,1.1,Khlong Tan,Khlong Toei,South Bangkok,656,2013,11,1,1,1,0,1,1,0,0
+666,Serene Place Sukhumvit 24,147731.00,Rama 4 Road,475000,0.5,2.2,19.57,0.4,1.4,Khlong Tan,Khlong Toei,South Bangkok,78,2007,17,0,1,1,0,1,1,0,0
+667,The Emporio Place,187321.05,Rama 4 Road,475000,0.8,2.5,19.57,0.7,1.4,Khlong Tan,Khlong Toei,South Bangkok,361,2009,15,0,1,1,1,0,0,1,0
+668,Condo One X Sukhumvit 26,109910.77,Ekkamai Road,255000,0.6,2.4,20,0.6,1.4,Khlong Tan,Khlong Toei,South Bangkok,329,2008,16,0,1,1,0,1,1,0,0
+669,Noble Refine,181713.89,Ekkamai Road,255000,0.3,2.1,19.8,0.3,0.9,Khlong Toei,Khlong Toei,South Bangkok,243,2012,12,1,1,1,0,1,1,0,0
+670,BEATNIQ Sukhumvit 32,311507.62,Ekkamai Road,255000,0.4,2.5,19.3,0.9,1,Khlong Tan,Khlong Toei,South Bangkok,197,2018,6,0,1,1,1,0,0,0,0
+671,The Cube Plus Chaengwattana,57438.33,Vibhavadi Rangsit Road,216666.6667,0.2,0.8,4.2,2.1,2,Thung Song Hong,Lak Si,North Bangkok,482,2016,8,1,1,1,0,1,1,0,0
+672,Aspire Ngamwomgwan,74371.75,Ngam Wong Wan Road,150000,0.2,1.7,9,0.8,1.7,Thung Song Hong,Lak Si,North Bangkok,1458,2012,12,1,1,1,0,1,1,0,0
+673,Plum Condo Chaengwattana Station,71431.00,Vibhavadi Rangsit Road,216666.6667,0.4,0.4,4.7,1.5,2.3,Talat Bang Khen,Lak Si,North Bangkok,810,2017,7,1,1,1,0,0,0,0,0
+674,Resta Resort Chaengwattana 12,56897.00,Chaeng Watthana Road,150000,0.2,0.5,7.7,2.1,2.6,Thung Song Hong,Lak Si,North Bangkok,158,2018,6,1,1,1,0,1,1,0,0
+675,Plum Condo Mix Chaengwattana,88636.00,Vibhavadi Rangsit Road,216666.6667,0.3,0.4,4.5,1.4,2.3,Talat Bang Khen,Lak Si,North Bangkok,1123,2019,5,0,1,1,0,1,1,0,0
+676,Dcondo Onnut-Suvarnabhumi,51360.80,Lat Krabang Road,57500,1.4,6.9,4.7,0.5,1.9,Lat Krabang,Lat Krabang,Eastern Bangkok,916,2012,12,1,1,1,0,1,1,0,0
+677,iCondo Green Space Sukhumvit 77 Phase 2,79600.00,Lat Krabang Road,57500,1.7,6.3,5.3,0.5,1.9,Lat Krabang,Lat Krabang,Eastern Bangkok,462,2019,5,0,1,1,0,1,1,0,0
+678,iCondo Green Space Sukhumvit 77,88017.50,Lat Krabang Road,57500,1.7,6.3,5.3,0.5,1.9,Lat Krabang,Lat Krabang,Eastern Bangkok,470,2019,5,0,1,1,0,1,1,0,0
+679,Iris Avenue Onnuch-Suvarnabhumi,48928.50,Lat Krabang Road,57500,1,7.1,4.9,0.5,1.9,Lat Krabang,Lat Krabang,Eastern Bangkok,1179,2012,12,1,1,1,0,1,1,0,0
+680,Lumpini Ville On Nut-Latkrabang,57477.00,Pridi Banomyong Road,240000,3.72,4.8,6.1,2.88,1.36,Prawet,Prawet,Eastern Bangkok,1118,2015,9,1,1,1,0,0,1,1,0
+681,Airlink Residence,45163.25,Lat Krabang Road,57500,1.2,3.7,5.3,4.2,1.2,Khlong Sam Prawet,Lat Krabang,Eastern Bangkok,1019,2019,5,0,1,1,0,1,1,0,0
+682,Lumpini Condo Town Romklao-Suvarnabhumi,48225.00,Lat Krabang Road,57500,1.1,3.4,5.3,4.8,6.9,Khlong Sam Prawet,Lat Krabang,Eastern Bangkok,1959,2016,8,0,1,1,1,0,0,1,0
+683,Montiantip Condo Town,33474.00,Lat Phrao Road,233333.3,0.69,2.07,14.6,0.7,3,Bang Khae,Bang Khae,South Krungthon,145,2003,21,0,1,1,0,1,1,0,0
+684,My Story Ladprao 71,64131.25,Watcharaphon Road,65000,0.6,3.7,11.5,1.3,2.2,Lat Phrao,Lat Phrao,North Bangkok,658,2015,9,0,1,1,0,0,0,1,0
+685,The Niche ID Ladprao-Wang Hin,56652.67,Lad Phrao Wang Hin Road,80000,0.6,1.7,12.3,1.8,1,Lat Phrao,Lat Phrao,North Bangkok,301,2014,10,1,1,1,0,1,1,0,0
+686,Plum Condo Chokchai 4,79411.00,Lad Phrao Wang Hin Road,80000,0.6,2.1,11.8,1.4,1.2,Lat Phrao,Lat Phrao,North Bangkok,496,2017,7,1,1,1,0,1,1,0,0
+687,Baan Tri-wit,21878.00,Lat Phrao Road,233333.3,4.8,7.5,10.7,2.3,2.2,Bang Phai,Bang Khae,South Krungthon,42,2007,17,0,1,0,0,0,1,0,0
+688,Chambers Chaan Ladprao-Wanghin,90405.75,Lad Phrao Wang Hin Road,80000,0.6,1.8,10.3,0.3,2.2,Lat Phrao,Lat Phrao,North Bangkok,317,2017,7,0,1,1,0,1,1,0,0
+689,The Trend  Ramintra 71,29752.00,Khu Bon Road,60000,0.6,3,11.59,2.1,3,Lat Phrao,Lat Phrao,North Bangkok,79,2010,14,0,1,1,0,1,1,0,0
+690,Atmoz Ladprao 71,80228.50,Nak Niwat Road,80000,0.6,3.6,11.59,1.4,2.2,Lat Phrao,Lat Phrao,North Bangkok,740,2020,4,1,1,1,0,0,0,0,0
+691,The Privacy Ladprao-Sena,69704.20,Lad Phrao Wang Hin Road,80000,0.6,1.8,12.2,1.6,1,Lat Phrao,Lat Phrao,North Bangkok,376,2016,8,0,1,1,1,0,0,1,0
+692,Totnes Condo,178571.00,Kubon Road,42000,0.6,3.9,9.7,2.5,1.64,Lat Phrao,Lat Phrao,North Bangkok,54,2017,7,1,1,1,0,1,1,0,0
+693,Avacuz Garden Family House,59600.00,Lat Phrao Road,233333.3,0.1,16.7,14.3,1.5,0.5,Min Buri,Min Buri,Eastern Bangkok,45,2013,11,1,1,0,0,0,1,0,0
+694,Klass Langsuan,279863.00,Phloen Chit Road,1000000,0.3,1.26,19.72,0.7,0.7,Lumphini,Pathum Wan,South Bangkok,110,2015,9,1,1,1,0,0,1,0,0
+695,Q Langsuan,268295.67,Witthayu Road,1000000,0.3,0.8,19.72,0.9,0.7,Lumphini,Pathum Wan,South Bangkok,177,2008,16,0,1,1,0,0,0,0,0
+696,Prive by Sansiri,241625.00,Witthayu Road,1000000,0.9,1.5,19.72,1.4,1.1,Lumphini,Pathum Wan,South Bangkok,78,2010,14,0,1,1,0,1,1,0,0
+697,Baan Sindhorn,235015.29,Witthayu Road,1000000,0.4,0.9,19.72,1.1,0.8,Lumphini,Pathum Wan,South Bangkok,32,2021,3,0,1,1,0,1,1,0,0
+698,Grand Langsuan,137556.00,Witthayu Road,1000000,0.4,0.8,19.72,0.9,0.7,Lumphini,Pathum Wan,South Bangkok,104,1998,26,1,1,1,0,1,1,0,0
+699,All Seasons Mansion,180938.06,Witthayu Road,1000000,0.4,1.4,19.72,1.2,1.2,Lumphini,Pathum Wan,South Bangkok,206,1998,26,0,1,1,0,0,1,0,0
+700,The Crest Ruamrudee,159753.00,Witthayu Road,1000000,0.6,1.7,19.72,0.9,1.5,Lumphini,Pathum Wan,South Bangkok,37,2010,14,0,1,1,0,1,1,0,0
+701,Noble Ambience Sarasin,130000.00,Ratchadamri Road,825000,0.5,1,19.72,1,0.5,Lumphini,Pathum Wan,South Bangkok,79,2008,16,0,1,1,0,1,1,0,0
+702,The Private Residence Rajdamri,177817.33,Ratchadamri Road,825000,0.5,0.9,19.72,1,0.5,Lumphini,Pathum Wan,South Bangkok,54,2018,6,0,1,1,0,1,1,0,0
+703,Tonson One Residence,384350.50,Phloen Chit Road,1000000,0.3,1,19.72,0.7,0.8,Lumphini,Pathum Wan,South Bangkok,80,2023,1,0,1,1,0,0,1,0,0
+704,Esta Bliss Ramintra,66880.50,Nimit Mai Road,28500,0.2,17.1,14.2,1.2,0.3,Min Buri,Min Buri,Eastern Bangkok,634,2016,8,0,1,1,0,1,1,0,0
+705,The Cube Plus Minburi,61249.00,Nimit Mai Road,28500,0.7,17.6,14.1,0.9,0.3,Min Buri,Min Buri,Eastern Bangkok,336,2017,7,1,1,1,0,1,1,0,0
+706,Baan Navatara Agricultural - Nawamin,58292.75,Nuan Chan Road,75000,3.8,2,10.36,0.1,0.1,Nuanchan,Bueng Kum,Eastern Bangkok,1019,2010,14,0,1,0,0,1,1,0,0
+707,Life One Wireless,194712.82,Phloen Chit Road,1000000,0.6,1.5,19.8,0.7,1.2,Lumphini,Pathum Wan,South Bangkok,1344,2020,4,0,1,1,1,0,0,0,0
+708,Noble Ploenchit,266799.31,Phloen Chit Road,1000000,0.1,1.4,19.72,0.9,1.1,Lumphini,Pathum Wan,South Bangkok,1444,2017,7,1,1,1,0,0,0,0,0
+709,Craft Ploenchit,175490.00,Phloen Chit Road,1000000,0.3,1.5,19.72,0.9,1.3,Lumphini,Pathum Wan,South Bangkok,90,2019,5,1,1,1,0,1,1,0,0
+710,Oriental Residence,199918.67,Witthayu Road,1000000,0.6,1.6,19.72,0.2,1.4,Lumphini,Pathum Wan,South Bangkok,145,2010,14,1,1,1,0,1,1,0,0
+711,185 Rajadamri,384220.25,Ratchadamri Road,825000,0.5,0.9,19.72,0.9,0.4,Lumphini,Pathum Wan,South Bangkok,266,2012,12,1,1,1,0,1,1,0,0
+712,Klass Sarasin-Rajdamri,218154.00,Ratchadamri Road,825000,0.5,1,19.72,1,0.5,Lumphini,Pathum Wan,South Bangkok,68,2017,7,0,1,0,0,1,1,0,0
+713,28 Chidlom,355102.21,Phloen Chit Road,1000000,0.3,1,19.72,0.3,0.7,Lumphini,Pathum Wan,South Bangkok,425,2019,5,0,0,1,0,1,1,0,0
+714,Baan Rajprasong,99908.75,Ratchadamri Road,825000,0.8,1.2,19.72,1.2,1.9,Lumphini,Pathum Wan,South Bangkok,220,2008,16,1,1,1,0,0,1,0,0
+715,Hansar Rajdamri,101878.50,Ratchadamri Road,825000,0.1,0.8,19.72,0.8,0.4,Lumphini,Pathum Wan,South Bangkok,196,2008,16,0,1,0,0,0,1,0,0
+716,Na Vara Residence,283582.00,Phloen Chit Road,1000000,0.3,0.9,19.72,0.7,0.7,Lumphini,Pathum Wan,South Bangkok,97,2018,6,0,1,1,1,0,1,0,0
+717,Langsuan Ville,168779.33,Witthayu Road,1000000,0.4,0.8,19.72,0.9,0.7,Lumphini,Pathum Wan,South Bangkok,262,2001,23,0,1,0,0,1,1,0,0
+718,Sindhorn Residence,281659.43,Witthayu Road,1000000,0.5,1,19.72,1.1,0.8,Lumphini,Pathum Wan,South Bangkok,200,2018,6,1,1,1,0,1,1,0,0
+719,Urbana Langsuan,64687.50,Witthayu Road,1000000,0.6,0.4,19.72,1.2,0.91,Lumphini,Pathum Wan,South Bangkok,247,2003,21,1,1,1,0,0,1,0,0
+720,Chidlom Place,127240.00,Phloen Chit Road,1000000,0.5,1.8,19.72,0.4,1.6,Lumphini,Pathum Wan,South Bangkok,31,1987,37,0,1,1,0,0,0,0,0
+721,Motif Condo,58903.00,Itsaraphap Road,120000,0.9,0.7,26.1,0.8,1.4,Bang Yi Ruea,Thon Buri,North Krungthon,303,2014,10,1,1,1,0,0,0,0,1
+722,Athenee Residence,287112.11,Phloen Chit Road,1000000,0.2,1.4,19.72,1.1,1.2,Lumphini,Pathum Wan,South Bangkok,219,2008,16,0,1,1,0,1,1,0,0
+723,Lumpini Place Ratchada-Thapra,53752.25,Somdet Phra Chao Tak Sin Road,145000,0.8,0.3,27.7,0.6,0.7,Bukkhalo,Thon Buri,North Krungthon,286,2006,18,1,1,1,0,0,0,1,0
+724,The Residences at Sindhorn Kempinski,342305.07,Witthayu Road,1000000,0.6,1.1,19.72,1.3,0.8,Lumphini,Pathum Wan,South Bangkok,231,2020,4,0,1,1,0,1,1,0,0
+725,Sindhorn Tonson,326849.50,Witthayu Road,1000000,0.8,1.3,19.72,1.2,0.8,Lumphini,Pathum Wan,South Bangkok,59,2018,6,0,1,1,0,1,1,0,0
+726,98 Wireless,822569.00,Phloen Chit Road,1000000,0.3,1.2,19.72,0.9,0.9,Lumphini,Pathum Wan,South Bangkok,77,2016,8,0,1,1,0,1,1,0,0
+727,IDEO Sathorn Tha Phra,85258.63,Narathiwat Ratchanakharin Road,440000,0.4,0.9,27.7,0.5,0.8,Bukkhalo,Thon Buri,North Krungthon,24,2015,9,1,1,1,1,0,0,0,0
+728,Scope Langsuan,625270.58,Phloen Chit Road,1000000,0.2,0.9,19.72,0.7,0.7,Lumphini,Pathum Wan,South Bangkok,158,2023,1,0,1,1,0,0,0,0,0
+729,Baan Na Varang Condominium,250000.00,Phloen Chit Road,1000000,0.3,0.8,19.72,0.8,0.6,Lumphini,Pathum Wan,South Bangkok,95,1997,27,0,1,0,0,0,1,0,0
+730,Baan Siri Ruedee Condominium,168605.00,Witthayu Road,1000000,0.2,1.5,19.72,1.1,1.3,Lumphini,Pathum Wan,South Bangkok,68,2014,10,0,0,0,0,0,0,0,0
+731,Ploenchit Terrace,275508.00,Phloen Chit Road,1000000,0.2,2.1,19.72,0.3,0.8,Lumphini,Pathum Wan,South Bangkok,48,1993,31,0,1,0,0,0,1,0,0
+732,Preen by Sansiri,167797.00,Witthayu Road,1000000,0.8,1.6,19.72,1.1,1.4,Lumphini,Pathum Wan,South Bangkok,26,2008,16,1,1,1,0,1,1,0,0
+733,The Address Chidlom,164436.13,Phloen Chit Road,1000000,0.5,1.2,19.9,0.5,1,Lumphini,Pathum Wan,South Bangkok,597,2009,15,1,1,1,0,1,1,0,0
+734,Regent Royal Place 2,50806.00,Ratchadamri Road,825000,0.1,0.5,19.72,0.7,0.4,Lumphini,Pathum Wan,South Bangkok,360,1995,29,0,1,0,0,1,1,0,0
+735,The Royal Maneeya,138889.00,Ratchadamri Road,825000,0.2,0.6,19.72,0.6,0.4,Lumphini,Pathum Wan,South Bangkok,76,2007,17,0,1,0,0,0,1,0,0
+736,The St. Regis Bangkok (Residences),345421.00,Ratchadamri Road,825000,0.1,0.5,19.72,0.8,0.4,Lumphini,Pathum Wan,South Bangkok,53,2010,14,0,1,0,0,1,1,0,0
+737,Chamchuri Residence,96562.67,Patpong Road,600000,0.1,0.7,20.97,0.6,0.5,Pathum Wan,Pathum Wan,South Bangkok,220,2008,16,1,1,1,0,1,1,0,0
+738,Magnolias Ratchadamri Boulevard,210310.88,Phloen Chit Road,1000000,0.3,0.5,19.72,0.5,0.2,Lumphini,Pathum Wan,South Bangkok,316,2015,9,0,1,1,0,0,1,0,0
+739,The Rajdamri,81444.25,Ratchadamri Road,825000,0.2,0.6,19.72,0.8,0.5,Lumphini,Pathum Wan,South Bangkok,278,2009,15,0,1,1,0,0,0,0,0
+740,The Tempo Ruamrudee,136666.50,Witthayu Road,1000000,0.5,1.6,19.72,0.9,1.4,Lumphini,Pathum Wan,South Bangkok,79,2009,15,0,1,0,0,0,1,0,0
+741,Aspire Sathorn-Thapa,94821.57,Ratchaphruek Road,123333.3,0.1,0.8,27.7,0.3,1,Bukkhalo,Thon Buri,North Krungthon,188,2017,7,1,1,1,0,1,1,0,0
+742,Baan Ploenchit,180000.00,Witthayu Road,1000000,0.7,1.7,19.72,0.9,1.5,Lumphini,Pathum Wan,South Bangkok,129,1993,31,0,1,0,0,1,1,0,0
+743,Socio Ruamrudee,131250.00,Witthayu Road,1000000,0.7,1.8,19.72,0.9,1.6,Lumphini,Pathum Wan,South Bangkok,67,2010,14,1,1,1,0,1,1,0,0
+744,Muniq Langsuan,387282.31,Witthayu Road,1000000,0.7,1.2,19.72,1.3,0.9,Lumphini,Pathum Wan,South Bangkok,166,2021,3,0,1,1,0,0,1,0,0
+745,Noble Above Wireless-Ruamrudee,146072.20,Witthayu Road,1000000,0.8,1.8,19.72,1,1.5,Lumphini,Pathum Wan,South Bangkok,104,2019,5,0,1,1,0,1,1,0,0
+746,Nimit Langsuan,420299.00,Ratchadamri Road,825000,0.5,1,19.72,1.1,0.6,Lumphini,Pathum Wan,South Bangkok,187,2015,9,0,1,0,1,0,0,0,0
+747,The Parkland Taksin-Thapra,69684.00,Somdet Phra Chao Taksin Road,182500,0.2,0.9,27.7,0.4,0.9,Bukkhalo,Thon Buri,North Krungthon,638,2010,14,1,1,1,0,0,1,0,0
+748,The Parkland Grand Taksin,74127.00,Somdet Phra Chao Tak Sin Road,145000,0.2,0.9,27.7,0.4,1,Bukkhalo,Thon Buri,North Krungthon,793,2015,9,0,1,1,0,1,1,0,0
+749,The Room Sathorn-Taksin,84000.67,Somdet Phra Chao Tak Sin Road,145000,0.3,1,27.7,0.7,0.7,Bukkhalo,Thon Buri,North Krungthon,404,2011,13,0,1,1,0,1,1,0,0
+750,Supalai Loft @ Talat Phlu Station,77096.63,Somdet Phra Chao Tak Sin Road,145000,0.5,0.5,27.7,0.3,0.8,Bukkhalo,Thon Buri,North Krungthon,203,2015,9,0,1,0,0,0,1,0,0
+751,Casa Condo Ratchada-Thapra,71143.00,Wutthakat Road,80000,0.1,0.9,28.6,0.2,1.1,Dao Khanong,Thon Buri,North Krungthon,275,2011,13,0,1,1,0,1,1,0,0
+752,Bangkok Horizon Ratchada-Thaphra,55413.50,Somdet Phra Chao Tak Sin Road,145000,0.8,0.4,28.6,0.7,0.8,Dao Khanong,Thon Buri,North Krungthon,1278,2013,11,0,1,1,0,1,1,0,0
+753,U Delight@Talat Phlu Station,66333.00,Somdet Phra Chao Tak Sin Road,145000,0.5,0.6,28.6,0.4,0.9,Dao Khanong,Thon Buri,North Krungthon,741,2016,8,1,1,1,1,1,1,0,0
+754,Dcondo Campus Resort Ratchapruek-Charan 13,55300.00,Phran Nok Road,150000,3.78,2.1,26.46,3.1,2.1,Bang Waek,Phasi Charoen,South Krungthon,586,2013,11,0,1,1,0,1,1,0,0
+755,Niche Mono Charoen Nakorn,94902.67,Somdet Phra Chao Tak Sin Road,145000,2.2,1.3,28.6,0.4,1,Dao Khanong,Thon Buri,North Krungthon,1250,2020,4,0,1,1,0,1,1,0,0
+756,Whizdom Station Ratchada-Thapra,126084.29,Wutthakat Road,80000,0.2,0.8,28.6,0.1,1,Dao Khanong,Thon Buri,North Krungthon,321,2018,6,0,1,1,1,0,1,0,0
+757,Casa Condo Ratchada-Ratchaphruek,78022.00,Wutthakat Road,80000,0.1,1,28.6,0.3,1.2,Dao Khanong,Thon Buri,North Krungthon,799,2014,10,0,1,1,0,1,1,0,0
+758,The Parkland Ratchada-Thapra,57693.50,Somdet Phra Chao Tak Sin Road,145000,0.5,0.5,28.6,0.4,0.9,Dao Khanong,Thon Buri,North Krungthon,640,2013,11,1,1,1,1,0,0,0,0
+759,The Niche Taksin,68269.00,Krung Thonburi Road,300000,0.8,0.8,26.1,0.7,1.4,Hiran Ruchi,Thon Buri,North Krungthon,417,2013,11,0,1,1,0,1,1,0,0
+760,Wish @ Samyan,128313.50,Patpong Road,600000,0.4,0.9,23.2,1,0.7,Maha Phrutharam,Bang Rak,South Bangkok,1049,2010,14,0,1,0,0,1,1,0,0
+761,Vertiq Rama 4-Siam,128947.00,Silom Road,600000,0.4,1,23.2,1.1,0.7,Maha Phrutharam,Bang Rak,South Bangkok,1802,2012,12,0,1,1,0,1,1,0,0
+762,The Key Wutthakat,74885.33,Wutthakat Road,80000,0.1,1.8,26.79,1.2,1.1,Bang Kho,Chom Thong,North Krungthon,441,2015,9,1,1,1,0,0,1,0,0
+763,IDEO Q Chula - Samyan,194805.38,Patpong Road,600000,0.4,0.8,23.2,1.1,0.8,Maha Phrutharam,Bang Rak,South Bangkok,584,2016,8,1,1,1,1,0,0,1,0
+764,Centric Scene Aree 2,110465.00,Bangkok Nonthaburi Road,240000,0.3,1,16.7,1.5,1,Sam Sen Nai,Phaya Thai,Central Bangkok,79,2013,11,1,1,1,0,1,1,0,0
+765,The Crest Phahonyothin 11,115686.20,Bangkok Nonthaburi Road,240000,1,1.8,15.8,0.8,0.9,Sam Sen Nai,Phaya Thai,Central Bangkok,154,2012,12,1,1,1,0,0,0,0,0
+766,Lumpini Selected Sutthisan-Saphan Khwai,105328.00,Asoke Din Daeng Road,375000,0.7,1.2,15.3,0.5,0.5,Sam Sen Nai,Phaya Thai,Central Bangkok,389,2018,6,1,1,1,1,0,0,0,0
+767,Rhythm Phahol-Ari,107257.17,Kamphaeng Phet 6 Road,35000,0.7,1.6,15.6,0.5,0.6,Sam Sen Nai,Phaya Thai,Central Bangkok,809,2012,12,0,1,1,0,1,1,0,0
+768,Life @ Phahon-Ari,97368.20,Kamphaeng Phet 6 Road,35000,0.5,1.4,15.5,0.3,0.4,Sam Sen Nai,Phaya Thai,Central Bangkok,357,2007,17,0,1,1,0,0,1,0,0
+769,Onyx Phahonyothin,134656.58,Kamphaeng Phet 6 Road,35000,0.3,1.1,15.2,0.1,0.2,Sam Sen Nai,Phaya Thai,Central Bangkok,620,2013,11,1,1,1,0,1,1,0,0
+770,The Signature by URBANO,162656.25,Kamphaeng Phet 6 Road,35000,0.1,1,15.1,0.2,0.2,Sam Sen Nai,Phaya Thai,Central Bangkok,253,2015,9,1,1,1,0,1,1,0,0
+771,The Editor Saphan Khwai,164658.50,Kamphaeng Phet 6 Road,35000,0.1,0.8,14.9,0.3,0.2,Sam Sen Nai,Phaya Thai,Central Bangkok,240,2015,9,0,1,1,0,0,1,0,0
+772,Lumpini Place Phahol-Saphankhwai,92445.67,Phalasinthon Road,50000,0.7,1.5,15.5,0.6,0.7,Sam Sen Nai,Phaya Thai,Central Bangkok,1093,2006,18,1,1,0,0,1,1,0,0
+773,Noble Reflex,106939.00,Bangkok Nonthaburi Road,240000,0.3,1.2,16.4,1.2,1.2,Sam Sen Nai,Phaya Thai,Central Bangkok,210,2009,15,0,1,1,0,1,1,0,0
+774,The Line Phahon-Pradipat,159141.54,Kamphaeng Phet 6 Road,35000,0.5,1.3,15.4,0.3,0.5,Sam Sen Nai,Phaya Thai,Central Bangkok,981,2019,5,1,1,1,0,0,0,0,0
+775,Lumpini Ville Phahol-Suthisarn,73333.00,Witthayu Road,1000000,1.15,1.44,20.82,2.52,2.55,Sam Sen Nai,Phaya Thai,Central Bangkok,861,2005,19,1,1,1,0,1,1,0,0
+776,CENTRIC Ari Station,166579.67,Bangkok Nonthaburi Road,240000,3.75,4.59,16.44,4.18,2.42,Sam Sen Nai,Phaya Thai,Central Bangkok,516,2016,8,1,1,1,0,1,1,0,0
+777,Noble Around Ari,269085.50,Asoke Din Daeng Road,375000,3.76,4.53,16.36,4.2,2.46,Sam Sen Nai,Phaya Thai,Central Bangkok,611,2023,1,1,1,1,0,0,0,0,0
+778,Haven Luxe,87930.00,Asoke Din Daeng Road,375000,2.24,1.37,14.96,1.42,3.82,Sam Sen Nai,Phaya Thai,Central Bangkok,133,2014,10,1,1,1,0,1,1,0,0
+779,Siamese Ratchakru,142280.33,Bangkok Nonthaburi Road,240000,3.51,4.35,16.64,3.95,2.2,Sam Sen Nai,Phaya Thai,Central Bangkok,282,2013,11,1,1,1,0,1,1,0,0
+780,D’Memoria Phaholyothin 8,99722.00,Phahon Yothin Road,130000,3.83,4.43,16.15,4.29,2.63,Sam Sen Nai,Phaya Thai,Central Bangkok,123,2016,8,1,1,1,0,0,0,0,0
+781,The Vertical Aree,136534.50,Bangkok Nonthaburi Road,240000,3.82,4.66,16.39,4.25,2.49,Sam Sen Nai,Phaya Thai,Central Bangkok,189,2010,14,1,1,1,0,1,1,0,0
+782,IDEO MIX Phaholyothin,103398.80,Kamphaeng Phet 6 Road,35000,1.51,2.19,14.37,1.81,4.45,Sam Sen Nai,Phaya Thai,Central Bangkok,449,2010,14,1,1,1,0,1,1,0,0
+783,Noble ReD,171065.00,Phahonyothin Road,330000,2.34,2.94,15.95,2.4,2.16,Sam Sen Nai,Phaya Thai,Central Bangkok,272,2014,10,1,1,1,0,1,1,0,0
+784,The Capital Ratchaprarop-Vibha,98094.00,Asoke Din Daeng Road,375000,2.34,2.94,15.95,2.4,2.16,Sam Sen Nai,Phaya Thai,Central Bangkok,537,2013,11,0,1,1,0,1,1,0,0
+785,IDEO Phaholyothin Chatuchak,154936.00,Kamphaeng Phet 6 Road,35000,1.43,2.29,14.3,1.87,4.54,Sam Sen Nai,Phaya Thai,Central Bangkok,390,2018,6,1,1,1,0,0,0,0,0
+786,Harmony Living Paholyothin 11,97003.00,Phahonyothin Road,330000,2.34,2.94,15.95,2.4,2.16,Sam Sen Nai,Phaya Thai,Central Bangkok,101,2007,17,0,1,0,0,0,1,0,0
+787,The Fine by Fine Home Ari 4-Paholyothin,109906.00,Bangkok Nonthaburi Road,240000,4.09,4.96,16.2,4.52,2.75,Sam Sen Nai,Phaya Thai,Central Bangkok,79,2009,15,0,1,0,0,0,1,0,0
+788,The Silk Phaholyothin-Aree 2,108176.00,Phahonyothin Road,330000,2.34,2.94,15.95,2.4,2.16,Sam Sen Nai,Phaya Thai,Central Bangkok,79,2009,15,0,1,1,0,1,1,0,0
+789,The Silk Phaholyothin 3,120253.00,Bangkok Nonthaburi Road,240000,3.32,4.24,16.89,3.74,1.98,Sam Sen Nai,Phaya Thai,Central Bangkok,94,2007,17,0,1,0,0,0,1,0,0
+790,Intro Phaholyothin-Pradipat,96073.00,Kamphaeng Phet 6 Road,35000,1.27,4.14,15.27,2.94,3.91,Sam Sen Nai,Phaya Thai,Central Bangkok,450,2017,7,0,0,0,0,0,0,0,0
+791,KALM Penthouse Ari,187097.00,Bangkok Nonthaburi Road,240000,3.61,4.63,16.82,4.01,2.23,Sam Sen Nai,Phaya Thai,Central Bangkok,23,2021,3,0,1,1,0,0,1,0,0
+792,Suanbua Residence Ari 1- Ralakru,175169.00,Bangkok Nonthaburi Road,240000,3.71,4.58,16.52,4.14,2.37,Sam Sen Nai,Phaya Thai,Central Bangkok,54,2018,6,0,1,1,0,1,1,0,0
+793,Metro Luxe Phaholyothin-Sutthisan,83799.00,Phahonyothin Road,330000,2.34,2.94,15.95,2.4,2.16,Sam Sen Nai,Phaya Thai,Central Bangkok,300,2016,8,0,0,1,0,1,0,0,0
+794,Villa Rachakhru,120636.00,Bangkok Nonthaburi Road,240000,3.53,4.42,16.67,3.96,2.2,Sam Sen Nai,Phaya Thai,Central Bangkok,70,2005,19,1,1,1,0,1,1,0,0
+795,The Reserve Phahol-Pradipat,147869.75,Kamphaeng Phet 6 Road,35000,1.68,1.82,14.99,2.03,3.86,Sam Sen Nai,Phaya Thai,Central Bangkok,260,2019,5,1,1,1,1,0,0,0,0
+796,Baxtor Paholyothin 14,107399.67,Asoke Din Daeng Road,375000,4.69,4.74,15.3,1.73,3.48,Sam Sen Nai,Phaya Thai,Central Bangkok,58,2015,9,0,0,0,0,0,1,0,0
+797,SILK Phaholyothin 9,106724.00,Bangkok Nonthaburi Road,240000,4.68,4.05,15.57,2.48,3.36,Sam Sen Nai,Phaya Thai,Central Bangkok,109,2014,10,1,1,1,0,1,1,0,0
+798,The Address Sukhumvit 42,106502.20,Ekkamai Road,255000,1.13,3.88,18.03,2.34,3.52,Phra Khanong,Khlong Toei,South Bangkok,449,2009,15,0,1,1,0,1,1,0,0
+799,Rhythm Sukhumvit 36-38,176506.85,Ekkamai Road,255000,4.41,2.81,19.06,1.28,3.05,Phra Khanong,Khlong Toei,South Bangkok,496,2016,8,1,1,1,0,0,1,1,0
+800,Rhythm Sukhumvit 50,133847.75,Pridi Banomyong Road,240000,3.01,0.8,16.39,4.23,4,Phra Khanong,Khlong Toei,South Bangkok,589,2013,11,0,1,1,0,1,1,0,0
+801,Quintara Treehaus Sukhumvit 42,137309.00,Ekkamai Road,255000,1.26,4.01,17.95,2.47,3.66,Phra Khanong,Khlong Toei,South Bangkok,304,2020,4,0,1,1,1,1,1,0,0
+802,The Niche Mono Sukhumvit 50,103699.67,Ekkamai Road,255000,2.67,0.2,17.12,3.84,3.78,Phra Khanong,Khlong Toei,South Bangkok,434,2018,6,0,1,0,0,0,1,0,0
+803,The Base Sukhumvit 50,107145.25,Ekkamai Road,255000,2.61,0.12,17.14,3.78,3.71,Phra Khanong,Khlong Toei,South Bangkok,415,2019,5,1,1,0,0,1,1,0,0
+804,Tree Condo Ekamai,104104.67,Ekkamai Road,255000,1.03,3.72,18.3,2.2,3.61,Phra Khanong,Khlong Toei,South Bangkok,119,2014,10,1,1,1,0,0,1,0,0
+805,The Esse Sukhumvit 36,333339.67,Ekkamai Road,255000,4.34,2.7,19.03,1.17,2.78,Phra Khanong,Khlong Toei,South Bangkok,338,2020,4,1,1,1,0,0,0,0,0
+806,Rhythm Sukhumvit 42,180642.54,Ekkamai Road,255000,1.04,3.79,18.08,2.26,3.44,Phra Khanong,Khlong Toei,South Bangkok,407,2015,9,1,1,1,0,1,1,0,0
+807,The Link Sukhumvit 50,80479.00,Pridi Banomyong Road,240000,2.89,0.65,16.54,4.11,3.9,Phra Khanong,Khlong Toei,South Bangkok,199,2008,16,0,1,1,0,1,1,0,0
+808,Noble Reveal,156159.00,Ekkamai Road,255000,0.74,3.48,18.22,1.96,2.97,Phra Khanong Nuea,Watthana,South Bangkok,273,2011,13,0,1,1,0,1,1,0,0
+809,Vista Garden,77421.50,Pridi Banomyong Road,240000,0.7,3.79,17.06,1.3,1.49,Phra Khanong Nuea,Watthana,South Bangkok,160,2007,17,0,1,1,0,0,0,0,0
+810,HIVE Sukhumvit 65,103017.80,Ekkamai Road,255000,1.13,3.86,17.84,2.35,3.15,Phra Khanong Nuea,Watthana,South Bangkok,124,2010,14,0,1,1,0,1,1,0,0
+811,PP Plus Sukhumvit 71,67828.67,Pridi Banomyong Road,240000,2.46,1.88,16.5,3.62,3.63,Phra Khanong Nuea,Watthana,South Bangkok,72,2014,10,0,1,1,0,1,1,0,0
+812,Tree Condo Sukhumvit 42,84216.75,Ekkamai Road,255000,1.44,4.19,17.77,2.65,3.75,Phra Khanong Nuea,Watthana,South Bangkok,73,2009,15,0,1,1,0,1,1,0,0
+813,Chambers On-Nut Station,133263.50,Pridi Banomyong Road,240000,3.44,1.23,15.95,4.67,4.39,Phra Khanong Tai,Phra Khanong,South Bangkok,487,2019,5,0,1,1,1,0,1,0,0
+814,The President Sukhumvit 81,117189.67,Pridi Banomyong Road,240000,3.31,1.05,16.13,4.53,4.29,Phra Khanong Nuea,Watthana,South Bangkok,358,2012,12,1,1,1,0,1,1,0,0
+815,The Escape Condominium,46782.33,Udom Suk Road (Sukhumvit 103),185000,2.79,3.06,12.49,0.21,2.19,Bang Chak,Phra Khanong,South Bangkok,794,2009,15,0,0,0,0,0,1,0,0
+816,The Next Garden Mix,91653.00,Pridi Banomyong Road,240000,3.29,0.89,16.34,4.5,4.32,Phra Khanong Tai,Phra Khanong,South Bangkok,138,2011,13,0,1,1,0,1,1,0,0
+817,@City Condominium,51547.67,Sukhumvit Road,490000,2.51,2.57,15.11,2.06,3.19,Bang Chak,Phra Khanong,South Bangkok,799,2009,15,1,1,1,0,0,1,0,0
+818,Chateau in Town Sukhumvit 64,107143.00,Udom Suk Road (Sukhumvit 103),185000,4.74,3.52,15.69,1.91,3.23,Bang Chak,Phra Khanong,South Bangkok,79,2015,9,0,0,1,0,1,0,0,0
+819,Chateau In Town Sukhumvit 64/1,67647.00,Udom Suk Road (Sukhumvit 103),185000,0.36,2.9,15.28,2.49,3.86,Bang Chak,Phra Khanong,South Bangkok,222,2019,5,0,1,0,0,1,1,0,0
+820,Plum Condo Sukhumvit 97.1,90741.00,Udom Suk Road (Sukhumvit 103),185000,4.48,2.16,15.12,1.4,3,Bang Chak,Phra Khanong,South Bangkok,425,2021,3,0,1,1,0,0,1,0,0
+821,IDEO MOBI Sukhumvit 81,133585.20,Pridi Banomyong Road,240000,3.35,1.08,16.1,4.58,4.33,Bang Chak,Phra Khanong,South Bangkok,940,2013,11,1,1,1,1,1,1,1,0
+822,Ramada Residence (Siamese) Sukhumvit 87,111026.00,Pridi Banomyong Road,240000,3.68,1.31,15.93,4.9,2.18,Bang Chak,Phra Khanong,South Bangkok,372,2021,3,1,1,0,0,0,1,0,0
+823,The Room Sulkumvit 62,125899.43,Udom Suk Road (Sukhumvit 103),185000,4.97,3.34,15.33,2.04,3.46,Phra Khanong Tai,Phra Khanong,South Bangkok,487,2011,13,1,1,1,0,1,1,0,0
+824,IDEO Sukhumvit 93,132318.90,Pridi Banomyong Road,240000,4.04,1.62,15.74,1.05,2.53,Bang Chak,Phra Khanong,South Bangkok,1332,2018,6,0,1,1,0,1,1,0,0
+825,IDEO Mobi Sukhumvit 66,152586.25,Udom Suk Road (Sukhumvit 103),185000,0.19,2.43,15.19,2.98,4.32,Bang Na Nuea,Bang Na,South Bangkok,298,2017,7,1,1,1,1,0,0,0,0
+826,The Line Sukhumvit 101,149608.50,Udom Suk Road (Sukhumvit 103),185000,4.81,3.53,15.35,1.85,3.3,Bang Chak,Phra Khanong,South Bangkok,778,2020,4,1,1,1,1,0,0,0,0
+827,Quinn Sukhumvit 101,176344.75,Udom Suk Road (Sukhumvit 103),185000,0.1,3.29,15.26,2.09,3.52,Bang Chak,Phra Khanong,South Bangkok,349,2020,4,0,1,1,0,0,0,0,0
+828,The Light New York,75862.00,Udom Suk Road (Sukhumvit 103),185000,4.71,3.55,15.79,1.92,3.2,Phra Khanong Tai,Phra Khanong,South Bangkok,168,2015,9,1,1,1,0,1,1,0,0
+829,Sari by Sansiri,85769.75,Udom Suk Road (Sukhumvit 103),185000,0.33,3.15,15.51,2.27,3.6,Bang Chak,Phra Khanong,South Bangkok,192,2013,11,1,1,1,0,1,1,0,0
+830,The Nest Sukhumvit 64,119149.00,Udom Suk Road (Sukhumvit 103),185000,0.65,2.95,15.68,2.58,3.81,Phra Khanong Tai,Phra Khanong,South Bangkok,439,2019,5,0,1,1,0,1,1,0,0
+831,Regent Home 13,52812.00,Udom Suk Road (Sukhumvit 103),185000,4.42,2.21,14.99,1.37,2.97,Bang Chak,Phra Khanong,South Bangkok,270,2012,12,1,1,1,0,1,1,0,0
+832,Whizdom Essence,172838.64,Udom Suk Road (Sukhumvit 103),185000,0.52,2.73,14.92,2.65,4.1,Bang Chak,Phra Khanong,South Bangkok,664,2019,5,0,1,1,1,0,0,0,0
+833,The Tree Onnut Station,110536.50,Pridi Banomyong Road,240000,3.43,1.01,16.26,4.64,4.47,Phra Khanong Tai,Phra Khanong,South Bangkok,166,2017,7,0,1,1,0,1,1,0,0
+834,Regent Home 4,46562.00,Pridi Banomyong Road,240000,3.93,1.85,15.34,0.94,2.52,Bang Chak,Phra Khanong,South Bangkok,404,2010,14,0,1,0,0,0,1,0,0
+835,Hue Sukhumvit 62/3,107705.00,Sukhumvit Road,490000,2.51,2.57,15.11,2.06,3.19,Bang Chak,Phra Khanong,South Bangkok,141,2015,9,1,1,1,1,1,1,0,0
+836,The Link Vano 64,82023.00,Udom Suk Road (Sukhumvit 103),185000,0.4,3.12,15.56,2.32,3.62,Phra Khanong Tai,Phra Khanong,South Bangkok,166,2016,8,1,1,1,0,0,1,0,0
+837,Chateau In Town Sukhumvit 62/1,64108.50,Udom Suk Road (Sukhumvit 103),185000,4.55,3.73,15.66,1.67,3.04,Phra Khanong Tai,Phra Khanong,South Bangkok,197,2013,11,0,1,1,0,1,1,0,0
+838,The Muse Sukhumvit,67934.00,Udom Suk Road (Sukhumvit 103),185000,0.46,2.79,15.23,2.6,3.96,Phra Khanong Tai,Phra Khanong,South Bangkok,79,2015,9,0,0,0,0,0,1,0,0
+839,Condo Elio Del Ray,76793.38,Udom Suk Road (Sukhumvit 103),185000,0.72,3.06,15.78,2.49,3.7,Phra Khanong Tai,Phra Khanong,South Bangkok,1630,2013,11,1,1,0,0,1,0,0,0
+840,Chateau In Town Sukhumvit 62/1 Phase 2,64884.00,Udom Suk Road (Sukhumvit 103),185000,4.49,3.77,15.81,1.67,2.98,Phra Khanong Tai,Phra Khanong,South Bangkok,79,2014,10,1,1,1,0,1,1,0,0
+841,Elio Sukhumvit 64,64211.75,Udom Suk Road (Sukhumvit 103),185000,0.69,3.12,15.8,2.44,3.65,Phra Khanong Tai,Phra Khanong,South Bangkok,962,2014,10,1,1,1,0,1,1,0,0
+842,Whizdom @ Punnawithi Station,76187.17,Udom Suk Road (Sukhumvit 103),185000,4.92,3.35,15.5,2.04,3.41,Bang Chak,Phra Khanong,South Bangkok,262,2011,13,1,1,1,1,0,1,0,0
+843,The Privacy S101,112527.00,Udom Suk Road (Sukhumvit 103),185000,0.46,3.23,14.84,2.22,3.74,Bang Chak,Phra Khanong,South Bangkok,394,2022,2,0,1,1,0,1,1,0,0
+844,Residence Sukhumvit 52,107346.00,Pridi Banomyong Road,240000,3.23,0.88,16.32,4.45,4.25,Phra Khanong Tai,Phra Khanong,South Bangkok,77,2010,14,0,1,0,0,0,1,0,0
+845,Tree Condo Sukhumvit 52,61702.00,Pridi Banomyong Road,240000,3.36,0.95,16.29,4.57,4.39,Phra Khanong Tai,Phra Khanong,South Bangkok,73,2009,15,0,1,1,0,1,1,0,0
+846,Life Sukhumvit 62,124780.50,Udom Suk Road (Sukhumvit 103),185000,4.23,1.75,15.86,1.36,2.72,Bang Chak,Phra Khanong,South Bangkok,438,2019,5,1,1,1,0,0,0,0,0
+847,Moniiq Sukhumvit 64,91327.00,Udom Suk Road (Sukhumvit 103),185000,4.69,3.56,15.97,2,3.19,Phra Khanong Tai,Phra Khanong,South Bangkok,366,2017,7,0,1,1,1,0,1,0,0
+848,The Room Sukhumvit 64,71429.00,Udom Suk Road (Sukhumvit 103),185000,0.56,3.16,15.72,2.34,3.59,Phra Khanong Tai,Phra Khanong,South Bangkok,105,2013,11,1,1,1,0,1,1,0,0
+849,The Tree Sukhumvit 64,102762.14,Udom Suk Road (Sukhumvit 103),185000,0.35,3.1,15.5,2.32,3.64,Phra Khanong Tai,Phra Khanong,South Bangkok,149,2018,6,1,1,1,1,0,0,0,0
+850,The Link Sukhumvit 64,63768.00,Udom Suk Road (Sukhumvit 103),185000,0.48,3.14,15.65,2.33,3.6,Phra Khanong Tai,Phra Khanong,South Bangkok,122,2010,14,0,1,1,0,0,1,0,0
+851,Le Crique Sukhumvit 64/2,96667.00,Udom Suk Road (Sukhumvit 103),185000,0.43,2.81,15.19,2.57,3.96,Bang Chak,Phra Khanong,South Bangkok,169,2017,7,1,1,1,0,1,1,0,0
+852,My Condo Sukhumvit 81,57143.00,Pridi Banomyong Road,240000,3.43,1.26,15.93,4.66,4.38,Bang Chak,Phra Khanong,South Bangkok,146,2009,15,0,1,0,0,1,1,0,0
+853,Casa Condo Sukhumvit 97,68429.00,Udom Suk Road (Sukhumvit 103),185000,4.23,1.83,15.53,1.2,2.72,Bang Chak,Phra Khanong,South Bangkok,218,2011,13,0,1,1,0,1,1,0,0
+854,Regent Home Sukhumvit 97/1,57918.33,Udom Suk Road (Sukhumvit 103),185000,4.76,2.51,14.73,1.7,3.31,Bang Chak,Phra Khanong,South Bangkok,1245,2019,5,0,1,1,0,1,1,0,0
+855,The Log 3,50077.00,Udom Suk Road,110000,2.51,2.57,15.11,2.06,3.19,Bang Chak,Phra Khanong,South Bangkok,630,2013,11,0,1,1,0,1,0,1,0
+856,The Green 2 Condominium @ Sukhumvit 101,44828.00,Udom Suk Road (Sukhumvit 103),185000,1.64,3.56,13.78,2.72,4.33,Bang Chak,Phra Khanong,South Bangkok,260,2011,13,0,1,1,0,1,1,0,0
+857,Lumpini Ville Sukhumvit 101/1-Punnawithi,65476.33,Udom Suk Road (Sukhumvit 103),185000,2.7,2.86,12.6,0.4,2.04,Bang Chak,Phra Khanong,South Bangkok,328,2021,3,0,1,1,0,1,1,0,0
+858,MY Condo Sukhumvit 52,74305.50,Pridi Banomyong Road,240000,3.25,0.89,16.31,4.46,4.26,Phra Khanong Tai,Phra Khanong,South Bangkok,147,2009,15,0,1,1,0,1,1,0,0
+859,Mayfair Place Sukhumvit 64,79937.33,Udom Suk Road (Sukhumvit 103),185000,0.41,3.17,15.59,2.28,3.58,Phra Khanong Tai,Phra Khanong,South Bangkok,365,2015,9,0,1,0,0,1,1,0,0
+860,Piti Sukhumvit 101,167645.00,Udom Suk Road (Sukhumvit 103),185000,4.69,3.65,15.42,1.72,3.17,Bang Chak,Phra Khanong,South Bangkok,168,2022,2,0,1,1,1,0,0,0,0
+861,Whizdom Inspire Sukhumvit,192049.33,Udom Suk Road (Sukhumvit 103),185000,0.51,2.72,14.95,2.66,4.09,Bang Chak,Phra Khanong,South Bangkok,554,2020,4,0,1,1,0,0,0,0,0
+862,The Unique Sukhumvit 62/1,115710.75,Udom Suk Road (Sukhumvit 103),185000,4.48,3.78,15.89,1.69,2.97,Phra Khanong Tai,Phra Khanong,South Bangkok,116,2016,8,1,1,1,1,1,1,0,0
+863,B Republic Sukhumvit 101/1,64262.00,Udom Suk Road (Sukhumvit 103),185000,1.7,2.37,13.6,3.6,2.32,Bang Chak,Phra Khanong,South Bangkok,353,2014,10,1,1,1,1,0,1,0,0
+864,Thewet Mansion,52775.00,Somdet Phra Pinklao Road,165000,3.51,1.02,19.61,2.36,4.02,Bang Khun Phrom,Phra Nakhon,Central Bangkok,138,1993,31,0,1,0,0,1,1,0,0
+865,Aspire Srinakarin,74828.00,Srinakarin Road,142500,3.95,3.12,11.33,1.69,1.42,Nong Bon,Prawet,Eastern Bangkok,330,2012,12,0,1,1,0,1,1,0,0
+866,The Key Udomsuk,34600.00,Srinakarin Road,142500,4.76,3.6,10.63,2.56,1.75,Nong Bon,Prawet,Eastern Bangkok,154,2013,11,1,1,1,0,1,1,0,0
+867,Supalai Park Sainakarin,42184.57,Srinakarin Road,142500,3.88,2.64,11.6,2.18,0.79,Nong Bon,Prawet,Eastern Bangkok,1415,2009,15,0,0,1,0,1,0,1,0
+868,Dcondo Onnut–Rama 9,55605.20,Chaloem Phra Kiat Rama 9 Road,68750,3.72,3.79,7.63,2.88,1.36,Prawet,Prawet,Eastern Bangkok,498,2016,8,1,1,1,0,1,1,0,0
+869,Lumpini Ville On Nut-Phatthanakan,56712.55,On Nut Road,90000,2.55,3.03,10.71,4.22,2.21,Prawet,Prawet,Eastern Bangkok,1594,2014,10,1,1,1,0,1,1,1,0
+870,Anchan Condominium,27575.00,Phatthanakan Road,115000,3.72,3.79,7.63,2.88,1.36,Prawet,Prawet,Eastern Bangkok,281,1993,31,0,1,1,0,1,1,0,0
+871,Lumpini Ville On Nut-Lat Krabang 2,53720.33,Srinakarin – Romklao Road,25000,4.89,3.54,6.08,1.53,0.51,Prawet,Prawet,Eastern Bangkok,1040,2014,10,0,1,1,1,0,0,0,0
+872,The Ninth Place condominium,58140.00,Srinakarin Road,142500,3.32,2.44,11.22,1.71,1.32,Nong Bon,Prawet,Eastern Bangkok,275,2010,14,0,0,0,0,0,0,0,0
+873,Lumpini Condo Town Ramintra-Navamin,55127.80,Nuan Chan Road,75000,0.6,3.11,12.85,3.06,3.89,Ram Inthra,Khan Na Yao,Eastern Bangkok,2568,2012,12,1,1,0,0,0,0,1,0
+874,Chapter One  Ratburana 33,63000.00,Rama 9 Road,188333.3,4.74,1.61,25.09,2.5,4.8,Rat Burana,Rat Burana,South Krungthon,1820,2014,10,0,1,1,0,0,1,0,0
+875,Ivy River,84880.00,Somdet Phra Chao Tak Sin Road,145000,3.77,2.99,27.72,1.99,4.6,Bang Pakok,Rat Burana,South Krungthon,1265,2008,16,1,1,1,0,1,1,0,0
+876,ISSI Condo Suksawat,65534.50,Rama 3 Road,240000,4.37,4.37,27.74,2.54,4.2,Bang Pakok,Rat Burana,South Krungthon,892,2014,10,0,1,1,0,0,0,1,0
+877,Chapter One Modern Dutch,59628.00,Rama 3 Road,240000,4.74,1.61,25.09,2.5,4.8,Rat Burana,Rat Burana,South Krungthon,1820,2014,10,0,1,0,0,1,1,0,0
+878,Rhythm Rangnam,217119.90,Rangnam Road,250000,1.99,3.31,18.4,2.34,0.59,Thanon Phaya Thai,Ratchathewi,Central Bangkok,385,2018,6,1,1,1,0,1,1,0,0
+879,The Complete Rajprarop,102616.50,Ratchaphruek Road,123333.3,1.67,3.1,18.8,1.85,0.51,Thanon Phaya Thai,Ratchathewi,Central Bangkok,547,2008,16,0,1,1,0,0,1,1,0
+880,Manhattan Chidlom,132273.25,Phloen Chit Road,1000000,0.58,1.93,19.33,1.04,0.88,Makkasan,Ratchathewi,Central Bangkok,190,2013,11,0,1,0,0,1,1,0,0
+881,IDEO Mobi Rangnam,184799.67,Rangnam Road,250000,1.72,2.86,18.35,2.14,0.43,Thanon Phaya Thai,Ratchathewi,Central Bangkok,366,2019,5,1,1,1,0,0,1,0,0
+882,Q Chidlom-Phetchaburi,188571.33,Phloen Chit Road,1000000,0.56,1.89,19.33,3.41,0.92,Makkasan,Ratchathewi,Central Bangkok,352,2018,6,1,1,1,0,1,1,0,0
+883,The Address Siam Ratchathewi,227627.50,Phaya Thai Road,370000,1.31,2.96,19.43,1.51,0.74,Thanon Phetchaburi,Ratchathewi,Central Bangkok,880,2023,1,0,1,0,0,0,0,0,0
+884,IDEO Q Phayathai,174769.38,Phaya Thai Road,370000,1.73,3.32,19.13,1.96,0.76,Thanon Phaya Thai,Ratchathewi,Central Bangkok,476,2010,14,0,1,1,1,0,0,1,0
+885,Lumpini Suite Phetchaburi-Makkasan,168464.80,Phetchaburi Road,243333.3333,1.5,1.21,18.83,2.61,1.88,Makkasan,Ratchathewi,Central Bangkok,636,2018,6,1,1,1,0,1,1,0,0
+886,Circle Living Prototype,209006.50,Phetchaburi Road,243333.3333,1.55,1.2,18.81,2.59,1.92,Makkasan,Ratchathewi,Central Bangkok,477,2014,10,1,1,0,1,0,0,0,0
+887,Park Origin Ratchathewi,361412.86,Phaya Thai Road,370000,1.88,3.3,18.63,0.29,0.54,Thung Phaya Thai,Ratchathewi,Central Bangkok,264,2022,2,0,1,1,0,1,1,0,0
+888,Villa Asoke,126629.40,Phetchaburi Road,243333.3333,2.07,1.09,18.8,2.16,2.55,Makkasan,Ratchathewi,Central Bangkok,525,2012,12,1,1,1,0,0,0,0,0
+889,The Address Asoke,146850.00,Phetchaburi Road,243333.3333,2.15,1.23,18.66,2.27,2.55,Makkasan,Ratchathewi,Central Bangkok,574,2012,12,1,1,1,0,1,1,0,0
+890,Witthayu Complex,74238.00,Phloen Chit Road,1000000,0.84,1.41,19.18,2.93,1.36,Makkasan,Ratchathewi,Central Bangkok,378,1996,28,0,1,0,0,1,1,0,0
+891,Circle Condominium,99652.89,Phetchaburi Road,243333.3333,1.51,1.16,18.86,2.56,1.92,Makkasan,Ratchathewi,Central Bangkok,917,2012,12,0,1,1,0,0,1,1,0
+892,Q Asoke,188330.00,Phetchaburi Road,243333.3333,2.19,1.12,18.78,2.1,2.68,Makkasan,Ratchathewi,Central Bangkok,482,2015,9,1,1,1,1,1,1,0,0
+893,Supalai Premier Ratchathewi,124035.67,Phaya Thai Road,370000,2.19,3.87,19.53,2.28,1.46,Thanon Phetchaburi,Ratchathewi,Central Bangkok,575,2013,11,0,1,1,1,0,1,1,0
+894,Chewathai Residence Asoke,171333.57,Ratchadaphisek Ram Inthra Road,60000,2.54,1.75,18.15,2.66,2.7,Makkasan,Ratchathewi,Central Bangkok,315,2017,7,0,1,1,0,0,1,0,0
+895,CONNER Ratchathewi,303176.00,Phaya Thai Road,370000,1.87,3.53,19.46,1.99,1.14,Thanon Phetchaburi,Ratchathewi,Central Bangkok,209,2021,3,0,1,1,1,1,1,0,0
+896,Rhythm Asoke,140792.67,Ratchadaphisek Ram Inthra Road,60000,2.55,1.79,18.1,2.71,2.68,Makkasan,Ratchathewi,Central Bangkok,385,2015,9,1,1,1,0,0,1,1,0
+897,M Phayathai,179551.75,Rangnam Road,250000,2,3.36,18.45,2.34,0.62,Thanon Phaya Thai,Ratchathewi,Central Bangkok,213,2014,10,0,1,1,1,1,1,0,0
+898,Life Asoke Hype,144158.50,Ratchadaphisek Ram Inthra Road,60000,2.45,1.73,18.15,2.71,2.58,Makkasan,Ratchathewi,Central Bangkok,1253,2021,3,0,1,1,0,0,1,1,0
+899,Noble House Phayathai,118470.00,Rangnam Road,250000,1.82,3.27,18.71,2.13,0.52,Thanon Phaya Thai,Ratchathewi,Central Bangkok,306,2009,15,1,1,1,0,0,1,0,0
+900,Park Origin Phayathai,295402.00,Rangnam Road,250000,1.88,3.3,18.63,0.29,0.54,Thanon Phaya Thai,Ratchathewi,Central Bangkok,550,2021,3,1,1,1,1,0,0,0,0
+901,Maestro 12 Ratchathewi,145833.00,Phaya Thai Road,370000,1.81,3.47,19.46,1.94,1.09,Thung Phaya Thai,Ratchathewi,Central Bangkok,115,2016,8,0,1,1,1,0,0,0,0
+902,The Address Siam,121862.00,Phaya Thai Road,370000,1.32,2.96,19.41,1.52,0.72,Thanon Phetchaburi,Ratchathewi,Central Bangkok,238,2007,17,0,1,0,0,1,1,0,0
+903,Phayathai Plaza,105909.00,Phaya Thai Road,370000,1.72,3.29,19.06,1.96,0.69,Thanon Phetchaburi,Ratchathewi,Central Bangkok,635,1994,30,0,0,1,0,1,1,0,0
+904,The Address Pathumwan,129678.75,Phaya Thai Road,370000,1.35,3.02,19.56,1.5,0.89,Thanon Phetchaburi,Ratchathewi,Central Bangkok,156,2009,15,0,1,1,0,1,1,0,0
+905,Grand Diamond Pratunam,101500.00,Phetchaburi Road,243333.3,1.46,3.04,19.52,1.8,0.95,Thanon Phetchaburi,Ratchathewi,Central Bangkok,610,1998,26,0,1,1,0,1,1,0,0
+906,The Address Phaya Thai,131887.00,Asoke Din Daeng Road,375000,2.16,1.46,14.88,1.44,3.89,Thung Phaya Thai,Ratchathewi,Central Bangkok,152,2013,11,0,1,1,0,1,1,0,0
+907,IDEO Mobi Phaya Thai,185835.40,Rangnam Road,250000,1.99,3.49,18.78,2.26,0.77,Thung Phaya Thai,Ratchathewi,Central Bangkok,317,2012,12,1,1,1,1,0,1,0,0
+908,Chewathai Ratchaprarop,95460.50,Rangnam Road,250000,1.94,2.97,18.09,2.38,0.69,Makkasan,Ratchathewi,Central Bangkok,326,2010,14,0,1,1,0,1,1,0,0
+909,Wish Signature Midtown Siam,168787.73,Phatthana Chonabot 3 Road,25000,0.3,1,19.9,0.3,0.7,Thanon Phetchaburi,Ratchathewi,Central Bangkok,623,2017,7,1,1,1,1,0,1,0,0
+910,IDEO Q Ratchathewi,165956.00,Phaya Thai Road,370000,1.39,3.02,19.36,1.59,0.71,Thanon Phaya Thai,Ratchathewi,Central Bangkok,323,2015,9,1,1,1,0,0,1,0,0
+911,The Room Phaya Thai,193103.00,Ratchaprarop Road,400000,1.41,2.67,18.69,1.81,0.15,Thanon Phaya Thai,Ratchathewi,Central Bangkok,437,2021,3,1,1,1,1,0,0,0,0
+912,The Line Ratchathewi,242713.50,Phaya Thai Road,370000,1.38,3.03,19.45,1.55,0.8,Thanon Phetchaburi,Ratchathewi,Central Bangkok,231,2017,7,1,1,1,1,0,0,0,0
+913,Wish @ Siam,98333.33,Phaya Thai Road,370000,1.81,3.51,19.77,1.86,1.34,Thanon Phetchaburi,Ratchathewi,Central Bangkok,284,2008,16,0,1,0,0,1,1,0,0
+914,Villa Ratchatewi,145878.00,Phaya Thai Road,370000,1.58,3.2,19.27,1.79,0.76,Thanon Phaya Thai,Ratchathewi,Central Bangkok,744,2008,16,1,1,1,0,1,1,0,0
+915,IDEO Q Victory,246533.00,Rangnam Road,250000,2.1,3.39,18.28,2.46,0.69,Thanon Phaya Thai,Ratchathewi,Central Bangkok,348,2019,5,0,1,1,0,0,1,0,0
+916,Supalai Elite Phayathai,125223.62,Rangnam Road,250000,1.49,2.82,18.69,1.88,0.1,Thanon Phaya Thai,Ratchathewi,Central Bangkok,258,2017,7,0,1,1,0,1,1,0,0
+917,The Mark Ratchada-Airport Link,72782.75,Ratchadaphisek Ram Inthra Road,60000,2.25,1.69,18.2,2.79,2.35,Makkasan,Ratchathewi,Central Bangkok,423,2012,12,0,1,1,0,1,1,0,0
+918,Pratunam Prestige,89015.00,Phetchaburi Road,243333.3,1.67,3.1,18.8,1.85,0.51,Thanon Phaya Thai,Ratchathewi,Central Bangkok,304,1994,30,0,1,0,0,0,1,0,0
+919,The Platinum Condominium,102222.50,Ratchaprarop Road,400000,0.84,2.42,19.39,3.94,0.65,Thanon Phetchaburi,Ratchathewi,Central Bangkok,319,2006,18,0,1,0,0,0,1,0,0
+920,Baan Klang Krung Siam-Pathumwan,129795.00,Phaya Thai Road,370000,1.42,3.08,19.49,1.58,0.85,Thanon Phetchaburi,Ratchathewi,Central Bangkok,580,2007,17,1,1,1,0,1,1,0,0
+921,XT Phayathai,148731.54,Rangnam Road,250000,1.52,2.87,18.71,1.89,0.12,Thanon Phaya Thai,Ratchathewi,Central Bangkok,1435,2022,2,1,1,1,1,0,0,0,0
+922,Baan Pathumwan,82968.00,Phaya Thai Road,370000,1.67,3.27,19.21,1.88,0.77,Thung Phaya Thai,Ratchathewi,Central Bangkok,194,1996,28,0,0,0,0,0,0,0,0
+923,Pathumwan Resort,95571.67,Phaya Thai Road,370000,1.48,3.05,19.15,1.73,0.55,Thanon Phaya Thai,Ratchathewi,Central Bangkok,690,2013,11,0,1,0,0,1,1,0,0
+924,IDEO Q Siam-Ratchathewi,180110.17,Phaya Thai Road,370000,1.28,2.9,19.36,1.5,0.65,Thanon Phaya Thai,Ratchathewi,Central Bangkok,550,2014,10,0,1,1,1,0,1,0,0
+925,PYNE by Sansiri,248294.67,Phaya Thai Road,370000,1.56,3.24,19.58,1.68,1.03,Thanon Phetchaburi,Ratchathewi,Central Bangkok,298,2012,12,1,1,1,0,1,1,0,0
+926,IDEO Verve Ratchaprarop,119040.25,Ratchaprarop Road,400000,1.15,2.39,18.85,3.92,0.37,Makkasan,Ratchathewi,Central Bangkok,447,2012,12,1,1,1,0,1,1,0,0
+927,Maestro 14 Siam-Ratchathewi,159483.00,Phaya Thai Road,370000,1.67,3.37,19.77,1.73,1.25,Thanon Phetchaburi,Ratchathewi,Central Bangkok,179,2018,6,1,1,1,0,0,0,0,0
+928,Noble Revent,163785.25,Rangnam Road,250000,1.67,3.15,18.86,1.97,0.45,Thanon Phaya Thai,Ratchathewi,Central Bangkok,261,2014,10,0,1,1,0,1,1,0,0
+929,Supreme Condo Ratchawithi 3,114839.00,Rangnam Road,250000,2.09,3.21,18.06,2.5,0.73,Phaya Thai,Phaya Thai,Central Bangkok,79,2013,11,1,0,1,0,1,0,0,0
+930,Condolette Ize Ratchathewi,132203.00,Phaya Thai Road,370000,1.67,3.32,19.45,1.81,0.98,Thanon Phetchaburi,Ratchathewi,Central Bangkok,306,2013,11,0,1,1,0,0,1,0,0
+931,Reach Phahonyothin 52,54258.00,Watcharaphon Road,65000,0.47,0.48,2.2,4.32,1.88,Khlong Thanon,Sai Mai,North Bangkok,826,2019,5,0,1,1,0,1,1,0,0
+932,Baan Eua Athon Saimai,14666.00,Sukhaphiban 5 Road,50000,3.26,2.87,5.5,1.74,4.28,Sai Mai,Sai Mai,North Bangkok,2344,2010,14,0,1,0,0,0,1,0,0
+933,Bavorn Condo,19669.00,Phahonyothin Road,330000,2.16,3.75,4.4,1.71,3.63,Sai Mai,Sai Mai,North Bangkok,281,1992,32,0,1,0,0,0,1,0,0
+934,Plum Condo Saphanmai Station,74404.33,Watcharaphon Road,65000,0.51,0.36,2.15,4.47,1.76,Khlong Thanon,Sai Mai,North Bangkok,681,2019,5,0,1,1,0,1,1,0,0
+935,The Cube Plus Phahonyothin 56,66620.00,Sai Mai Road,50000,1.05,4.62,3.3,1.67,2.97,Sai Mai,Sai Mai,North Bangkok,141,2020,4,0,1,1,0,1,1,0,0
+936,Unio Rama 2-Thakham,62553.00,Bang Khun Thian Road,60000,8,3.27,32.89,2.54,1.76,Samae Dam,Bang Khun Thian,South Krungthon,728,2017,7,0,1,1,0,0,0,1,0
+937,Smart Condo Rama 2,42002.20,Bang Khun Thian Road,60000,7.7,1.55,34.02,2.14,3.43,Samae Dam,Bang Khun Thian,South Krungthon,2032,2009,15,0,1,1,0,1,1,0,0
+938,THE SEED Phaholyothin,100000.00,Asoke Din Daeng Road,375000,4.76,1.49,15.31,2,3.51,Sam Sen Nai,Phaya Thai,Central Bangkok,117,2008,16,1,1,1,0,1,1,0,0
+939,Noble Reform,150755.00,Asoke Din Daeng Road,375000,4.12,4.87,16.01,4.57,2.83,Sam Sen Nai,Phaya Thai,Central Bangkok,191,2012,12,0,1,1,0,0,0,0,0
+940,Le monaco Residence Ari condominium,158730.00,Phahonyothin Road,330000,2.34,2.94,15.95,2.4,2.16,Sam Sen Nai,Phaya Thai,Central Bangkok,64,2012,12,0,1,1,0,1,1,0,0
+941,Noble Lite,129497.20,Bangkok Nonthaburi Road,240000,3.85,4.68,16.35,4.28,2.53,Sam Sen Nai,Phaya Thai,Central Bangkok,217,2006,18,0,1,1,0,1,1,1,0
+942,Aree Place Phahonyothin,82888.00,Phahon Yothin Road,130000,0.2,1.1,16.6,1.3,1.1,Phaya Thai,Phaya Thai,Central Bangkok,250,2006,18,0,1,0,0,0,1,0,0
+943,Fynn Aree,133045.50,Bangkok Nonthaburi Road,240000,3.76,4.69,16.56,4.17,2.4,Sam Sen Nai,Phaya Thai,Central Bangkok,79,2017,7,0,1,1,0,1,1,0,0
+944,C Style Condominium Ratchada 18,58529.00,Ratchadaphisek Road,390000,1.6,2.72,13.76,2.43,4.22,Samsen Nok,Huai Khwang,Central Bangkok,188,2012,12,0,1,1,0,1,1,0,0
+945,Ratchada City 18 Condominium,44972.00,Lat Phrao Road,233333.3333,2.07,1.42,14.47,4.82,3.85,Samsen Nok,Huai Khwang,Central Bangkok,664,2009,15,0,1,1,0,1,1,0,0
+946,Ivy Ratchada,48507.00,Sangkhom Songkhro Road,70000,0.91,2.62,13.86,1.07,4.75,Samsen Nok,Huai Khwang,Central Bangkok,456,2007,17,0,1,1,0,1,1,0,0
+947,Lumpini Ville Latphrao-Chokchai 4,67522.50,Sangkhom Songkhro Road,70000,2.01,2.74,13.01,1.68,4.83,Saphansong,Wang Thonglang,Central Bangkok,1020,2009,15,0,1,1,1,0,0,0,0
+948,The Station Sathorn-Bangrak,68852.00,Silom Road,600000,2.57,3.57,22.32,2.09,3.55,Yan Nawa,Sathon,South Bangkok,675,2008,16,0,1,0,0,1,1,0,0
+949,The Bangkok Sathorn,231189.14,Narathiwat Ratchanakharin Road,440000,3.38,3.78,23.26,2.9,4.01,Yan Nawa,Sathon,South Bangkok,468,2016,8,1,1,1,0,1,1,0,0
+950,Anil Sathorn 12,281735.75,Sathon Road,625000,3.15,4.03,22.93,2.67,4.16,Silom,Bang Rak,South Bangkok,222,2022,2,0,1,1,1,0,0,0,0
+951,The Met Sathorn,181322.83,Sathon Road,625000,2.63,3.23,22.51,3.87,3.83,Thung Maha Mek,Sathon,South Bangkok,370,2009,15,0,1,1,1,0,1,0,0
+952,The Hudson Sathorn 7,160159.50,Sathon Road,625000,2.71,3.31,22.59,3.93,3.91,Thung Maha Mek,Sathon,South Bangkok,49,2014,10,1,1,1,0,0,0,0,0
+953,Bangkok Horizon Sathorn,100000.00,Narathiwat Ratchanakharin Road,440000,3.63,4,23.51,3.16,4.25,Thung Wat Don,Sathon,South Bangkok,268,2015,9,1,1,1,0,1,1,0,0
+954,Rhythm Sathorn,163897.33,Sathon Road,625000,4.15,3,23.75,3.68,0.59,Yan Nawa,Sathon,South Bangkok,910,2015,9,1,1,1,0,0,1,0,0
+955,Fuse Chan-Sathorn,94993.14,Narathiwat Ratchanakharin Road,440000,0.9,1.7,23.51,0.6,1.5,Thung Wat Don,Sathon,South Bangkok,1227,2014,10,1,1,1,0,1,1,0,0
+956,Marsh Tien Zieng,69718.00,Sathon Road,625000,0.6,1.5,22.55,1.3,0.8,Thung Maha Mek,Sathon,South Bangkok,40,1997,27,0,1,1,0,1,1,0,0
+957,Supalai Elite Sathorn-Suanplu,144104.00,Sathon Road,625000,0.7,0.8,22.55,0.8,0.5,Thung Maha Mek,Sathon,South Bangkok,180,2016,8,0,1,1,0,0,0,1,0
+958,The Sukhothai Residences,355633.33,Rama 4 Road,475000,0.7,1,22.55,1,0.8,Thung Maha Mek,Sathon,South Bangkok,196,2012,12,1,1,1,0,0,1,0,0
+959,Four Seasons Private Residences,488710.79,Chalong Krung Road,29500,0.9,0.4,23.11,1,1.4,Yan Nawa,Sathon,South Bangkok,355,2018,6,0,1,0,0,1,1,0,0
+960,The Seed Mingle Sathorn-Suanplu,109944.20,Narathiwat Ratchanakharin Road,440000,0.8,1,22.55,1,0.8,Thung Maha Mek,Sathon,South Bangkok,531,2011,13,1,1,1,0,1,1,0,0
+961,Sathorn Gardens,133980.33,Thaniya Road,600000,0.8,0.9,22.55,0.7,0.5,Thung Maha Mek,Sathon,South Bangkok,580,2009,15,0,1,1,1,0,0,0,0
+962,Lumpini Place Suanplu-Sathorn,67623.00,Narathiwat Ratchanakharin Road,440000,0.8,1,22.55,1,0.8,Thung Maha Mek,Sathon,South Bangkok,281,2003,21,1,1,0,0,0,1,0,0
+963,Lumpini Ville Phra Mae Maree - Sathorn,59504.00,Narathiwat Ratchanakharin Road,440000,1.07,1.4,23.51,1.2,1.6,Thung Wat Don,Sathon,South Bangkok,300,2013,11,1,1,1,0,1,1,0,0
+964,The Room Sathorn-St.Louis,124134.33,Narathiwat Ratchanakharin Road,440000,1.07,1.2,23.51,1,1.3,Thung Wat Don,Sathon,South Bangkok,376,2016,8,0,1,1,0,0,1,0,0
+965,Urbana Sathorn,157583.00,Thaniya Road,600000,0.6,0.7,22.55,0.6,0.2,Thung Maha Mek,Sathon,South Bangkok,242,2006,18,1,1,0,0,1,0,0,0
+966,Baan Sathon,79422.00,Narathiwat Ratchanakharin Road,440000,0.6,0.8,22.55,1.4,1.3,Thung Maha Mek,Sathon,South Bangkok,50,1993,31,0,1,0,0,0,1,0,0
+967,Knightsbridge Prime Sathorn,170144.76,Narathiwat Ratchanakharin Road,440000,0.1,0.6,22.55,0.8,0.9,Thung Maha Mek,Sathon,South Bangkok,726,2019,5,1,1,1,1,0,0,0,0
+968,Rhythm Sathorn-Narathiwas,126401.50,Sathon Road,625000,0.2,0.4,22.55,1,0.8,Thung Maha Mek,Sathon,South Bangkok,301,2013,11,1,1,1,0,1,1,0,0
+969,Ascott Sathorn,108328.00,Sathon Road,625000,0.3,0.2,23.11,1.1,0.4,Yan Nawa,Sathon,South Bangkok,177,2003,21,0,1,1,0,0,1,0,0
+970,Sky Villas Sathorn,103261.00,Sathon Road,625000,0.2,0.2,23.11,1.1,0.4,Yan Nawa,Sathon,South Bangkok,177,2012,12,0,1,1,0,1,1,0,0
+971,Quad Sathon,85714.00,Sathon Road,625000,0.2,0.4,23.11,1,0.6,Yan Nawa,Sathon,South Bangkok,64,2013,11,1,1,1,0,0,1,0,0
+972,The Empire Place,145537.82,Sathon Road,625000,0.2,0.2,23.11,1.1,0.6,Yan Nawa,Sathon,South Bangkok,493,2009,15,1,1,1,0,1,1,0,0
+973,Supreme Elegance,93103.50,Narathiwat Ratchanakharin Road,440000,0.2,1,22.55,0.8,2.2,Thung Maha Mek,Sathon,South Bangkok,35,2004,20,0,1,1,0,1,1,0,0
+974,The Issara Sathorn,197786.88,Narathiwat Ratchanakharin Road,440000,0.6,0.7,22.55,0.6,1.8,Thung Maha Mek,Sathon,South Bangkok,270,2023,1,0,1,1,0,0,0,0,0
+975,Blossom Condo @ Sathorn-Charoenrat,121697.00,Sathon Road,625000,1,0.7,23.51,1.1,1.1,Thung Wat Don,Sathon,South Bangkok,899,2018,6,0,1,1,0,1,1,0,0
+976,Nara 9 by Eastern Star,170186.44,Sathon Road,625000,0.1,0.5,22.55,0.9,0.8,Thung Maha Mek,Sathon,South Bangkok,361,2015,9,1,1,1,0,0,0,0,0
+977,Regal Sathon-Naradhiwas,130538.00,Narathiwat Ratchanakharin Road,440000,0.2,1.1,22.55,0.5,2,Thung Maha Mek,Sathon,South Bangkok,260,2021,3,0,1,0,0,1,1,0,0
+978,Narathorn Place,101240.00,Sathon Road,625000,0.2,0.3,22.55,0.9,0.6,Thung Maha Mek,Sathon,South Bangkok,22,2004,20,0,1,0,0,0,1,0,0
+979,The Bangkok Narathiwas,80000.00,Narathiwat Ratchanakharin Road,440000,0.4,1.4,23.51,0.3,1.4,Thung Wat Don,Sathon,South Bangkok,294,2005,19,0,1,0,0,0,1,0,0
+980,Windshell Naradhiwas,349267.20,Narathiwat Ratchanakharin Road,440000,0.2,1.1,22.55,0.6,2.1,Thung Maha Mek,Sathon,South Bangkok,36,2019,5,0,1,1,0,1,1,0,0
+981,Amanta Lumpini,165078.40,Rama 4 Road,475000,0.3,1.2,22.55,1.2,1.8,Thung Maha Mek,Sathon,South Bangkok,286,2009,15,0,1,1,1,0,0,0,0
+982,The Crown Rama 4-Sathon,291339.00,Rama 4 Road,475000,0.4,1.3,22.55,1.7,1.7,Thung Maha Mek,Sathon,South Bangkok,183,2023,1,0,1,1,0,0,0,0,0
+983,Baan Nunthasiri,199913.33,Rama 4 Road,475000,0.5,1,22.55,1.2,1,Thung Maha Mek,Sathon,South Bangkok,79,2005,19,0,1,0,0,0,1,0,0
+984,Centric Sathorn-St Louis,138238.50,Sathon Road,625000,0.5,0.4,23.11,1.3,0.2,Yan Nawa,Sathon,South Bangkok,364,2014,10,1,1,1,0,1,1,0,0
+985,Merlin Tower,34750.00,Prachathipok Road,143500,0.1,0.2,23.51,0.8,0.6,Thung Wat Don,Sathon,South Bangkok,150,2012,12,0,1,0,1,1,1,0,0
+986,St. Louis Grand Terrace,111555.57,Sathon Road,625000,0.5,0.4,23.11,1.2,0.2,Yan Nawa,Sathon,South Bangkok,245,2006,18,0,1,0,0,0,1,0,0
+987,The Reserve Sathorn,234439.00,Thaniya Road,600000,0.7,0.8,22.55,0.7,0.3,Thung Maha Mek,Sathon,South Bangkok,134,2021,3,1,1,1,0,0,1,0,0
+988,Baan Siri Sathorn Yenakard,129537.00,Rama 4 Road,475000,0.9,0.5,22.55,1.6,1.6,Thung Maha Mek,Sathon,South Bangkok,169,2003,21,0,1,0,0,0,1,0,0
+989,Sathorn Residence Condominium,82255.00,Narathiwat Ratchanakharin Road,440000,0.4,1.4,23.51,1.2,1.3,Thung Wat Don,Sathon,South Bangkok,79,2012,12,0,1,1,0,1,1,0,0
+990,Chateau In Town Phaholyothin 32,63000.00,Sena Nikhom 1 Road,80000,0.6,1.8,9.6,1.6,0.6,Sena Nikhom,Chatuchak,North Bangkok,207,2013,11,0,1,1,0,1,1,0,0
+991,Condo U Ratchayothin,59423.00,Sena Nikhom 1 Road,80000,0.8,1.8,9.6,1.6,0.7,Lat Yao,Chatuchak,North Bangkok,394,2014,10,1,1,1,0,1,1,0,0
+992,Life @ Sathorn 10,136662.33,Sathon Road,625000,0.3,0.3,22.93,1,0.5,Silom,Bang Rak,South Bangkok,286,2010,14,0,1,1,0,1,1,0,0
+993,Ivy Sathorn 10,132222.40,Silom Road,600000,0.3,0.4,22.93,1,0.5,Silom,Bang Rak,South Bangkok,300,2008,16,0,1,1,0,1,1,0,0
+994,Silom Grand Terrace,193724.00,Thaniya Road,600000,0.2,1,22.93,0.1,0.3,Silom,Bang Rak,South Bangkok,226,2005,19,0,1,1,0,0,0,1,0
+995,Silom Suite,106092.83,Sathon Road,625000,0.4,0.4,22.93,1.1,0.3,Silom,Bang Rak,South Bangkok,281,1997,27,0,1,0,0,0,1,0,0
+996,Tait Sathorn 12,280846.29,Sathon Road,625000,0.4,0.5,22.93,1.2,0.4,Silom,Bang Rak,South Bangkok,231,2023,1,0,1,1,0,0,1,0,0
+997,Elements Srinakarin,72394.50,Srinakarin Road,142500,0.7,0.4,11.3,0.4,1.32,Nong Bon,Prawet,Eastern Bangkok,1052,2016,8,1,1,1,0,1,1,0,0
+998,Lumpini Ville Pattanakarn - New Phetchaburi,61562.75,Witthayu Road,1000000,0.67,1.2,15.3,2.1,1.4,Suan Luang,Suan Luang,South Bangkok,1482,2012,12,0,1,1,0,0,0,1,0
+999,The Tree Sukhumvit 71-Ekamai,101716.75,Rama 9 Road,188333.3333,0.3,2.3,17.2,1.9,0.6,Suan Luang,Suan Luang,South Bangkok,883,2019,5,0,1,1,0,0,1,0,0
+1000,The Privacy Rama 9,106906.25,Rama 9 Road,188333.3333,0.3,1.8,17,2.4,0.5,Suan Luang,Suan Luang,South Bangkok,854,2020,4,1,1,1,0,0,0,0,0
+1001,IKON Sukhumvit 77,92805.00,Pridi Banomyong Road,240000,0.9,3.8,15.5,0.3,2.5,Suan Luang,Suan Luang,South Bangkok,442,2021,3,1,1,1,1,0,0,0,0
+1002,A Space Sukhumvit 77,44212.25,On Nut Road,90000,0.67,2.4,12.7,2.6,1.51,Suan Luang,Suan Luang,South Bangkok,832,2006,18,1,1,0,0,1,1,0,0
+1003,A Space Me Sukhumvit 77,64090.67,On Nut Road,90000,0.67,2.4,12.7,1.33,1.51,Suan Luang,Suan Luang,South Bangkok,832,2013,11,1,1,1,0,0,1,0,0
+1004,Eua Amornsuk Condo Ramkhamhaeng 1,23166.50,Kamphaeng Phet 6 Road,35000,0.67,2.4,14.84,1.33,1.51,Suan Luang,Suan Luang,South Bangkok,439,1992,32,0,1,0,0,0,1,0,0
+1005,U Delight Residence Pattanakarn-Thonglor,80315.17,Rama 9 Road,188333.3333,0.5,2.4,16.9,2,0.7,Suan Luang,Suan Luang,South Bangkok,676,2012,12,0,1,0,1,1,1,0,0
+1006,Bliz Condominium Rama 9-Hua Mak,50611.00,Phatthanakan Road,115000,0.2,1.7,12.7,0.9,1.2,Suan Luang,Suan Luang,South Bangkok,296,2011,13,1,1,1,0,1,1,0,0
+1007,U Delight @ Onnut Station,78147.67,Pridi Banomyong Road,240000,0.7,4,16,0.8,2,Suan Luang,Suan Luang,South Bangkok,773,2012,12,0,1,1,0,1,1,0,0
+1008,Artemis Sukhumvit 77,91869.57,Pridi Banomyong Road,240000,0.8,3.9,15.9,0.7,2.1,Suan Luang,Suan Luang,South Bangkok,673,2016,8,0,1,0,0,1,1,1,0
+1009,Metris Pattanakarn-Ekkamai,130000.00,Rama 9 Road,188333.3333,0.8,2.3,16.5,2.3,0.6,Suan Luang,Suan Luang,South Bangkok,341,2020,4,0,1,1,1,0,1,0,0
+1010,Floraville Condominium,45930.00,Prachathipok Road,143500,0.2,1.5,12.8,0.7,1.3,Suan Luang,Suan Luang,South Bangkok,640,1992,32,0,1,0,0,0,1,0,0
+1011,Rich Park @ Triple Station,100545.50,Phatthanakan Road,115000,0.3,1.4,12.9,0.6,1.3,Suan Luang,Suan Luang,South Bangkok,1084,2018,6,1,1,1,0,0,0,1,0
+1012,Asakan Place Srinakarin,66364.50,Phatthanakan Road,115000,1,1.5,12.7,0.7,1.6,Suan Luang,Suan Luang,South Bangkok,1024,2019,5,0,1,0,0,0,1,0,0
+1013,The Tree Pattanakarn-Ekkamai,107114.00,Rama 9 Road,188333.3333,0.3,2.3,17,2.1,0.7,Suan Luang,Suan Luang,South Bangkok,699,2022,2,0,1,1,0,1,1,0,0
+1014,Eastwood Park,47133.00,Kubon Road,42000,2.2,3,13.8,1.4,4.1,Suan Luang,Suan Luang,South Bangkok,224,1994,30,0,1,0,0,0,1,0,0
+1015,Lumpini Ville Sukhumvit 77-2,59985.00,Pridi Banomyong Road,240000,1,3.7,15.6,0.4,2.3,Suan Luang,Suan Luang,South Bangkok,956,2013,11,1,1,1,0,1,1,0,0
+1016,The Teak Phattanakarn Thonglor,79154.50,Rama 9 Road,188333.3333,0.5,2.3,16.8,2.1,0.7,Suan Luang,Suan Luang,South Bangkok,79,2017,7,1,0,1,0,1,1,0,0
+1017,Lumpini Ville Phatanakan-Srinakarin,85616.00,Pridi Banomyong Road,240000,0.67,0.4,16.4,1.3,1.9,Suan Luang,Suan Luang,South Bangkok,795,2020,4,0,1,1,0,0,0,0,0
+1018,Regent Srinakarin Tower,40244.00,Phatthanakan Road,115000,0.6,1.3,12.9,0.8,2,Suan Luang,Suan Luang,South Bangkok,350,1992,32,0,1,1,0,1,1,0,0
+1019,Plum Condo Ramkhamhaeng,91915.67,Rama 9 Road,188333.3333,0.3,1.9,16.9,2.3,0.5,Suan Luang,Suan Luang,South Bangkok,1003,2018,6,1,1,1,0,0,0,0,0
+1020,Aspire Sukhumvit-Onnut,91590.00,Pridi Banomyong Road,240000,0.67,3.2,14.8,0.4,1.51,Suan Luang,Suan Luang,South Bangkok,553,2020,4,0,1,1,1,0,0,0,0
+1021,Atmoz Oasis Onnut,85921.00,On Nut Road,90000,0.4,1.9,11.4,2.4,1.51,Suan Luang,Suan Luang,South Bangkok,1110,2023,1,0,1,1,0,0,0,0,0
+1022,The Origin Onnut,86955.33,Pridi Banomyong Road,240000,1.6,3.5,14.7,0.5,1.51,Suan Luang,Suan Luang,South Bangkok,396,2022,2,0,1,1,0,1,1,0,0
+1023,Fuse Mobius Ramkhamhaeng Klongton,69359.09,Rama 9 Road,188333.3333,0.4,1.7,17.2,2.4,0.7,Suan Luang,Suan Luang,South Bangkok,1390,2013,11,0,1,1,0,0,0,1,0
+1024,Lumpini Center Sukhumvit 77,49900.50,Pridi Banomyong Road,240000,0.9,3.8,16,0.7,2,Suan Luang,Suan Luang,South Bangkok,872,2005,19,1,1,0,0,0,1,0,0
+1025,Regent Home Sukhumvit 81,64285.50,Pridi Banomyong Road,240000,0.8,3.7,15.5,0.6,2.7,Suan Luang,Suan Luang,South Bangkok,717,2018,6,1,1,1,0,1,1,0,0
+1026,Lumpini Place Srinakarin-Huamak,98324.17,Srinakarin Road,142500,0.2,1.5,12.8,0.6,1.3,Suan Luang,Suan Luang,South Bangkok,1613,2015,9,1,1,1,0,1,1,0,0
+1027,The IRIS Rama 9-Srinakarin,45780.20,Phatthanakan Road,115000,0.6,1.9,12.8,1.2,0.9,Suan Luang,Suan Luang,South Bangkok,1152,2009,15,1,1,1,0,1,1,0,0
+1028,Lumpini Ville On Nut 46,54418.33,On Nut Road,90000,0.67,2,12.7,2.2,1.51,Suan Luang,Suan Luang,South Bangkok,1450,2014,10,1,1,1,0,1,1,0,0
+1029,Lumpini Ville Sukhumvit 77,55183.83,Pridi Banomyong Road,240000,0.9,3.8,15.8,0.6,2.1,Suan Luang,Suan Luang,South Bangkok,987,2006,18,1,1,1,0,1,1,0,0
+1030,Quad Silom,139819.50,Sathon Road,625000,0.1,0.3,22.93,0.7,0.5,Silom,Bang Rak,South Bangkok,74,2011,13,0,1,1,0,1,1,0,0
+1031,Lumpini Place Borom Ratchachonni - Pinklao,68822.00,Borommaratchachonnani Road,125000,2.2,2.3,23.8,1.8,0.6,Taling Chan,Taling Chan,North Krungthon,992,2015,9,0,1,1,1,0,0,0,0
+1032,Park Origin Chula-Samyan,200000.00,Yaowarat Road,700000,0.4,1.4,23.2,1.5,0.8,Maha Phrutharam,Bang Rak,South Bangkok,190,2022,2,1,1,1,0,0,0,0,1
+1033,The President Sathorn-Ratchapruek 2,82026.33,Narathiwat Ratchanakharin Road,440000,0.2,0.6,29,2.3,0.7,Pak Khlong Phasi Charoen,Phasi Charoen,South Krungthon,274,2016,8,1,1,1,0,1,1,1,0
+1034,The President Sathorn-Ratchapruek 3,86057.50,Ratchaphruek Road,123333.3333,0.3,0.7,29,2.2,0.6,Pak Khlong Phasi Charoen,Phasi Charoen,South Krungthon,672,2017,7,1,1,1,0,0,0,1,0
+1035,Aspire Sathorn-Ratchaphruek,76809.50,Somdet Phra Chao Tak Sin Road,145000,0.4,0.7,29,2.2,0.9,Pak Khlong Phasi Charoen,Phasi Charoen,South Krungthon,923,2018,6,1,0,1,0,1,1,1,0
+1036,The President Sathorn-Ratchapruek,80643.00,Ratchaphruek Road,123333.3333,0.2,0.6,29,2.3,0.6,Pak Khlong Phasi Charoen,Phasi Charoen,South Krungthon,386,2015,9,1,1,1,0,1,1,0,0
+1037,The Room Rama 4,171364.25,Yaowarat Road,700000,0.4,1.2,21.9,1.4,0.9,Rong Muang,Pathum Wan,South Bangkok,1339,2016,8,0,1,1,0,0,1,0,0
+1038,Cooper Siam,176491.80,Rama 1 Road,700000,0.7,0.4,21.9,0.8,0.9,Rong Muang,Pathum Wan,South Bangkok,194,2021,3,0,1,1,0,1,1,0,0
+1039,TEAL Sathorn-Taksin,99088.00,Krung Thonburi Road,300000,0.3,1.6,27.8,1.4,0.7,Samre,Thon Buri,North Krungthon,1219,2013,11,1,1,1,0,1,1,0,0
+1040,Supalai River Resort,86944.33,Charoen Nakhon Road,192500,2.3,1.4,27.8,1.8,1,Samre,Thon Buri,North Krungthon,829,2012,12,0,1,1,0,0,0,0,0
+1041,Pela Wutthakat,66042.50,Wutthakat Road,80000,0.3,1.4,28,0.8,1.4,Talat Phlu,Thon Buri,North Krungthon,566,2013,11,1,1,1,0,1,1,0,0
+1042,Life @ BTS Tha-Phra,51406.50,Itsaraphap Road,120000,0.3,1.2,28,0.6,1.4,Talat Phlu,Thon Buri,North Krungthon,705,2012,12,1,1,1,0,0,1,0,0
+1043,Supalai Park Talat Phlu Station,79443.00,Wutthakat Road,80000,0.4,1.2,28,0.6,1.5,Talat Phlu,Thon Buri,North Krungthon,937,2020,4,0,1,1,0,0,1,1,0
+1044,Life Sathorn Sierra,92496.00,Somdet Phra Chao Tak Sin Road,145000,0.1,1,28,0.4,1.1,Talat Phlu,Thon Buri,North Krungthon,409,2022,2,0,1,1,0,0,0,0,0
+1045,Altitude Unicorn Sathorn-Tha Phra,125899.50,Wutthakat Road,80000,0.3,1.1,28,0.5,1.3,Talat Phlu,Thon Buri,North Krungthon,906,2022,2,0,1,1,0,0,1,0,0
+1046,The Seed Memories Siam,154665.00,Rama 1 Road,700000,0.2,0.3,22.6,0.4,1.2,Wang Mai,Pathum Wan,South Bangkok,268,2010,14,1,1,1,0,1,1,0,0
+1047,Baan Kasemsan 1,112123.00,Phaya Thai Road,370000,0.2,0.4,22.6,0.3,1.1,Wang Mai,Pathum Wan,South Bangkok,537,2006,18,0,0,1,1,1,1,0,0
+1048,Sync Nature Siam,250000.00,Rama 1 Road,700000,0.3,0.2,22.6,0.3,1.3,Wang Mai,Pathum Wan,South Bangkok,690,2015,9,0,1,1,1,1,1,0,0
+1049,Menam Residences,187774.42,Charoen Nakhon Road,192500,1.14,1,27,1.8,1.8,Wat Phraya Krai,Bang Kho Laem,South Bangkok,879,2016,8,0,1,1,0,0,0,0,0
+1050,Chatrium Residence Riverside,153084.00,Chalong Krung Road,29500,1,0.5,27,1.1,1.5,Wat Phraya Krai,Bang Kho Laem,South Bangkok,788,2006,18,0,1,0,0,1,1,0,0
+1051,River Heaven Chareonkrung,87281.00,Charoen Nakhon Road,192500,1,1.8,27,1.9,1,Wat Phraya Krai,Bang Kho Laem,South Bangkok,1971,2004,20,0,1,1,0,0,0,1,0
+1052,Notting Hill The Exclusive Charoen Krung,101040.80,Sathon Road,625000,1.14,1.4,27,2.1,1.5,Wat Phraya Krai,Bang Kho Laem,South Bangkok,711,2018,6,0,1,1,0,1,1,0,0
+1053,Rhythm Charoenkrung Pavillion,171750.88,Charoen Nakhon Road,192500,1,0.6,27,1.2,1.5,Wat Phraya Krai,Bang Kho Laem,South Bangkok,627,2022,2,0,1,1,0,0,1,0,0
+1054,Altitude Symphony Charoenkrung-Sathorn,548490.75,Charoen Nakhon Road,192500,1,0.8,27,1.1,1.4,Wat Phraya Krai,Bang Kho Laem,South Bangkok,829,2021,3,0,1,1,1,1,1,0,0
+1055,Parque Phuttabucha 48 Condo,67995.00,Pracha Uthit Road,32000,3.8,0.4,29.12,2.63,2.6,Bang Mot,Thung Khru,South Krungthon,363,2014,10,1,1,1,0,1,1,0,0
+1056,The Cube Urban Sathorn - Chan,108953.00,Charoen Nakhon Road,192500,1.7,1.2,27,1.5,1.8,Wat Phraya Krai,Bang Kho Laem,South Bangkok,81,2020,4,0,1,1,0,1,1,0,0
+1057,Sriwara Garden Condominium,34924.00,Intharaphon Road,87500,1.2,1.5,16.4,1.5,1.5,Wang Thonglang,Wang Thonglang,Central Bangkok,500,1993,31,0,0,0,0,0,1,0,0
+1058,Wynn Condo Ladprao-Chockchai 4,81288.00,Lad Phrao Wang Hin Road,80000,0.5,3,13.4,2,0.4,Saphansong,Wang Thonglang,Central Bangkok,325,2018,6,0,1,1,1,0,0,0,0
+1059,Be You Chokchai 4 Condominium,60357.00,Sangkhom Songkhro Road,70000,0.6,3,13.3,1.9,0.3,Lat Phrao,Lat Phrao,North Bangkok,374,2014,10,0,0,0,0,0,0,0,0
+1060,Happy Condo Ladprao 101,52243.70,Pradit Manutham Road,130000,1.8,1.5,14.8,1.8,1.2,Khlong Chaokhun Sing,Wang Thonglang,Central Bangkok,899,2010,14,1,1,1,0,0,0,0,0
+1061,Atmoz Ratchada-Huaikwang,95990.67,Intharaphon Road,87500,2.8,1.2,16.7,2.5,2.4,Wang Thonglang,Wang Thonglang,Central Bangkok,595,2020,4,0,1,1,0,0,0,0,0
+1062,The Excel Ladprao-Sutthisan,95600.00,Nak Niwat Road,80000,0.3,3.4,14.2,2.3,1.2,Wang Thonglang,Wang Thonglang,Central Bangkok,420,2020,4,0,1,1,0,1,1,0,0
+1063,The Unique Ekamai-Ramintra,89606.00,Pradit Manutham Road,130000,2.3,2.9,13.5,0.8,2.3,Khlong Chaokhun Sing,Wang Thonglang,Central Bangkok,56,2016,8,0,1,1,0,1,1,0,0
+1064,T Gold Condo Ladprao 93,64194.00,Intharaphon Road,87500,0.5,4.3,13.4,2,3.8,Wang Thonglang,Wang Thonglang,Central Bangkok,64,2019,5,1,1,0,0,0,1,0,0
+1065,Lumpini Condo Town Bodindecha Ramkhamhaeng,48714.67,Intharaphon Road,87500,1.2,0.7,16.5,2.6,1.9,Wang Thonglang,Wang Thonglang,Central Bangkok,3500,2008,16,1,1,1,0,1,1,1,0
+1066,J.W. Boulevard Srivara,50996.00,Intharaphon Road,87500,2.9,1.2,16.4,1.6,1.9,Phlabphla,Wang Thonglang,Central Bangkok,253,2008,16,0,1,1,0,0,1,0,0
+1067,LIB Ramkhamhaeng 43/1,55926.00,Intharaphon Road,87500,2.9,0.9,16.7,2.4,1.8,Phlabphla,Wang Thonglang,Central Bangkok,229,2014,10,1,1,1,0,1,1,0,0
+1068,Life @ Sukhumvit 67,110524.50,Ekkamai Road,255000,0.2,4.2,17.5,1.2,0.4,Phra Khanong Nuea,Watthana,South Bangkok,78,2013,11,1,1,1,0,1,1,0,0
+1069,Grand Ville House 2,79710.00,Nana Road (Sukhumvit 3),350000,0.3,0.9,19.79,0.2,1.9,Khlong Toei Nuea,Watthana,South Bangkok,80,1985,39,1,1,1,0,1,1,0,0
+1070,The Trendy,110274.67,Sukhumvit Road,490000,0.2,1,19.79,0.4,2,Khlong Toei Nuea,Watthana,South Bangkok,444,2008,16,1,1,1,0,0,1,0,0
+1071,Tidy Thonglor,118462.00,Thonglor Road (Sukhumvit 55),370000,1.3,2.1,18.9,0.6,0.5,Khlong Tan Nuea,Watthana,South Bangkok,73,2010,14,0,1,1,0,1,1,0,0
+1072,Raintree Villa,116362.20,Ekkamai Road,255000,0.7,1.5,18.93,1.2,1.3,Khlong Tan Nuea,Watthana,South Bangkok,150,1997,27,0,1,1,0,0,1,0,0
+1073,Rhythm Ekkamai,217261.33,Ekkamai Road,255000,0.4,3.3,18.3,0.5,0.5,Khlong Tan Nuea,Watthana,South Bangkok,326,2018,6,1,1,1,0,0,0,0,0
+1074,The Base Park West Sukhumvit 77,114550.92,Pridi Banomyong Road,240000,0.8,4.1,16.4,0.9,1.6,Phra Khanong Nuea,Watthana,South Bangkok,711,2015,9,1,1,1,0,0,1,0,0
+1075,39 by Sansiri,198053.50,Asoke Montri Road,600000,0.2,1.7,20,0.1,0.8,Khlong Tan Nuea,Watthana,South Bangkok,166,2009,15,1,1,1,0,0,0,0,0
+1076,Hyde Heritage Thonglor,338432.64,Ekkamai Road,255000,0.4,3.2,18.5,0.7,0.7,Khlong Tan Nuea,Watthana,South Bangkok,311,2022,2,0,1,1,0,1,1,0,0
+1077,Walden Asoke,185255.80,Asoke Montri Road,600000,0.4,0.8,18.93,0.5,1.3,Khlong Tan Nuea,Watthana,South Bangkok,83,2020,4,1,1,1,0,0,0,0,0
+1078,Fullerton Sukhumvit,189392.57,Ekkamai Road,255000,0.4,3.3,18.5,0.6,0.6,Khlong Tan Nuea,Watthana,South Bangkok,139,2006,18,0,1,1,0,0,0,0,0
+1079,Hyde Sukhumvit 13,218842.71,Nana Road (Sukhumvit 3),350000,0.2,1,19.79,0.4,2,Khlong Toei Nuea,Watthana,South Bangkok,455,2014,10,0,1,1,0,1,1,0,0
+1080,ASHTON Asoke,295390.40,Asoke Montri Road,600000,0.1,0.9,19.79,0.2,1.7,Khlong Toei Nuea,Watthana,South Bangkok,783,2017,7,1,1,1,0,0,0,0,0
+1081,Quattro by Sansiri,227174.25,Ekkamai Road,255000,0.5,2.7,18.7,0.4,1,Khlong Tan Nuea,Watthana,South Bangkok,446,2011,13,1,1,1,1,0,0,0,0
+1082,The Lofts Ekkamai,181342.63,Ekkamai Road,255000,0.3,3.9,17.9,1,0.1,Phra Khanong Nuea,Watthana,South Bangkok,263,2017,7,1,1,1,0,0,0,0,0
+1083,The Line Sukhumvit 71,169847.82,Pridi Banomyong Road,240000,0.4,4.4,17,1.3,0.9,Phra Khanong Nuea,Watthana,South Bangkok,291,2016,8,1,1,0,1,1,1,0,0
+1084,The Room Sukhumvit 69,170480.40,Ekkamai Road,255000,0.2,4.5,17.2,1.3,0.8,Phra Khanong Nuea,Watthana,South Bangkok,375,2014,10,1,1,1,1,0,0,0,0
+1085,Sky Walk Residences,138631.38,Ekkamai Road,255000,0.3,4.5,17.1,1.3,0.9,Phra Khanong Nuea,Watthana,South Bangkok,498,2012,12,0,1,0,0,1,1,0,0
+1086,Le Luk Condominium,130597.80,Ekkamai Road,255000,0.2,4.5,17.2,1.3,0.8,Phra Khanong Nuea,Watthana,South Bangkok,285,2011,13,1,1,1,1,0,0,0,0
+1087,Yada Residential,73554.00,Asoke Montri Road,600000,0.9,1.3,19.8,0.8,0.5,Khlong Tan Nuea,Watthana,South Bangkok,97,1986,38,0,1,1,0,1,1,0,0
+1088,Prestige Towers,65135.33,Asoke Montri Road,600000,0.52,1.5,19.79,2.4,2.7,Khlong Toei Nuea,Watthana,South Bangkok,28,1994,30,0,1,0,0,0,1,0,0
+1089,Noble Around Sukhumvit 33,241151.00,Asoke Montri Road,600000,0.6,1.2,18.93,0.4,1,Khlong Tan Nuea,Watthana,South Bangkok,274,2020,4,1,1,1,0,0,0,0,0
+1090,Liberty Park 1,78598.50,Asoke Montri Road,600000,0.5,0.5,19.79,0.6,1.4,Khlong Toei Nuea,Watthana,South Bangkok,79,1993,31,0,1,1,0,1,1,0,0
+1091,Muniq Sukhumvit 23,308542.20,Asoke Montri Road,600000,0.2,0.9,19.79,0.3,1.5,Khlong Toei Nuea,Watthana,South Bangkok,201,2019,5,0,1,1,0,0,1,0,0
+1092,Supalai Place Sukhumvit 39,74066.00,Asoke Montri Road,600000,1.4,1,19.8,0.9,0.9,Khlong Tan Nuea,Watthana,South Bangkok,500,1994,30,0,1,0,0,1,1,0,0
+1093,The Esse at Singha Complex,324888.75,Phetchaburi Road,243333.3333,0.1,0.3,19.4,0.9,1,Bang Kapi,Huai Khwang,Central Bangkok,319,2020,4,1,1,1,1,0,0,0,0
+1094,Baan Suanpetch,141832.40,Asoke Montri Road,600000,0.2,1.7,19.8,0.3,0.7,Khlong Toei Nuea,Watthana,South Bangkok,130,1992,32,0,1,0,0,0,1,0,0
+1095,59 Heritage,122648.25,Ekkamai Road,255000,0.4,3,18.6,0.5,0.8,Khlong Tan Nuea,Watthana,South Bangkok,226,2009,15,1,1,1,0,1,1,0,0
+1096,Regent On The Park 3,135985.00,Asoke Montri Road,600000,1.36,1,19.9,1,0.9,Khlong Tan Nuea,Watthana,South Bangkok,73,1995,29,0,1,1,0,1,1,0,0
+1097,Fragrant 71,71768.00,Pridi Banomyong Road,240000,0.9,3.8,16.8,1.5,1.2,Phra Khanong Nuea,Watthana,South Bangkok,69,2005,19,0,1,0,0,0,1,0,0
+1098,Sukhumvit Suite,85569.67,Nana Road (Sukhumvit 3),350000,0.4,0.8,19.79,0.6,1.8,Khlong Toei Nuea,Watthana,South Bangkok,558,1993,31,0,1,0,0,1,1,0,0
+1099,Noble BE33 Sukhumvit,306424.50,Asoke Montri Road,600000,0.6,1.2,18.93,0.4,1,Khlong Tan Nuea,Watthana,South Bangkok,277,2019,5,1,1,1,0,0,0,0,0
+1100,S47 Sukhumvit,177665.00,Ekkamai Road,255000,0.5,1.9,19.5,0.6,0.5,Khlong Tan Nuea,Watthana,South Bangkok,41,2022,2,0,1,1,0,1,1,0,0
+1101,NIA by Sansiri,117002.50,Pridi Banomyong Road,240000,0.9,3.79,16.5,1.1,1.5,Phra Khanong Nuea,Watthana,South Bangkok,419,2023,1,0,1,1,0,0,0,0,0
+1102,Q House Sukhumvit 79,140705.50,Pridi Banomyong Road,240000,0.2,3.7,16.3,0.3,1.9,Phra Khanong Nuea,Watthana,South Bangkok,484,2013,11,1,1,1,0,1,1,0,0
+1103,IDEO Verve Sukhumvit,137445.25,Pridi Banomyong Road,240000,0.1,3.5,16.2,0.2,2.1,Phra Khanong Nuea,Watthana,South Bangkok,490,2011,13,1,1,1,0,1,1,0,0
+1104,Grand Park View Asoke,114828.67,Asoke Montri Road,600000,0.5,0.4,20,0.6,1.5,Khlong Toei Nuea,Watthana,South Bangkok,481,2004,20,1,1,1,0,1,1,0,0
+1105,The Address Sukhumvit 61,160227.33,Ekkamai Road,255000,0.5,3.2,18.4,0.5,0.6,Khlong Tan Nuea,Watthana,South Bangkok,99,2012,12,1,1,1,0,1,1,0,0
+1106,Walden Thonglor 8,256494.60,Ekkamai Road,255000,0.8,2.6,18.6,0.3,0.9,Khlong Tan Nuea,Watthana,South Bangkok,117,2021,3,0,0,0,0,0,1,0,0
+1107,W 8 Thonglor 25,77273.00,Thonglor Road (Sukhumvit 55),370000,1.36,2.24,18.93,0.8,1.07,Khlong Tan Nuea,Watthana,South Bangkok,12,2010,14,0,1,1,0,1,1,0,0
+1108,La Citta Thonglor 8,185930.00,Thonglor Road (Sukhumvit 55),370000,1,2.6,18.6,0.2,0.9,Khlong Tan Nuea,Watthana,South Bangkok,35,2013,11,1,1,1,0,1,1,0,0
+1109,XT Ekkamai,192502.27,Thonglor Road (Sukhumvit 55),370000,1.6,2.8,18.3,0.3,0.7,Khlong Tan Nuea,Watthana,South Bangkok,537,2020,4,1,1,1,0,0,0,0,0
+1110,Kraam Sukhumvit 26,309055.33,Ekkamai Road,255000,0.5,2.3,19.9,0.5,1.2,Khlong Tan,Khlong Toei,South Bangkok,128,2019,5,1,1,1,1,1,1,0,0
+1111,The Pillar,138478.33,Kanlapaphruek Road,65000,0.7,3,16.2,1.5,1.9,Phra Khanong Nuea,Watthana,South Bangkok,13,2017,7,0,1,1,0,0,0,0,0
+1112,H Sukhumvit 43,171747.17,Ekkamai Road,255000,0.5,1.8,19.6,0.5,0.4,Khlong Tan Nuea,Watthana,South Bangkok,276,2014,10,0,1,1,0,0,0,0,0
+1113,The Base Sukhumvit 77,102551.71,Pridi Banomyong Road,240000,0.6,3.79,16.1,0.7,1.9,Phra Khanong Nuea,Watthana,South Bangkok,1232,2012,12,0,1,1,0,0,0,1,0
+1114,The Prime 11,116667.00,Nana Road (Sukhumvit 3),350000,0.4,0.9,20,0.7,1.9,Khlong Toei Nuea,Watthana,South Bangkok,212,2009,15,0,1,1,0,1,1,0,0
+1115,Blocs 77,103461.30,Pridi Banomyong Road,240000,0.6,4,16.2,0.6,1.8,Phra Khanong Nuea,Watthana,South Bangkok,467,2011,13,1,1,1,0,1,1,0,0
+1116,Sukhumvit Living Town,109843.33,Asoke Montri Road,600000,0.3,0.3,19.6,1,1.2,Khlong Toei Nuea,Watthana,South Bangkok,453,2010,14,0,1,1,0,0,0,1,0
+1117,The XXXIX By Sansiri,318348.70,Asoke Montri Road,600000,0.2,1.6,20,0.2,0.7,Khlong Toei Nuea,Watthana,South Bangkok,178,2014,10,1,1,1,0,0,0,0,0
+1118,DownTown 49 Sukhumvit,118017.50,Thonglor Road (Sukhumvit 55),370000,1.4,1.6,19.4,1.2,0.6,Khlong Tan Nuea,Watthana,South Bangkok,135,2015,9,1,1,1,1,0,1,0,0
+1119,Beverly 33 by Aspira,131250.00,Asoke Montri Road,600000,0.6,1.2,18.93,0.4,1,Khlong Tan Nuea,Watthana,South Bangkok,99,2012,12,0,1,1,0,1,1,0,0
+1120,Khun By Yoo,405106.63,Ekkamai Road,255000,1,2.4,18.7,0.4,0.7,Khlong Tan Nuea,Watthana,South Bangkok,148,2020,4,1,1,1,1,0,0,0,0
+1121,Noble State 39,289333.00,Asoke Montri Road,600000,0.4,1.5,19.9,0.3,0.6,Khlong Tan Nuea,Watthana,South Bangkok,352,2022,2,0,1,1,0,0,1,0,0
+1122,The Strand Thonglor,381824.65,Ekkamai Road,255000,0.2,2.9,18.8,0.7,1,Khlong Tan Nuea,Watthana,South Bangkok,188,2021,3,1,1,1,0,0,0,0,0
+1123,City Resort Sukhumvit 49,106667.00,Ekkamai Road,255000,0.4,2.8,19.2,1,1,Khlong Tan Nuea,Watthana,South Bangkok,198,1997,27,1,1,1,0,0,1,1,0
+1124,Bangkok Feliz Sukhumvit 69-2,110345.00,Ekkamai Road,255000,0.1,4.5,17.3,1.4,0.6,Phra Khanong Nuea,Watthana,South Bangkok,61,2014,10,1,1,1,0,1,1,0,0
+1125,D65 Condominium,84570.00,Ekkamai Road,255000,0.5,3.7,17.8,0.7,0.4,Phra Khanong Nuea,Watthana,South Bangkok,228,2007,17,0,1,0,0,1,1,0,0
+1126,The Oleander,134421.25,Sukhumvit Road,490000,0.7,1.1,19.8,1.1,1.8,Khlong Toei Nuea,Watthana,South Bangkok,78,2007,17,1,1,1,0,1,1,0,0
+1127,La Citta Delre Thonglor 16,255749.75,Thonglor Road (Sukhumvit 55),370000,1.3,2.6,18.5,0.2,0.6,Khlong Tan Nuea,Watthana,South Bangkok,51,2021,3,0,1,1,0,1,1,0,0
+1128,Sukhumvit City Resort,95679.00,Phetchaburi Road,243333.3333,0.7,0.9,19.7,1,1.7,Khlong Toei Nuea,Watthana,South Bangkok,170,2006,18,0,1,0,0,0,1,0,0
+1129,Beverly Tower,78889.00,Phalasinthon Road,50000,0.52,4,19.79,0.68,1.61,Khlong Toei Nuea,Watthana,South Bangkok,60,1992,32,1,1,1,0,1,1,0,0
+1130,Liberty Park 2,90325.50,Phetchaburi Road,243333.3333,0.7,1,19.7,1.1,1.8,Khlong Toei Nuea,Watthana,South Bangkok,136,1998,26,1,1,1,0,1,1,0,0
+1131,Tai Ping Towers,72868.00,Thonglor Road (Sukhumvit 55),370000,1.9,2.9,18.1,0.8,0.7,Khlong Tan Nuea,Watthana,South Bangkok,300,1980,44,0,1,1,0,0,1,0,0
+1132,Edge Sukhumvit 23,224852.33,Asoke Montri Road,600000,0.3,1.1,19.79,0.3,1.5,Khlong Toei Nuea,Watthana,South Bangkok,443,2016,8,1,1,1,0,1,1,0,0
+1133,Mirage Sukhumvit 27,145952.00,Asoke Montri Road,600000,0.5,1.2,19.79,0.5,1.3,Khlong Toei Nuea,Watthana,South Bangkok,117,2014,10,1,1,1,0,1,1,0,0
+1134,Supalai Premier Place Asoke,93504.25,Asoke Montri Road,600000,0.4,0.2,19.8,0.8,1.3,Khlong Toei Nuea,Watthana,South Bangkok,358,2006,18,1,1,1,0,1,1,1,0
+1135,Royce Private Residences,214361.40,Asoke Montri Road,600000,0.5,0.6,19.79,0.7,1.3,Khlong Toei Nuea,Watthana,South Bangkok,161,2012,12,1,1,1,0,1,1,0,0
+1136,Park Ploenchit,76923.00,Phloen Chit Road,1000000,0.5,1.4,19.8,1.1,1.5,Khlong Tan Nuea,Watthana,South Bangkok,49,1997,27,0,1,0,0,0,1,0,0
+1137,Kallista Mansion,123174.60,Phetchaburi Road,243333.3333,0.6,0.9,19.6,1.1,1.7,Khlong Toei Nuea,Watthana,South Bangkok,84,1997,27,1,1,1,0,0,1,0,0
+1138,Maru Ekkamai 2,173623.00,Ekkamai Road,255000,0.6,3.2,18.3,0.3,0.7,Phra Khanong Nuea,Watthana,South Bangkok,333,2020,4,0,1,1,0,0,0,0,0
+1139,MARQUE Sukhumvit,449247.90,Ekkamai Road,255000,0.2,1.9,19.8,0.3,0.8,Khlong Tan Nuea,Watthana,South Bangkok,148,2016,8,1,1,1,1,1,1,0,0
+1140,15 Suite,64479.50,Sukhumvit Road,490000,0.3,1.1,19.79,0.8,1.8,Khlong Toei Nuea,Watthana,South Bangkok,75,1995,29,0,1,1,0,1,1,0,0
+1141,Quintara Phume Sukhumvit 39,131712.00,Thonglor Road (Sukhumvit 55),370000,1.3,1,18.93,0.7,1,Khlong Tan Nuea,Watthana,South Bangkok,323,2022,2,0,1,1,0,1,1,0,0
+1142,Siamese Exclusive Sukhumvit 31,188552.50,Asoke Montri Road,600000,0.5,0.9,19.79,0.6,1.2,Khlong Toei Nuea,Watthana,South Bangkok,171,2018,6,1,1,1,1,0,0,0,0
+1143,Noble Recole,219040.50,Asoke Montri Road,600000,0.5,0.7,19.79,0.5,1.7,Khlong Toei Nuea,Watthana,South Bangkok,288,2019,5,0,1,1,0,1,1,0,0
+1144,Fynn Sukhumvit 31,231645.88,Asoke Montri Road,600000,0.7,0.5,20,0.8,1.3,Khlong Tan Nuea,Watthana,South Bangkok,63,2019,5,0,1,1,0,1,1,0,0
+1145,The Reserve Sukhumvit 61,215584.57,Ekkamai Road,255000,0.9,2.8,18.5,0.2,1,Khlong Tan Nuea,Watthana,South Bangkok,186,2020,4,1,1,1,0,0,0,0,0
+1146,Vittorio 39,387239.63,Sukhumvit Road,490000,0.2,1.8,19.8,0.3,0.7,Khlong Tan Nuea,Watthana,South Bangkok,88,2018,6,1,1,1,0,0,0,0,0
+1147,Celes Asoke,307562.29,Asoke Montri Road,600000,0.1,0.9,20.37,0.2,1.6,Khlong Toei,Khlong Toei,South Bangkok,217,2020,4,1,1,1,0,1,1,0,0
+1148,Runesu Thonglor 5,259446.50,Ekkamai Road,255000,0.8,2.3,19,0.6,0.5,Khlong Tan Nuea,Watthana,South Bangkok,156,2019,5,0,1,1,0,0,1,0,0
+1149,Icon III,103098.17,Sukhumvit Road,490000,1.5,2.1,18.9,0.7,0.3,Khlong Tan Nuea,Watthana,South Bangkok,161,2014,10,0,1,0,0,1,1,0,0
+1150,The Teak Sukhumvit 39,142110.00,Asoke Montri Road,600000,1.2,1.1,19.9,1.1,0.7,Khlong Tan Nuea,Watthana,South Bangkok,70,2018,6,0,1,1,0,1,1,0,0
+1151,Ivy Thonglor,158177.50,Thonglor Road (Sukhumvit 55),370000,1.5,2.2,18.8,0.7,0.2,Khlong Tan Nuea,Watthana,South Bangkok,447,2010,14,0,1,1,0,1,1,0,0
+1152,Noble BE19 Sukhumvit,214560.22,Asoke Montri Road,600000,0.5,0.7,19.79,0.5,1.7,Khlong Toei Nuea,Watthana,South Bangkok,586,2020,4,0,1,1,0,0,1,0,0
+1153,Liv @ 49,160028.00,Ekkamai Road,255000,0.6,2.2,19.3,0.8,0.7,Khlong Tan Nuea,Watthana,South Bangkok,183,2016,8,1,1,1,1,1,1,0,0
+1154,The Reserve 61 Hideaway,241062.63,Ekkamai Road,255000,0.8,2.8,18.4,0.3,1,Khlong Tan Nuea,Watthana,South Bangkok,155,2022,2,0,1,1,0,1,1,0,0
+1155,Kawa Haus,162569.06,Pridi Banomyong Road,240000,0.8,4.1,16.4,0.9,1.6,Khlong Tan Nuea,Watthana,South Bangkok,546,2020,4,0,1,1,0,0,0,0,0
+1156,Noble Solo,104766.83,Thonglor Road (Sukhumvit 55),370000,1.9,2.3,18.7,1,0.2,Khlong Tan Nuea,Watthana,South Bangkok,572,2010,14,1,1,1,0,1,1,0,0
+1157,Taka Haus,153207.00,Sukhumvit Road,490000,1.3,3.5,17.6,0.7,1.2,Khlong Tan Nuea,Watthana,South Bangkok,269,2019,5,0,1,1,1,1,1,0,0
+1158,The Base Park East Sukhumvit 77,106452.86,Pridi Banomyong Road,240000,0.9,4,16.4,1,1.6,Phra Khanong Nuea,Watthana,South Bangkok,504,2015,9,0,1,1,0,1,1,0,0
+1159,President Park Sukhumvit 24,90912.80,Rama 4 Road,475000,0.5,2.2,19.57,0.7,1.7,Khlong Tan,Khlong Toei,South Bangkok,228,1994,30,1,1,1,0,0,1,0,0
+1160,The Room Sukhumvit 79,85804.67,Pridi Banomyong Road,240000,0.3,3.7,16.1,0.4,2,Khlong Tan Nuea,Watthana,South Bangkok,343,2007,17,1,1,1,0,1,1,0,0
+1161,The Monument Thonglor,288388.62,Thonglor Road (Sukhumvit 55),370000,2.1,2.3,18.7,1.1,0.3,Khlong Tan Nuea,Watthana,South Bangkok,127,2019,5,1,1,1,1,0,0,0,0
+1162,Asoke Place,83893.50,Asoke Montri Road,600000,0.4,0.5,19.79,0.5,1.6,Khlong Toei Nuea,Watthana,South Bangkok,344,1996,28,0,1,0,0,1,1,0,0
+1163,The Room Sukhumvit 21,151092.75,Asoke Montri Road,600000,0.6,0.5,19.9,0.7,1.5,Khlong Toei Nuea,Watthana,South Bangkok,213,2013,11,1,1,1,0,1,1,0,0
+1164,Eight Thonglor Residence,223623.50,Ekkamai Road,255000,0.8,2.5,18.7,0.4,0.7,Khlong Tan Nuea,Watthana,South Bangkok,196,2009,15,0,1,1,0,0,0,0,0
+1165,Modern Town,79630.00,Ekkamai Road,255000,0.9,2.7,18.6,0.2,0.9,Khlong Tan Nuea,Watthana,South Bangkok,180,1992,32,0,1,1,0,1,1,0,0
+1166,The FINE Bangkok Thonglor-Ekamai,230221.71,Ekkamai Road,255000,1.3,3,18.2,0.2,1,Khlong Tan Nuea,Watthana,South Bangkok,220,2020,4,0,1,1,0,0,0,0,0
+1167,The Excel Hideaway Sukhumvit 71,73301.67,Pridi Banomyong Road,240000,1,3.7,16.4,1.3,1.5,Phra Khanong Nuea,Watthana,South Bangkok,672,2019,5,1,1,1,0,0,1,0,0
+1168,Knightsbridge Prime Onnut,172186.00,Pridi Banomyong Road,240000,0.3,3.7,16.3,0.3,1.9,Phra Khanong Nuea,Watthana,South Bangkok,600,2020,4,0,1,1,0,0,0,0,1
