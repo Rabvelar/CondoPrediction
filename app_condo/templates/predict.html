@@ -442,19 +442,48 @@
                 const form = document.getElementById('prediction-form');
                 const formData = new FormData(form);
                 
+                console.log('Submitting form data:', Object.fromEntries(formData));
+                
                 fetch('{% url "app_condo:predict" %}', {
                     method: 'POST',
-                    body: formData
-                })
-                .then(response => response.json())
-                .then(data => {
-                    if (data.estimated_price) {
-                        document.getElementById('predicted-psm').value = data.predicted_psm + ' THB';
-                        document.getElementById('total-price').value = data.estimated_price + ' THB';
-                        document.getElementById('results-section').style.display = 'block';
+                    body: formData,
+                    headers: {
+                        'X-Requested-With': 'XMLHttpRequest'
                     }
                 })
-                .catch(error => console.error('Error:', error));
+                .then(response => {
+                    console.log('Response status:', response.status);
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    console.log('Response data:', data);
+                    if (data.status === 'success') {
+                        // Format numbers with commas and add THB suffix
+                        const formattedPsm = data.predicted_psm.toLocaleString('en-US', {
+                            minimumFractionDigits: 2,
+                            maximumFractionDigits: 2
+                        }) + ' THB';
+                        
+                        const formattedTotal = data.total_price.toLocaleString('en-US', {
+                            minimumFractionDigits: 2,
+                            maximumFractionDigits: 2
+                        }) + ' THB';
+                        
+                        document.getElementById('predicted-psm').value = formattedPsm;
+                        document.getElementById('total-price').value = formattedTotal;
+                        document.getElementById('results-section').style.display = 'block';
+                    } else {
+                        console.error('Prediction failed:', data.message || 'Unknown error');
+                        alert('Prediction failed: ' + (data.message || 'Please check your input and try again'));
+                    }
+                })
+                .catch(error => {
+                    console.error('Fetch error:', error);
+                    alert('An error occurred. Please check the console for details.');
+                });
             }
         </script>
 
@@ -473,11 +502,10 @@
         const nearestRoadSelect = document.getElementById('nearest_road');
     
         function updateSubdistricts() {
-            const selectedOption = districtSelect.options[districtSelect.selectedIndex];
-            const districtId = selectedOption.getAttribute('data-id');
+            const districtName = districtSelect.value;
             
-            if (districtId) {
-                fetch(`/get-subdistricts/${districtId}/`)
+            if (districtName) {
+                fetch(`/get-subdistricts/${encodeURIComponent(districtName)}/`)
                     .then(response => response.json())
                     .then(data => {
                         subdistrictSelect.innerHTML = '<option value="">Select Subdistrict</option>';
@@ -495,11 +523,10 @@
         }
     
         function updateNearestRoads() {
-            const selectedOption = subdistrictSelect.options[subdistrictSelect.selectedIndex];
-            const subdistrictId = selectedOption.getAttribute('data-id');
+            const subdistrictName = subdistrictSelect.value;
             
-            if (subdistrictId) {
-                fetch(`/get-nearest-roads/${subdistrictId}/`)
+            if (subdistrictName) {
+                fetch(`/get-nearest-roads/${encodeURIComponent(subdistrictName)}/`)
                     .then(response => response.json())
                     .then(data => {
                         nearestRoadSelect.innerHTML = '<option value="">Select Nearest Road</option>';

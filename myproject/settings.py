@@ -2,7 +2,6 @@ import os
 from pathlib import Path
 from decouple import config  # You'll need to install python-decouple
 import django_heroku
-import dj_database_url
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
@@ -17,7 +16,7 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 
 DEBUG=True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['.herokuapp.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -33,6 +32,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
@@ -62,10 +62,8 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "myproject.wsgi.application"
 
-# Database
-DATABASES = {
-    "default": dj_database_url.config(default=config('DATABASE_URL'))
-}
+# Database not needed for this project
+DATABASES = {}
 
 # Password validation
 AUTH_PASSWORD_VALIDATORS = [
@@ -104,5 +102,5 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 SECURE_BROWSER_XSS_FILTER = True
 SECURE_CONTENT_TYPE_NOSNIFF = True
 X_FRAME_OPTIONS = 'DENY'
-CSRF_COOKIE_SECURE = not DEBUG
-SESSION_COOKIE_SECURE = not DEBUG
+CSRF_COOKIE_SECURE = False
+SESSION_COOKIE_SECURE = False
