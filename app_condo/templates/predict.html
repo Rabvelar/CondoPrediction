@@ -505,7 +505,7 @@
             const districtName = districtSelect.value;
             
             if (districtName) {
-                fetch(`/get-subdistricts/${encodeURIComponent(districtName)}/`)
+                fetch(`/predict/get-subdistricts/${encodeURIComponent(districtName)}/`)
                     .then(response => response.json())
                     .then(data => {
                         subdistrictSelect.innerHTML = '<option value="">Select Subdistrict</option>';
@@ -526,7 +526,7 @@
             const subdistrictName = subdistrictSelect.value;
             
             if (subdistrictName) {
-                fetch(`/get-nearest-roads/${encodeURIComponent(subdistrictName)}/`)
+                fetch(`/predict/get-nearest-roads/${encodeURIComponent(subdistrictName)}/`)
                     .then(response => response.json())
                     .then(data => {
                         nearestRoadSelect.innerHTML = '<option value="">Select Nearest Road</option>';

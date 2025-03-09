@@ -394,19 +394,19 @@
         function updateDistrictChart() {
             const district = document.getElementById('districtSelect1').value; 
             console.log('Selected district:', district); 
-            fetchChartData(`/explore/district_psm/${district}/`, psmDistrictChart, 'labels', 'values', 'loading1');
+            fetchChartData(`/predict/explore/district_psm/${district}/`, psmDistrictChart, 'labels', 'values', 'loading1');
         }
 
         // Graph 2: Update PSM by Distance Field
         function updateDistanceChart() {
             const distanceField = document.getElementById('distanceSelect').value;
-            fetchChartData(`/explore/distance_psm/${distanceField}/`, psmDistanceChart, 'labels', 'values', 'loading2');
+            fetchChartData(`/predict/explore/distance_psm/${distanceField}/`, psmDistanceChart, 'labels', 'values', 'loading2');
         }
 
         // Graph 3: Update Facilities by District
         function updateFacilitiesChart() {
             const district = document.getElementById('districtSelect2').value;
-            fetchChartData(`/explore/facilities/${district}/`, facilitiesChart, 'labels', 'values', 'loading3');
+            fetchChartData(`/predict/explore/facilities/${district}/`, facilitiesChart, 'labels', 'values', 'loading3');
         }
 
         // Initialize charts on page load
