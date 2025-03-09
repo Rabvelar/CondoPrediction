@@ -22,39 +22,88 @@
 
         .nav-bar {
             background-color: #0d47a1;
-            padding: -10px 15px;
+            padding: 15px;
             display: flex;
-            gap: 20px;
+            flex-direction: column;
+            gap: 10px;
             align-items: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        @media (min-width: 768px) {
+            .nav-bar {
+                flex-direction: row;
+                gap: 20px;
+                padding: 20px;
+            }
         }
 
         .nav-item {
             color: white;
             text-decoration: none;
-            padding: 5px 20px;
-            transition: background-color 0.3s;
+            padding: 12px 24px;
+            font-size: 16px;
+            text-align: center;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .nav-item:not(.explore-active):hover {
+            background-color: rgba(255,255,255,0.1);
+            transform: translateY(-2px);
         }
 
         .nav-item.active {
-            background-color: #0d47a1;
-            border-radius: 4px;
+            background-color: #1a237e;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+
+        .nav-item.simple-text {
+            padding: 12px 16px;
+            font-weight: normal;
+            pointer-events: none;
+            cursor: default;
         }
 
         .explore-active {
             background-color: #1a237e;
-            border-radius: 0px;
-            padding: 25px 30px;
-            font-size: 1.1em;
+            border-radius: 6px;
+            padding: 14px 24px;
+            font-size: 16px;
             font-weight: bold;
-            margin: -10px 0;
-            position: relative;
-            top: 0px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            transform: scale(1.05);
+        }
+
+        .explore-active::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60%;
+            height: 3px;
+            background-color: #ffd700;
+            border-radius: 2px;
         }
 
         .container {
             max-width: 1400px;
             margin: 0 auto;
-            padding: 40px 20px;
+            padding: 20px;
+            margin-top: 90px;
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                margin-top: 100px;
+            }
         }
 
         .chart-row {
@@ -65,11 +114,41 @@
             flex-wrap: wrap;
         }
 
-        .chart-container {
+        /* Updated styles for the first two chart containers */
+        .chart-container:nth-child(-n+2) {
             flex: 1;
             background: white;
             border-radius: 12px;
-            padding: 25px;
+            padding: 60px;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            color: black;
+            transition: transform 0.3s ease;
+            min-width: 500px;
+            max-width: 1000px;
+            width: 100%;
+        }
+
+        .chart-container:nth-child(-n+2):hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .chart-container:nth-child(-n+2) h3 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            color: #333;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /* Original chart-container-3 remains unchanged */
+        .chart-container-3 {
+            flex: 1;
+            background: white;
+            border-radius: 12px;
+            padding: 50px;
             margin-bottom: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             color: black;
@@ -78,18 +157,33 @@
             width: 100%;
         }
 
-        .chart-container:hover {
+        .chart-container-3:hover {
             transform: translateY(-5px);
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
         }
 
-        .chart-container h3 {
+        .chart-container-3 h3 {
             margin-top: 0;
             margin-bottom: 20px;
             color: #333;
             font-size: 20px;
             font-weight: bold;
             text-align: center;
+        }
+
+        .chart-container-3 { 
+            width: 100%; 
+            margin: auto; 
+            max-height: 750px;
+            max-width: 800px; 
+            padding: 15px; 
+        }
+
+        #facilitiesChart {
+            width: 600px !important;  
+            height: 600px !important; 
+            margin: 0 auto;           
+            display: block;           
         }
 
         .custom-select {
@@ -117,11 +211,11 @@
 
         .chart-wrapper {
             position: relative;
-            height: 300px;
+            height: 400px;
             width: 100%;
         }
 
-                /* Loading animation */
+        /* Loading animation */
         .loading {
             position: absolute;
             top: 50%;
@@ -138,10 +232,9 @@
             width: 80%; 
             margin: auto; 
             max-height: 800px;
-            max-width: 800px; /* Reduced max width for smaller charts */
+            max-width: 800px; 
             padding: 15px; 
         }
-
 
         .custom-select { margin-bottom: 10px; padding: 8px; }
         .loading { display: none; text-align: center; }
@@ -152,66 +245,38 @@
                 flex-direction: column;
             }
             
-            .chart-container {
+            .chart-container:nth-child(-n+2) {
+                width: 90%;
+                min-width: 90%;
+                max-width: 600px;
+                padding: 30px;
+            }
+            
+            .chart-container-3 {
                 width: 100%;
             }
         }
-        .chart-container-3 {
-            flex: 1;
-            background: white;
-            border-radius: 12px;
-            padding: 25px;
-            margin-bottom: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            color: black;
-            transition: transform 0.3s ease;
-            max-width: 300px;
-            width: 100%;
-        }
 
-        .chart-container-3:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-        }
-
-        .chart-container-3 h3 {
-            margin-top: 0;
-            margin-bottom: 20px;
-            color: #333;
-            font-size: 20px;
-            font-weight: bold;
-            text-align: center;
-        }
-        .chart-container-3 { 
-            width: 100%; 
-            margin: auto; 
-            max-height: 900px;
-            max-width: 800px; /* Reduced max width for smaller charts */
-            padding: 15px; 
-        }
-        #facilitiesChart {
-            width: 800px !important; /* Adjust this value for desired width */
-            height: 800px !important; /* Adjust this value for desired height */
-        }
         footer {
             text-align: center;
-            padding: 3px; /* Changed to positive padding */
+            padding: 3px;
             color: rgb(0, 0, 0);
-            background-color: #ffffff;
+            background-color: #ffffff31;
             width: 100%;
-            position: fixed; /* Fixes the footer to the viewport */
-            bottom: 0; /* Positions it at the bottom */
-            left: 0; /* Ensures it spans the full width */
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            font-size: 10px;
         }
-
     </style>
 </head>
 <body>
     
     <nav class="nav-bar">
-        <a href="{% url 'app_condo:predict' %}" class="nav-item">Condominium</a>
+        <span class="nav-item simple-text">Condominium</span>
         <a href="{% url 'app_condo:predict' %}" class="nav-item">Predict Page</a>
         <a href="{% url 'app_condo:explore' %}" class="nav-item explore-active">Explore Page</a>
+        <a href="{% url 'app_condo:loan_table' %}" class="nav-item">Loan Table</a>
     </nav>
 
     <div class="container chart-row">
@@ -281,26 +346,34 @@
         const facilitiesChart = new Chart(document.getElementById('facilitiesChart').getContext('2d'), {
             type: 'polarArea',
             data: {
-                labels: [],  // Your labels here
+                labels: [],  
                 datasets: [{
-                    data: [],  // Your data values here
+                    data: [],  
                     backgroundColor: [
-                        'rgba(255, 99, 132, 0.9)',   // Color 1 (red)
-                        'rgba(54, 162, 235, 0.9)',   // Color 2 (blue)
-                        'rgba(255, 206, 86, 0.9)',    // Color 3 (yellow)
-                        'rgba(75, 192, 192, 0.9)',    // Color 4 (cyan)
-                        'rgba(153, 102, 255, 0.9)',   // Color 5 (purple)
-                        'rgba(255, 159, 64, 0.9)',    // Color 6 (orange)
-                        'rgba(0,150,0, 0.5)',     // Color 7 (lighter red)
+                        'rgba(255, 99, 132, 0.9)',   
+                        'rgba(54, 162, 235, 0.9)',   
+                        'rgba(255, 206, 86, 0.9)',    
+                        'rgba(75, 192, 192, 0.9)',    
+                        'rgba(153, 102, 255, 0.9)',   
+                        'rgba(255, 159, 64, 0.9)',    
+                        'rgba(0,150,0, 0.5)',     
                     ]
                 }]
             },
             options: {
                 responsive: true,
                 maintainAspectRatio: false,
+                scales: {
+                    r: {
+                        ticks: {
+                            min: 1,     
+                            max: 20,    
+                            stepSize: 1 
+                        }
+                    }
+                }
             }
         });
-
 
         // Fetch and update functions for each chart
         async function fetchChartData(url, chart, labelsKey, dataKey, loadingId) {
@@ -319,8 +392,8 @@
 
         // Graph 1: Update PSM by District
         function updateDistrictChart() {
-            const district = document.getElementById('districtSelect1').value; // Get selected district
-            console.log('Selected district:', district); // Log the selected district to check
+            const district = document.getElementById('districtSelect1').value; 
+            console.log('Selected district:', district); 
             fetchChartData(`/explore/district_psm/${district}/`, psmDistrictChart, 'labels', 'values', 'loading1');
         }
 
@@ -335,8 +408,6 @@
             const district = document.getElementById('districtSelect2').value;
             fetchChartData(`/explore/facilities/${district}/`, facilitiesChart, 'labels', 'values', 'loading3');
         }
-
-        
 
         // Initialize charts on page load
         document.addEventListener('DOMContentLoaded', () => {

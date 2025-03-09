@@ -64,10 +64,7 @@ WSGI_APPLICATION = "myproject.wsgi.application"
 
 # Database
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
-    }
+    "default": dj_database_url.config(default=config('DATABASE_URL'))
 }
 
 # Password validation
@@ -96,7 +93,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
-django_heroku.settings(locals())
+# Configure Django App for Heroku
+django_heroku.settings(locals(), databases=False, staticfiles=False)
 
 
 # Default primary key field type
@@ -108,4 +106,3 @@ SECURE_CONTENT_TYPE_NOSNIFF = True
 X_FRAME_OPTIONS = 'DENY'
 CSRF_COOKIE_SECURE = not DEBUG
 SESSION_COOKIE_SECURE = not DEBUG
-

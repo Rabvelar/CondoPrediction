@@ -1,11 +1,10 @@
 {% load static %}
 {% load custom_filters %}
 
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Condo Price Prediction</title>
     <style>
         /* Set the main container to full height */
@@ -24,7 +23,7 @@
 
         .nav-bar {
             background-color: #0d47a1;
-            padding: 10px 15px;
+            padding: -10px 15px;
             display: flex;
             gap: 20px;
             align-items: center;
@@ -58,63 +57,13 @@
             max-width: 1200px;
             margin: 0 auto;
             flex: 1; /* Flex-grow to take available space */
-            flex-wrap: wrap; /* Allow wrapping for smaller screens */
         }
 
         .form-section {
             flex: 2;
             padding-right: 200px;
-            flex-basis: 60%; /* Base width for larger screens */
         }
 
-        .image-section {
-            flex: 1;
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            margin-top: 160px;
-            flex-basis: 40%; /* Base width for larger screens */
-        }
-
-        /* Responsive Styles */
-        @media (max-width: 768px) { /* iPad and smaller */
-            .form-section, .image-section {
-                padding-right: 20px;
-                flex-basis: 100%; /* Full width for smaller screens */
-            }
-
-            .nav-bar {
-                flex-direction: column; /* Stack nav items vertically */
-            }
-
-            .nav-item {
-                padding: 10px;
-            }
-        }
-
-        @media (max-width: 480px) { /* iPhone */
-            .form-section {
-                padding-right: 10px;
-            }
-
-            .predict-button {
-                width: 100%; /* Full width for the button on small screens */
-            }
-
-            .results-section input {
-                width: 100%; /* Full width for results input on small screens */
-            }
-
-            .distance-item {
-                grid-template-columns: 1fr; /* Stack distance items */
-            }
-
-            .facilities-grid {
-                grid-template-columns: 1fr; /* Stack facilities */
-            }
-        }
-
-        /* Existing styles below remain unchanged */
         .form-group {
             margin-bottom: -5px;
         }
@@ -132,7 +81,6 @@
             border: 1px solid #ccc;
             background-color: white;
         }
-
         .number-input {
             width: 100px;
             padding: 10px;
@@ -210,6 +158,14 @@
             margin-top: 5px;
         }
 
+        .image-section {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            margin-top: 160px;
+        }
+
         .image-section img {
             max-width: 200%;
             height: auto;
@@ -217,7 +173,7 @@
 
         footer {
             text-align: center;
-            padding: 0px;
+            padding:0px;
             color: rgb(0, 0, 0);
             background-color: #ffffff;
             width: 100%;
@@ -295,93 +251,170 @@
 
             <div class="form-group">
                 <h2>Room Size</h2>
-                <select name="room_size" required class="custom-select">
-                    <option value="">Select Room Size</option>
-                    <option value="Studio" {% if selected_room_size == 'Studio' %}selected{% endif %}>Studio</option>
-                    <option value="1 Bedroom" {% if selected_room_size == '1 Bedroom' %}selected{% endif %}>1 Bedroom</option>
-                    <option value="2 Bedrooms" {% if selected_room_size == '2 Bedrooms' %}selected{% endif %}>2 Bedrooms</option>
-                    <option value="3 Bedrooms" {% if selected_room_size == '3 Bedrooms' %}selected{% endif %}>3 Bedrooms</option>
+                <select name="room_size" class="custom-select" required>
+                    <option value="">Select Room Type</option>
+                    <option value="Studio" {% if room_size == "Studio" %}selected{% endif %}>Studio (24 sqm)</option>
+                    <option value="1 Bedroom" {% if room_size == "1 Bedroom" %}selected{% endif %}>1 Bedroom (35 sqm)</option>
+                    <option value="2 Bedrooms" {% if room_size == "2 Bedrooms" %}selected{% endif %}>2 Bedrooms (60 sqm)</option>
+                    <option value="3 Bedrooms" {% if room_size == "3 Bedrooms" %}selected{% endif %}>3 Bedrooms (100 sqm)</option>
                 </select>
             </div>
 
             <div class="distance-section">
-                <h2>Distances</h2>
+                <h3>Distance (km)</h3>
+                {% for field, value in distance_fields.items %}
                 <div class="distance-item">
-                    <label for="train_station">Train Station (km)</label>
-                    <input type="range" id="train_station" name="train_station" min="0" max="50" value="{{ train_station|default:'0' }}">
-                    <output>{{ train_station|default:'0' }}</output>
+                    <label for="{{ field }}">{{ field|title }}</label>
+                    <input type="range" id="{{ field }}" name="{{ field }}" min="0" max="15" step=".01" required 
+                           value="{{ value|default:8 }}" 
+                           oninput="this.nextElementSibling.value = this.value + ' km'">
+                    <output>{{ value|default:8 }} km</output>
                 </div>
-
-                <div class="distance-item">
-                    <label for="university">University (km)</label>
-                    <input type="range" id="university" name="university" min="0" max="50" value="{{ university|default:'0' }}">
-                    <output>{{ university|default:'0' }}</output>
-                </div>
-
-                <div class="distance-item">
-                    <label for="airport">Airport (km)</label>
-                    <input type="range" id="airport" name="airport" min="0" max="50" value="{{ airport|default:'0' }}">
-                    <output>{{ airport|default:'0' }}</output>
-                </div>
-
-                <div class="distance-item">
-                    <label for="department_store">Department Store (km)</label>
-                    <input type="range" id="department_store" name="department_store" min="0" max="50" value="{{ department_store|default:'0' }}">
-                    <output>{{ department_store|default:'0' }}</output>
-                </div>
-
-                <div class="distance-item">
-                    <label for="hospital">Hospital (km)</label>
-                    <input type="range" id="hospital" name="hospital" min="0" max="50" value="{{ hospital|default:'0' }}">
-                    <output>{{ hospital|default:'0' }}</output>
-                </div>
+                {% endfor %}
             </div>
+            
 
             <div class="facilities-section">
-                <h2>Facilities</h2>
+                <h2>Project Facilities</h2>
                 <div class="facilities-grid">
-                    <div>
-                        <label><input type="checkbox" name="cctv"> CCTV</label>
+                    <div class="facility-item">
+                        <input type="checkbox" 
+                               id="Swimming_Pool" 
+                               name="swimming_pool"
+                               {% if facility_values.SwimmingPool %}checked{% endif %}> 
+                        <label for="Swimming_Pool">Swimming Pool</label>
                     </div>
-                    <div>
-                        <label><input type="checkbox" name="car_park"> Car Park</label>
+                    
+                    <div class="facility-item">
+                        <input type="checkbox" 
+                               id="Car_Park" 
+                               name="car_park"
+                               {% if facility_values.CarPark %}checked{% endif %}> 
+                        <label for="Car_Park">Car Park</label>
                     </div>
-                    <div>
-                        <label><input type="checkbox" name="fitness"> Fitness</label>
+                    
+                    <div class="facility-item">
+                        <input type="checkbox" 
+                               id="CCTV" 
+                               name="cctv"
+                               {% if facility_values.CCTV %}checked{% endif %}> 
+                        <label for="CCTV">CCTV</label>
                     </div>
-                    <div>
-                        <label><input type="checkbox" name="library"> Library</label>
+                    
+                    <div class="facility-item">
+                        <input type="checkbox" 
+                               id="Fitness" 
+                               name="fitness"
+                               {% if facility_values.Fitness %}checked{% endif %}> 
+                        <label for="Fitness">Fitness</label>
                     </div>
-                    <div>
-                        <label><input type="checkbox" name="swimming_pool"> Swimming Pool</label>
+                    
+                    <div class="facility-item">
+                        <input type="checkbox" 
+                               id="Library" 
+                               name="library"
+                               {% if facility_values.Library %}checked{% endif %}> 
+                        <label for="Library">Library</label>
                     </div>
-                    <div>
-                        <label><input type="checkbox" name="security"> Security</label>
+                    
+                    <div class="facility-item">
+                        <input type="checkbox" 
+                               id="MiniMart" 
+                               name="mini_mart"
+                               {% if facility_values.MiniMart %}checked{% endif %}> 
+                        <label for="MiniMart">Mini Mart</label>
                     </div>
-                    <div>
-                        <label><input type="checkbox" name="mini_mart"> Mini Mart</label>
+                    
+                    <div class="facility-item">
+                        <input type="checkbox" 
+                               id="Electrical_SubStation" 
+                               name="electrical_sub_station"
+                               {% if facility_values.ElectricalSubStation %}checked{% endif %}> 
+                        <label for="Electrical_SubStation">Electrical Sub Station</label>
                     </div>
-                    <div>
-                        <label><input type="checkbox" name="electrical_substation"> Electrical Substation</label>
-                    </div>
+                    
                 </div>
             </div>
+            
+            
+            
 
-            <button type="submit" class="predict-button">Predict Price</button>
+            <button type="submit" class="predict-button">Predict</button>
+
+            {% if predicted_psm %}
+            <div class="results-section">
+                <div class="form-group">
+                    <h2>Predicted Price per SQM:</h2>
+                    <input type="text" value="{{ predicted_psm }} THB" readonly>
+                </div>
+                <div class="form-group">
+                    <h2>Estimated Total Price:</h2>
+                    <input type="text" value="{{ total_price }} THB" readonly>
+                </div>
+            </div>
+            {% endif %}
         </form>
 
         <div class="image-section">
-            <img src="{% static 'images/condo_image.jpg' %}" alt="Condo Image">
+            <img src="{% static 'image/building.png' %}" alt="Condo Illustration">
         </div>
     </div>
 
-    <div class="results-section">
-        <h2>Predicted Price Per Square Meter: <input type="text" value="{{ predicted_price|default:'' }}" readonly></h2>
-        <h2>Estimated Total Price: <input type="text" value="{{ estimated_total_price|default:'' }}" readonly></h2>
-    </div>
-
     <footer>
-        <p>&copy; 2024 Condo Price Prediction. All rights reserved.</p>
+        Thesis Project Made with ❤️ © 2024 Condo Price Prediction with XGBoost | Kasetsart University
     </footer>
 </body>
 </html>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const districtSelect = document.getElementById('district');
+        const subdistrictSelect = document.getElementById('subdistrict');
+        const nearestRoadSelect = document.getElementById('nearest_road');
+    
+        function updateSubdistricts() {
+            const selectedOption = districtSelect.options[districtSelect.selectedIndex];
+            const districtId = selectedOption.getAttribute('data-id');
+            
+            if (districtId) {
+                fetch(`/get-subdistricts/${districtId}/`)
+                    .then(response => response.json())
+                    .then(data => {
+                        subdistrictSelect.innerHTML = '<option value="">Select Subdistrict</option>';
+                        nearestRoadSelect.innerHTML = '<option value="">Select Nearest Road</option>';
+                        data.forEach(subdistrict => {
+                            const option = document.createElement('option');
+                            option.value = subdistrict.name;
+                            option.textContent = subdistrict.name;
+                            option.setAttribute('data-id', subdistrict.id);
+                            subdistrictSelect.appendChild(option);
+                        });
+                    })
+                    .catch(error => console.error('Error:', error));
+            }
+        }
+    
+        function updateNearestRoads() {
+            const selectedOption = subdistrictSelect.options[subdistrictSelect.selectedIndex];
+            const subdistrictId = selectedOption.getAttribute('data-id');
+            
+            if (subdistrictId) {
+                fetch(`/get-nearest-roads/${subdistrictId}/`)
+                    .then(response => response.json())
+                    .then(data => {
+                        nearestRoadSelect.innerHTML = '<option value="">Select Nearest Road</option>';
+                        data.forEach(road => {
+                            const option = document.createElement('option');
+                            option.value = road.name;
+                            option.textContent = road.name;
+                            nearestRoadSelect.appendChild(option);
+                        });
+                    })
+                    .catch(error => console.error('Error:', error));
+            }
+        }
+    
+        districtSelect.addEventListener('change', updateSubdistricts);
+        subdistrictSelect.addEventListener('change', updateNearestRoads);
+    });
+</script> "

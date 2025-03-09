@@ -1,236 +1,470 @@
 {% load static %}
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loan Calculation Page</title>
+    <title>Loan Table</title>
     <style>
-        /* Set the main container to full height */
-        html, body {
-            height: 100%;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
+        body {
             background-color: #1a237e;
-            font-family: Arial, sans-serif;
             color: white;
-            overflow: hidden; /* Prevent scrollbars on the main page */
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            padding-bottom: 40px; /* Added to prevent content overlap with fixed footer */
+            min-height: 100vh; /* Ensures the body takes full viewport height */
+            position: relative; /* Helps with positioning relative to footer */
+        }
+
+        .loan-container {
+            display: flex;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 90px auto 20px;
+            align-items: flex-start;
+        }
+
+        .input-container {
+            width: 300px; /* Reduced width for desktop */
+            background: #0d47a1;
+            padding: 20px;
+            border-radius: 8px;
+            flex-shrink: 0;
+            min-width: 300px;
+            max-width: 300px;
+        }
+
+        .inform-box {
+            width: 400px;
+            background: #0d47a1;
+            padding: 20px;
+            border-radius: 8px;
+            flex-shrink: 0;
+            min-width: 400px;
+            max-width: 400px;
+            margin-right: 20px;
+        }
+
+        .results-box {
+            flex: 1;
+            background: #0d47a1;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+
+        .results-box table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .results-box th, .results-box td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+
+        .results-box th {
+            background-color: #1a237e;
+        }
+
+        .input-group {
+            margin-bottom: 15px;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+            margin-left: 10px;
         }
 
         .nav-bar {
             background-color: #0d47a1;
-            padding: -10px 15px;
+            padding: 15px;
             display: flex;
-            gap: 20px;
+            flex-direction: column;
+            gap: 10px;
             align-items: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        @media (min-width: 768px) {
+            .nav-bar {
+                flex-direction: row;
+                gap: 20px;
+                padding: 20px;
+            }
+        }
+
+        /* Mobile responsive adjustments */
+        @media (max-width: 768px) {
+            .loan-container {
+                flex-direction: column;
+                margin: 60px auto 5px;
+                gap: 8px;
+            }
+
+            .input-container {
+                width: 75%; /* Even narrower for mobile */
+                min-width: 75%;
+                max-width: 75%;
+                padding: 8px;
+            }
+
+            .results-box {
+                width: 85%;
+                padding: 8px;
+            }
+
+            .results-box th, .results-box td {
+                padding: 4px;
+                font-size: 10px;
+            }
+
+            .input-group input {
+                width: 90%;
+                padding: 3px;
+                margin: 3px auto;
+            }
+
+            .calculate-btn, .export-btn {
+                width: 100%;
+                padding: 6px;
+                font-size: 10px;
+            }
         }
 
         .nav-item {
             color: white;
             text-decoration: none;
-            padding: 5px 20px;
-            transition: background-color 0.3s;
-        }
-
-        .nav-item.active {
-            background-color: #0d47a1;
-            border-radius: 4px;
-        }
-
-        .loan_table-active {
-            background-color: #1a237e;
-            border-radius: 0px;
-            padding: 25px 30px;
-            font-size: 1.1em;
-            font-weight: bold;
-            margin: -10px 0;
+            padding: 12px 24px;
+            font-size: 16px;
+            text-align: center;
+            border-radius: 6px;
+            transition: all 0.3s ease;
             position: relative;
-            top: 0px;
         }
 
-        .container {
-            flex: 1;
-            display: flex;
-            padding: 20px;
-            justify-content: center; /* Center align the content */
-            align-items: stretch; /* Stretch children to fill the space */
-            overflow: auto; /* Allow scrolling if content is too tall */
+        .loan-active {
+            background-color: #1a237e;
+            border-radius: 6px;
+            padding: 14px 24px;
+            font-size: 16px;
+            font-weight: bold;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            transform: scale(1.05);
         }
 
-        .loan-form {
-            flex: 1 1 300px; /* Adjust base size for responsiveness */
-            max-width: 400px; /* Max width to keep it square-like */
-            margin: 10px; /* Add margin for spacing */
-            background: white;
-            border-radius: 8px;
-            padding: 20px; /* Adjusted padding for better spacing */
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        .loan-active::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60%;
+            height: 3px;
+            background-color: #ffd700;
+            border-radius: 2px;
+        }
+
+        .nav-item:not(.loan-active):hover {
+            background-color: rgba(255,255,255,0.1);
+            transform: translateY(-4px);
+        }
+
+        .nav-item.simple-text {
+            padding: 12px 16px;
+            font-weight: normal;
+            pointer-events: none;
+            cursor: default;
+        }
+
+        .input-group input {
+            width: 80%;
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            display: block;
+            margin: 10px;
+            transition: opacity 0.3s ease;
+        }
+
+        /* Add transparent style for empty inputs */
+        .input-group input:placeholder-shown:not([readonly]) {
+            opacity: 0.5;
+        }
+
+        /* Full opacity when filled */
+        .input-group input:not(:placeholder-shown):not([readonly]) {
+            opacity: 1;
+        }
+
+        .calculate-btn, .toggle-btn, .export-btn {
+            background: #ffd700;
             color: black;
-            z-index: 10; /* Ensure it is on top */
-            display: flex;
-            flex-direction: column; /* Stack children vertically */
-            gap: 15px; /* Space between form elements */
-            max-height: 90vh; /* Keep form height manageable */
-            overflow-y: auto; /* Allow scrolling within the form if needed */
+            padding: 12px 24px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            margin: 10px 0;
         }
 
-        .loan-table {
-            flex: 1; /* Allow the table to fill remaining space */
+        .toggle-btn {
+            background: #1a237e;
+            color: #ffd700;
+            border: 2px solid #ffd700;
+        }
+
+        .toggle-btn:hover {
+            background: #ffd700;
+            color: black;
+        }
+
+        .calculate-btn:hover, .export-btn:hover {
+            background: #e6c200;
+            transform: translateX(5px);
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+        }
+
+        /* Initial gray export button */
+        .export-btn {
+            background: #a0a0a0;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .schedule-container {
+            margin-top: 20px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .schedule-container table {
+            width: 100%;
+            border-collapse: collapse;
             margin-top: 10px;
-            background: white;
-            border-radius: 8px;
-            padding: 20px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            color: black;
-            max-height: 90vh; /* Set a maximum height for the table */
-            overflow-y: auto; /* Allow scrolling if the content is too long */
         }
 
-
-        .loan-table table {
+        table {
             width: 100%;
             border-collapse: collapse;
             margin-top: 20px;
         }
 
-        .loan-table th, .loan-table td {
-            border: 1px solid #ddd;
-            padding: 10px;
-            text-align: right;
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ccc;
         }
 
-        .loan-table th {
-            background-color: #f5f5f5;
-            text-align: center;
+        th {
+            background-color: #1a237e;
         }
 
-        .form-input {
-            width: 100%; /* Full width for input fields */
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-        }
-
-        .form-input {
-            width: 100%; /* Full width for input fields */
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            box-sizing: border-box; /* Include padding and border in element's total width and height */
-        }
-
-        .btn-calculate {
-            background-color: #ffd700;
-            color: black;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            width: 100%;
-            font-size: 16px;
-            font-weight: bold;
-            margin-top: 10px; /* Adjusted margin for button spacing */
-        }
-
-        .btn-calculate:hover {
-            background-color: #ffc107;
-        }
-        
+        /* Footer Styles */
         footer {
             text-align: center;
-            padding:0px;
+            padding: 3px;
             color: rgb(0, 0, 0);
-            background-color: #ffffff;
+            background-color: #ffffff31;
             width: 100%;
-            position: relative;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            font-size: 10px;
+            z-index: 1000; /* Ensure it stays above content */
         }
-
-        
     </style>
 </head>
 <body>
     <nav class="nav-bar">
-        <a href="{% url 'app_condo:predict' %}" class="nav-item">Condominium</a>
+        <span class="nav-item simple-text">Condominium</span>
         <a href="{% url 'app_condo:predict' %}" class="nav-item">Predict Page</a>
         <a href="{% url 'app_condo:explore' %}" class="nav-item">Explore Page</a>
-        <a href="{% url 'app_condo:loan_table' %}" class="nav-item loan_table-active">Loan Calculation Page</a>
+        <a href="{% url 'app_condo:loan_table' %}" class="nav-item loan-active">Loan Table</a>
     </nav>
 
-    <div class="container">
-        <div class="loan-form">
+    <div class="loan-container">
+        <!-- Input Section -->
+        <div class="input-container">
             <h2>Loan Calculator</h2>
-            <form method="POST" onsubmit="return handleFormSubmit()">
-                {% csrf_token %}
-                <div class="form">
-                    <label for="loan_amount">Loan Amount (THB)</label>
-                    <input type="text" class="form-input" id="loan_amount" name="loan_amount" required min="0" 
-                           value="{{ loan_amount|default:'' }}" placeholder="Enter amount e.g. 100,000">
-                </div>
-                <div class="form">
-                    <label for="interest_rate">Annual Interest Rate (%)</label>
-                    <input type="number" class="form-input" id="interest_rate" name="interest_rate" required min="0" step="0.01" value="{{ interest_rate|default:'' }}" placeholder="0">
-                </div>
-                <div class="form">
-                    <label for="loan_term">Loan Term (Years)</label>
-                    <input type="number" class="form-input" id="loan_term" name="loan_term" required min="1" max="30" value="{{ loan_term|default:'' }}"  placeholder="0" >
-                </div>
-                <button type="submit" class="btn-calculate">Calculate</button>
-            </form>
+            <div class="input-group">
+                <label for="property-price">Property Price (THB):</label>
+                <input type="text" id="property-price" placeholder="Enter price" {% if estimated_price %}value="{{ estimated_price }}" readonly{% endif %}>
+            </div>
+            <div class="input-group">
+                <label for="down-payment">Down Payment (%):</label>
+                <input type="number" id="down-payment" value="20" min="0" max="100" step="1">
+            </div>
+            <div class="input-group">
+                <label for="loan-amount">Loan Amount (THB):</label>
+                <input type="text" id="loan-amount" readonly>
+            </div>
+            <div class="input-group">
+                <label for="interest-rate">Interest Rate (%):</label>
+                <input type="number" id="interest-rate" value="3" min="0" step="0.1">
+            </div>
+            <div class="input-group">
+                <label for="loan-term">Loan Term (Years):</label>
+                <input type="number" id="loan-term" value="30" min="1">
+            </div>
+            <button class="calculate-btn" onclick="calculateLoan()">Calculate</button>
         </div>
 
-        <div class="loan-table">
-            {% if loan_table %}
-            <h2>Repayment Schedule</h2>
+        <!-- Results Section -->
+        <div class="results-box">
+            <h2>Payment Schedule</h2>
+            <button class="export-btn" onclick="exportToExcel()">Export to Excel</button>
             <table>
                 <thead>
                     <tr>
                         <th>Month</th>
-                        <th>Interest Payment (THB)</th>
-                        <th>Principal Payment (THB)</th>
-                        <th>Total Payment (THB)</th>
-                        <th>Remaining Balance (THB)</th>
+                        <th>Interest Payment</th>
+                        <th>Principal Payment</th>
+                        <th>Total Payment</th>
+                        <th>Remaining Balance</th>
                     </tr>
                 </thead>
-                <tbody>
-                    {% for payment in loan_table %}
-                    <tr>
-                        <td>{{ payment.month }}</td>
-                        <td>{{ payment.interest_payment|floatformat:2 }}</td>
-                        <td>{{ payment.principal_payment|floatformat:2 }}</td>
-                        <td>{{ payment.total_payment|floatformat:2 }}</td>
-                        <td>{{ payment.remaining_balance|floatformat:2 }}</td>
-                    </tr>
-                    {% endfor %}
+                <tbody id="payment-schedule">
                 </tbody>
             </table>
-            {% else %}
-            <p>No results yet. Please calculate your loan to see the repayment schedule.</p>
-            {% endif %}
         </div>
     </div>
 
+    <!-- Added Footer -->
     <footer>
-        Thesis Project Made with ❤️ © 2024 Condo Price Prediction | Kasetsart University
+        Thesis Project Made with ❤️ © 2024 Condo Price Prediction with XGBoost | Kasetsart University
     </footer>
 
     <script>
-        function handleFormSubmit() {
-            // Convert loan_amount input from comma-separated to numeric
-            const loanAmountInput = document.getElementById('loan_amount');
-            loanAmountInput.value = loanAmountInput.value.replace(/,/g, '');
-
-            return true; // Allow the form to be submitted
+        // Function to format number with commas
+        function formatNumberWithCommas(number) {
+            const [integerPart, decimalPart] = number.toString().split('.');
+            const formattedInteger = integerPart.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            return decimalPart ? `${formattedInteger}.${decimalPart}` : formattedInteger;
         }
 
-        function scrollToTop() {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+        // Function to remove commas and convert to float
+        function parseNumber(str) {
+            return parseFloat(str.replace(/,/g, ''));
         }
 
-        function scrollToBottom() {
-            window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+        function calculateLoanAmount() {
+            const propertyPriceInput = document.getElementById('property-price');
+            const propertyPrice = parseNumber(propertyPriceInput.value || '0');
+            const downPaymentPercent = parseFloat(document.getElementById('down-payment').value);
+            const loanAmount = propertyPrice * (1 - (downPaymentPercent / 100));
+            document.getElementById('loan-amount').value = formatNumberWithCommas(loanAmount);
         }
+
+        function calculateLoan() {
+            calculateLoanAmount();
+            const loanAmount = parseNumber(document.getElementById('loan-amount').value);
+            const interestRate = parseFloat(document.getElementById('interest-rate').value) / 100;
+            const loanTerm = parseFloat(document.getElementById('loan-term').value) * 12;
+
+            const monthlyInterestRate = interestRate / 12;
+            const monthlyPayment = (loanAmount * monthlyInterestRate) / 
+                (1 - Math.pow(1 + monthlyInterestRate, -loanTerm));
+
+            let remainingBalance = loanAmount;
+            const scheduleBody = document.getElementById('payment-schedule');
+            scheduleBody.innerHTML = '';
+
+            for (let month = 1; month <= loanTerm; month++) {
+                const interestPayment = remainingBalance * monthlyInterestRate;
+                const principalPayment = monthlyPayment - interestPayment;
+                remainingBalance -= principalPayment;
+
+                if (remainingBalance < 0) remainingBalance = 0;
+
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${month}</td>
+                    <td>${formatNumberWithCommas(interestPayment.toFixed(2))}</td>
+                    <td>${formatNumberWithCommas(principalPayment.toFixed(2))}</td>
+                    <td>${formatNumberWithCommas(monthlyPayment.toFixed(2))}</td>
+                    <td>${formatNumberWithCommas(remainingBalance.toFixed(2))}</td>
+                `;
+                scheduleBody.appendChild(row);
+            }
+
+            // Change Export button to yellow after table is created
+            const exportBtn = document.querySelector('.export-btn');
+            exportBtn.style.backgroundColor = '#ffd700';
+            exportBtn.style.cursor = 'pointer';
+        }
+
+        function exportToExcel() {
+            const table = document.querySelector('table');
+            const rows = table.querySelectorAll('tr');
+            let csv = [];
+
+            // Add headers
+            const headers = Array.from(rows[0].querySelectorAll('th')).map(header => header.textContent);
+            csv.push(headers.join(','));
+
+            // Add data rows
+            for (let i = 1; i < rows.length; i++) {
+                const cols = rows[i].querySelectorAll('td');
+                const rowData = Array.from(cols).map(col => `"${col.textContent.replace(/"/g, '""')}"`);
+                csv.push(rowData.join(','));
+            }
+
+            // Create CSV file
+            const csvFile = new Blob([csv.join('\n')], { type: 'text/csv' });
+            const downloadLink = document.createElement('a');
+            downloadLink.download = 'payment_schedule.csv';
+            downloadLink.href = window.URL.createObjectURL(csvFile);
+            downloadLink.style.display = 'none';
+            document.body.appendChild(downloadLink);
+            downloadLink.click();
+            document.body.removeChild(downloadLink);
+        }
+
+        function toggleSchedule() {
+            const scheduleContainer = document.querySelector('.schedule-container');
+            const toggleBtn = document.querySelector('.toggle-btn');
+            if (scheduleContainer.style.display === 'none' || scheduleContainer.style.display === '') {
+                scheduleContainer.style.display = 'block';
+                toggleBtn.textContent = 'Hide Schedule';
+                scheduleContainer.style.maxHeight = scheduleContainer.scrollHeight + 'px';
+            } else {
+                scheduleContainer.style.maxHeight = '0';
+                setTimeout(() => {
+                    scheduleContainer.style.display = 'none';
+                    toggleBtn.textContent = 'Show Schedule';
+                }, 300);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const propertyPriceInput = document.getElementById('property-price');
+            
+            {% if estimated_price %}
+                propertyPriceInput.value = formatNumberWithCommas(parseNumber('{{ estimated_price }}'));
+                calculateLoanAmount();
+            {% endif %}
+
+            propertyPriceInput.addEventListener('input', function(e) {
+                if (!e.target.readOnly) {
+                    let value = e.target.value.replace(/,/g, '');
+                    if (value === '' || !isNaN(parseFloat(value))) {
+                        e.target.value = value === '' ? '' : formatNumberWithCommas(value);
+                        calculateLoanAmount();
+                    }
+                }
+            });
+            
+            document.getElementById('down-payment').addEventListener('input', calculateLoanAmount);
+        });
     </script>
 </body>
 </html>
