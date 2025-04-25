@@ -32,5 +32,5 @@ A machine learning-powered web application that predicts the **estimated selling
 
 ---
 
-## 📂 Project Structure
+
 
